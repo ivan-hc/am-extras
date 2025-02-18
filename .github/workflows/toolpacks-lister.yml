@@ -36,6 +36,7 @@ jobs:
           git config --global user.email "noreply@github.com"
           git add soarpkgs-toolpacks/x86_64.md soarpkgs-toolpacks/aarch64.md
           if git diff-index --quiet HEAD; then
+            git commit -a
             echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
           else
             git commit -m "Sync files from source repository"
