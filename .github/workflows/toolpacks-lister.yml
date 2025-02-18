@@ -1,6 +1,11 @@
 name: "Toolpacks List"
 
 on:
+  push:
+    branches: main
+    paths:
+      - soarpkgs-toolpacks/tp-bincache-lister.sh
+
   schedule:
     - cron: "0 * * * *"
 
@@ -26,7 +31,6 @@ jobs:
           cd soarpkgs-toolpacks
           chmod a+x ./tp-bincache-lister.sh
           ./tp-bincache-lister.sh
-
       - name: "Push to Source"
         run: |
           # You have to create PAT (Personal Access Token) with repo and workflow scopes enabled
@@ -36,7 +40,6 @@ jobs:
           git config --global user.email "noreply@github.com"
           git add soarpkgs-toolpacks/x86_64.md soarpkgs-toolpacks/aarch64.md
           if git diff-index --quiet HEAD; then
-            git add soarpkgs-toolpacks/tp-bincache-lister.sh
             echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
           else
             git commit -m "Sync files from source repository"
