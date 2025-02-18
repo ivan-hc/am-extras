@@ -7,7 +7,7 @@ on:
       - soarpkgs-toolpacks/tp-bincache-lister.sh
 
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 * * * *"
 
   workflow_dispatch:
 
