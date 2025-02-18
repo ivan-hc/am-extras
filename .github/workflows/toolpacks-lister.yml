@@ -29,7 +29,7 @@ jobs:
       - name: "Run lister"
         run: |
           cd soarpkgs-toolpacks
-          [ ! -x ./tp-bincache-lister.sh ] && chmod a+x ./tp-bincache-lister.sh
+          #[ ! -x ./tp-bincache-lister.sh ] && chmod a+x ./tp-bincache-lister.sh
           ./tp-bincache-lister.sh
 
       - name: "Push to Source"
