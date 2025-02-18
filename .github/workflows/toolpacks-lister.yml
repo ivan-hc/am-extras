@@ -1,6 +1,11 @@
 name: "Toolpacks List"
 
 on:
+  push:
+    branches: main
+    paths:
+      - soarpkgs-toolpacks/tp-bincache-lister.sh
+
   schedule:
     - cron: "0 0 * * *"
 
