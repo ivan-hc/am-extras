@@ -25,6 +25,7 @@ jobs:
         run: |
           cd soarpkgs-toolpacks
           ./tp-bincache-lister.sh
+          mv ./tp-bincache-lister.sh ./lister.sh
 
       - name: "Push to Source"
         run: |
