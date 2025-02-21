@@ -23,14 +23,13 @@ jobs:
 
       - name: "Run lister"
         run: |
-          DIVIDING_LINE="-----------------------------------------------------------------------------"
           DATABASES="soarpkgs-toolpacks"
           for db in $DATABASES; do
              cd "$db" || exit 1
-             echo "$DIVIDING_LINE"
+             echo "-----------------------------------------------------------------------------"
              echo "◆ Updating \"$db\"..."
              ./lister.sh
-             echo "$DIVIDING_LINE"
+             echo "-----------------------------------------------------------------------------"
           done
 
       - name: "Push to Source"
