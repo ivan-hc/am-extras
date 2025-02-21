@@ -18,3 +18,5 @@ To add new databases, simply add two variables that start with the generic name 
 - sample_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/sample/${ARCH}.md"
 ```
 Each database will automatically have its own flag and extension.
+
+All lists are updated every hour.
