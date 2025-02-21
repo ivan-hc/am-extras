@@ -23,7 +23,9 @@ jobs:
 
       - name: "Run lister"
         run: |
-          DATABASES="soarpkgs-toolpacks"
+          mkdir -p testing
+          cp appbundlehub/*.sh testing/
+          DATABASES="soarpkgs-toolpacks testing"
           for db in $DATABASES; do
              cd "$db" || exit 1
              echo "-----------------------------------------------------------------------------"
