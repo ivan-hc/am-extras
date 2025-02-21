@@ -1,6 +1,6 @@
 | appname | description | site | download | version |
 | ------- | ----------- | ---- | -------- | ------- |
-| 7z | Command line archiver | https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/7z/official/7z | https://github.com/pkgforge/bincache/releases/download/7z/official/7z/24.09-aarch64-linux/7z | 24.09 |
+| 7z | Command line archiver utility | https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/7z/official/7z | https://github.com/pkgforge/bincache/releases/download/7z/official/7z/24.09-aarch64-linux/7z | 24.09 |
 | acpid | Listen to ACPI events and spawn specific helpers on event arrival [busybox] | https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/busybox/glibc/acpid | https://github.com/pkgforge/bincache/releases/download/busybox/glibc/acpid/HEAD-8872956-250209T150915-aarch64-linux/acpid | HEAD-8872956-250209T150915 |
 | acpid | Listen to ACPI events and spawn specific helpers on event arrival [busybox] | https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/busybox/official/acpid | https://github.com/pkgforge/bincache/releases/download/busybox/official/acpid/HEAD-8872956-250209T150915-aarch64-linux/acpid | HEAD-8872956-250209T150915 |
 | act | Run your GitHub Actions locally | https://pkgs.pkgforge.dev/repo/bincache/aarch64-linux/act/official/act | https://github.com/pkgforge/bincache/releases/download/act/official/act/v0.2.74-aarch64-linux/act | v0.2.74 |
