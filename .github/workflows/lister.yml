@@ -23,7 +23,7 @@ jobs:
 
       - name: "Run lister"
         run: |
-          DATABASES="soarpkgs-toolpacks testing"
+          DATABASES="appbundlehub soarpkgs-toolpacks testing"
           for db in $DATABASES; do
              cd "$db" || exit 1
              echo "-----------------------------------------------------------------------------"
