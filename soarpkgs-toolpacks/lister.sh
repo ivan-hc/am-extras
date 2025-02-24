@@ -9,5 +9,6 @@ for arch in $architectures; do
 		| sed 's/,$/ | /g' | xargs | tr '{}' '\n' | sed 's/ pkg_name:/|/g' | sort -u \
 		| sed 's/description:/ | /g; s/pkg_webpage:/ | /g; s/download_url:/ | /g; s/version:/ | /g; s/  / /g; s/  / /g' \
 		| sed 's/| |/|/g' | awk -F'|' '{print $1 $2 $4 $3 $6 $5}' | sed 's/  / | /g; s/^/|/g; s/$/|/g' \
-		| grep -v "| |\|||\||[a-zA-Z0-9]" >> "$arch".md
+		| grep -v "| |\|||\||[a-zA-Z0-9]" \
+		| grep -i "^| .* | .* | http.* | http.* | .* |$" >> "$arch".md
 done
