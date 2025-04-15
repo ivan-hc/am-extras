@@ -2,7 +2,7 @@
 
 architectures="x86_64"
 for arch in $architectures; do
-	echo "| appname | description | site | download | version |" > "$arch".md
+	rm -f "$arch".md
 	echo "| ------- | ----------- | ---- | -------- | ------- |" >> "$arch".md
 	curl -Ls "$(curl -Ls https://api.github.com/repos/xplshn/AppBundleHUB/releases/latest | sed 's/[()",{} ]/\n/g' | grep -oi "http.*download.*metadata_$arch-Linux.json$" | head -1)" \
 		| grep "{\|\"pkg_name\"\|\"description\"\|\"homepage\"\|\"download_url\"\|\"version\"" \
@@ -17,4 +17,6 @@ for arch in $architectures; do
 		pure_app=$(echo "$app" | tr '-' ' ')
 		sed -i "s/^| $pure_app |/| $app_lower |/g" "$arch".md
 	done
+	list=$(sort "$arch".md)
+	printf "| appname | description | site | download | version |\n%b" "$list" > "$arch".md
 done
