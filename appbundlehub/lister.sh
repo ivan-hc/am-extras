@@ -4,7 +4,7 @@ architectures="x86_64"
 for arch in $architectures; do
 	rm -f "$arch".md
 	echo "| ------- | ----------- | ---- | -------- | ------- |" >> "$arch".md
-	curl -Ls "$(curl -Ls https://api.github.com/repos/xplshn/AppBundleHUB/releases/latest | sed 's/[()",{} ]/\n/g' | grep -oi "http.*download.*metadata_$arch-Linux.json$" | head -1)" \
+	curl -Ls "$(curl -Ls https://api.github.com/repos/xplshn/AppBundleHUB/releases | sed 's/[()",{} ]/\n/g' | grep -oi "http.*download.*metadata_$arch-Linux.json$" | head -1)" \
 		| grep "{\|\"pkg_name\"\|\"description\"\|\"homepage\"\|\"download_url\"\|\"version\"" \
 		| sed 's/,$/ | /g' | xargs | tr '{}' '\n' | sed 's/ pkg_name:/|/g' | sort -u \
 		| sed 's/description:/ | /g; s/homepage:/ | /g; s/download_url:/ | /g; s/version:/ | /g; s/  / /g; s/  / /g; s/ (may be inaccurate)//g' \
