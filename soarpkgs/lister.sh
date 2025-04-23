@@ -14,6 +14,6 @@ for arch in $architectures; do
 		| grep -v "| |\|||\||[a-zA-Z0-9]" | grep -vi "/appimage/\|/nixappimage/" \
 		| grep -i "^| .* | .* | http.* | http.*download.* | .* |$" | sort -u >> "$arch".md
 	done
-	list=$(sort "$arch".md)
+	list=$(sort -u "$arch".md)
 	printf "| appname | description | site | download | version |\n%b" "$list" > "$arch".md
 done
