@@ -28,7 +28,7 @@ for arch in $architectures; do
 		site=$(echo "$archpage" | grep -A 2 "Upstream URL" | tr '><' '\n' | grep "^http.*" | tail -1)
 		#version=$(echo "$archpage")
 		[ -z "$description" ] && description="No description available"
-		[ -z "$site" ] && site="https://xplshn.github.io/AppBundleHUB"
+		[ -z "$site" ] && site="https://xplshn.github.io/AppBundleHUB#$appname"
 		[ -z "$version" ] && version=$(echo "$download" | tr '/' '\n' | tail -2 | head -1)
 		echo "| $appname | $description | $site | $download | $version |" >> "$arch".md
 		unset appname description site download	version archpage
