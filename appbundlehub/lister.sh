@@ -6,7 +6,7 @@ for arch in $architectures; do
 	echo "| ------- | ----------- | ---- | -------- | ------- |" >> "$arch".md
 	json_file=$(curl -Ls "$(curl -Ls https://api.github.com/repos/xplshn/AppBundleHUB/releases | sed 's/[()",{} ]/\n/g' | grep -oi "http.*download.*metadata_$arch-Linux.json$" | head -1)")
 	pkg_and_dl=$(echo "$json_file "| grep "{\|\"pkg\"\|\"download_url\"" | sed 's/,$/ | /g' | xargs | tr '{}' '\n' | sed 's/ pkg:/|/g; s/ download_url://g' | sort -u)
-	appnames=$(echo "$pkg_and_dl" | sed 's/ | | /\n/g' | awk -F'|' '{print $2}' | sed 's/.dwfs.AppBundle//g; s/.AppDir//g; s/.AppBundle//g' | tr '[:upper:]' '[:lower:]')
+	appnames=$(echo "$pkg_and_dl" | sed 's/ | | /\n/g' | awk -F'|' '{print $2}' | sed -- 's/.dwfs.AppBundle//g; s/.sqfs.AppBundle//g; s/.AppDir//g; s/.AppBundle//g; s/-[0-9].*$//' | tr '[:upper:]' '[:lower:]')
 	for app in $appnames; do
 		appname="$app"
 		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*download.*/$app.")
