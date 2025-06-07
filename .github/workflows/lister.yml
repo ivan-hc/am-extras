@@ -24,7 +24,7 @@ jobs:
       - name: "Run lister"
         run: |
           #cp -r testing REPONAME
-          DATABASES="appbundlehub soarpkgs"
+          DATABASES="1bin appbundlehub soarpkgs"
           for db in $DATABASES; do
              cd "$db" || exit 1
              echo "-----------------------------------------------------------------------------"
