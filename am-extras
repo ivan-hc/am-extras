@@ -1,3 +1,8 @@
+# 1BIN
+#export onebin_repo="https://github.com/nikvdp/1bin"
+#export onebin_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/1bin/${ARCH}.md"
+#[ -n "$onebin_readme" ] && third_party_flags="$third_party_flags --onebin"
+
 # APPBUNDLEHUB		
 export appbundle_repo="https://github.com/xplshn/AppBundleHUB"
 export appbundle_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/appbundlehub/${ARCH}.md"
