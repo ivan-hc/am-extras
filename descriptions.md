@@ -44,8 +44,8 @@
 | jupyter | No description available | None |
 | litellm | Call all LLM APIs using the OpenAI format | None |
 | mogrify | Resize an image, blur, crop, despeckle, dither, draw on, | https://www.imagemagick.org/ |
-| mosh-client | Client-side helper for mosh | https://mosh.org/ |
 | mosh | Mobile shell, surviving disconnects with local echo and line editing | https://mosh.org/ |
+| mosh-client | Client-side helper for mosh | https://mosh.org/ |
 | mosh-server | Server-side helper for mosh | https://mosh.org/ |
 | mousepad | Simple text editor for Xfce | https://docs.xfce.org/apps/mousepad/start |
 | nc | Arbitrary TCP and UDP connections and listens. | https://salsa.debian.org/debian/netcat-openbsd |
@@ -62,9 +62,9 @@
 | pdm | No description available | None |
 | pee | Tee standard input to pipes | https://joeyh.name/code/moreutils/ |
 | perl | A highly capable, feature-rich programming language | https://www.perl.org |
-| pgcli | A command line interface for PostgreSQL with auto-completion and syntax highlighting | https://www.pgcli.com/ |
 | pg_dump | Extract a PostgreSQL database into a script file or | https://www.postgresql.org/ |
 | pg_restore | Restore a PostgreSQL database from an archive file | https://www.postgresql.org/ |
+| pgcli | A command line interface for PostgreSQL with auto-completion and syntax highlighting | https://www.pgcli.com/ |
 | pipenv | No description available | None |
 | pipx | No description available | None |
 | poetry | No description available | None |
@@ -91,8 +91,8 @@
 | socat | Multipurpose relay | http://www.dest-unreach.org/socat/ |
 | sponge | A powerful and easy-to-use Go development framework that enables you to effortlessly build high-performance, highly available backend service systems through a 'low-code' approach. | None |
 | sqlite3 | A C library that implements an SQL database engine | https://www.sqlite.org/ |
-| sshd | OpenSSH | https://www.openssh.com/portable.html |
 | ssh | OpenSSH | https://www.openssh.com/portable.html |
+| sshd | OpenSSH | https://www.openssh.com/portable.html |
 | telegram | Official Telegram Desktop client | https://desktop.telegram.org/ |
 | thunar | Modern, fast and easy-to-use file manager for Xfce | https://docs.xfce.org/xfce/thunar/start |
 | tldr | Command line client for tldr, a collection of simplified man pages. | https://github.com/tldr-pages/tldr-python-client |
