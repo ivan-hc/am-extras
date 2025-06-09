@@ -35,11 +35,13 @@ jobs:
              echo "-----------------------------------------------------------------------------"
           done
 
-          # Update local descriptions
+      - name: "Update local descriptions"
+        run: |
           echo "-----------------------------------------------------------------------------"
           echo "◆ Updating local descriptions
           [ ! -x ./descriptions.gen ] && chmod a+x ./descriptions.gen
           ./descriptions.gen
+          echo "-----------------------------------------------------------------------------"
 
       - name: "Push to Source"
         run: |
