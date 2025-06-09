@@ -6,14 +6,14 @@
 | bash | The GNU Bourne Again shell | https://www.gnu.org/software/bash/bash.html |
 | bat | Cat clone with syntax highlighting and git integration | https://github.com/sharkdp/bat |
 | bfs | A breadth-first version of find | https://tavianator.com/projects/bfs.html |
-| brave | Web browser that blocks ads and trackers by default | None |
+| brave | Web browser that blocks ads and trackers by default | https://brave.com/ |
 | cargo | Systems programming language focused on safety, speed and concurrency | https://www.rust-lang.org/ |
 | chromium | A web browser built for speed, simplicity, and security | https://www.chromium.org/Home |
 | chronic | Filters out standard output for cron emails. | None |
 | cog | WPE launcher and webapp container | None |
 | convert | Convert between image formats as well as resize an | https://www.imagemagick.org/ |
 | ctags | Generates an index file of language objects found in source files | https://ctags.io/ |
-| curl | Description: | https://curl.se/ |
+| curl | Command line tool and library for transferring data with URLs | https://curl.se/ |
 | datasette | An open source multi-tool for exploring and publishing data | None |
 | delta | An useful tool that lets you minimize interesting files subject to a test of their interestingness. | None |
 | deno | A secure runtime for JavaScript and TypeScript | https://deno.land |
@@ -31,7 +31,7 @@
 | fzf | Command-line fuzzy finder | https://github.com/junegunn/fzf |
 | gawk | GNU version of awk | https://www.gnu.org/software/gawk/ |
 | gh | GitHub CLI | https://github.com/cli/cli |
-| git | Description: | https://git-scm.com/ |
+| git | The fast distributed version control system | https://git-scm.com/ |
 | go | Core compiler tools for the Go programming language | https://golang.org/ |
 | gtimeout | No description available | None |
 | http | Http | https://github.com/httpie/cli |
