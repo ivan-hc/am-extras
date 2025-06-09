@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -x
+
 arch="x86_64"
 appnames=$(awk '{print $2}' ./*/x86_64.md | uniq | grep -v -- "^-\|appname$" | xargs)
 for app in $appnames; do
