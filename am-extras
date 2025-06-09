@@ -8,6 +8,11 @@ export appbundle_repo="https://github.com/xplshn/AppBundleHUB"
 export appbundle_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/appbundlehub/${ARCH}.md"
 [ -n "$appbundle_readme" ] && third_party_flags="$third_party_flags --appbundle"
 
+# BUSYBOX		
+export busybox_repo="https://busybox.net"
+export busybox_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/busybox/${ARCH}.md"
+[ -n "$busybox_readme" ] && third_party_flags="$third_party_flags --busybox"
+
 # SOARPKGS
 export soarpkg_repo="https://github.com/pkgforge/soarpkgs"
 export soarpkg_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/soarpkgs/${ARCH}.md"
