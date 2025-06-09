@@ -35,7 +35,7 @@ for app in $appnames; do
 	fi
 	unset appname description site download	version archpage
 done
-list=$(sort -u descriptions.md | grep -v -- "|  |$\| ------- ")
+list=$(sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |")
 echo "| appname | description | site |" > descriptions.md
 echo "| ------- | ----------- | ---- |" >> descriptions.md
 echo "$list" >> descriptions.md
