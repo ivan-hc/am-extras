@@ -1,6 +1,4 @@
-#!/bin/sh
-
-set -x
+#!/usr/bin/env bash
 
 arch="x86_64"
 appnames=$(awk '{print $2}' ./*/x86_64.md | uniq | grep -v -- "^-\|appname$" | xargs)
