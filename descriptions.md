@@ -2,7 +2,6 @@
 | ------- | ----------- | ---- |
 | ag | The Silver Searcher. Like ack, but faster. | https://github.com/aswild/the_silver_searcher |
 | android-tools | Android platform tools | http://tools.android.com/ |
-| appname | description | site |
 | audacity | A program that lets you manipulate digital audio waveforms | https://audacityteam.org |
 | bash | The GNU Bourne Again shell | https://www.gnu.org/software/bash/bash.html |
 | bat | Cat clone with syntax highlighting and git integration | https://github.com/sharkdp/bat |
