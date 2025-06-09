@@ -37,7 +37,7 @@ jobs:
       - name: "Update local descriptions"
         run: |
           echo "-----------------------------------------------------------------------------"
-          echo "◆ Updating local descriptions
+          echo "◆ Updating local descriptions"
           [ ! -x ./descriptions-gen.sh ] && chmod a+x ./descriptions-gen.sh
           ./descriptions-gen.sh
           echo "-----------------------------------------------------------------------------"
