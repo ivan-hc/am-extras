@@ -92,6 +92,7 @@
 | dunst | Customizable and lightweight notification-daemon | https://dunst-project.org/ |
 | echo | Display a line of text | None |
 | ed | A POSIX-compliant line-oriented text editor | https://www.gnu.org/software/ed/ed.html |
+| eden | Nintendo Switch emulator forked from yuzu. | None |
 | egrep | No description available | None |
 | eject | Eject removable media | https://github.com/util-linux/util-linux |
 | emacs | The extensible, customizable, self-documenting real-time display editor | https://www.gnu.org/software/emacs/emacs.html |
