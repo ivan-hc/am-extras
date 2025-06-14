@@ -2,7 +2,7 @@
 
 architectures="i686 x86_64"
 custom="false"
-ref="https://busybox.net"
+ref="https://busybox.net"; VERSION=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/busybox-tools/refs/heads/main/version)
 
 _sources() {
 	source_list=$(curl -Ls "https://github.com/ivan-hc/busybox-tools/tree/main/$arch-binaries")
@@ -52,7 +52,7 @@ for arch in $architectures; do
 		fi
 		[ -z "$description" ] && description="No description available"
 		[ -z "$site" ] && site="$ref"
-		[ -z "$version" ] && version=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/busybox-tools/refs/heads/main/version)
+		[ -z "$version" ] && version="$VERSION" #version=$(echo "$download" | tr '/' '\n' | tail -2 | head -1)
 		echo "| $appname | $description | $site | $download | $version |" >> "$arch".md
 		unset appname description site download	version archpage
 	done
