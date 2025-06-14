@@ -5,10 +5,9 @@ custom="false"
 ref="https://busybox.net"
 
 _sources() {
-	subdir=$(curl -Ls https://busybox.net/downloads/binaries/ | tr '">< ' '\n' | grep "^[0-9].*$arch.*/$" | tail -1 | sed 's#/$##g')
-	source_list=$(curl -Ls https://busybox.net/downloads/binaries/"$subdir")
-	pkg_and_dl=$(echo "$source_list " | tr '">< ' '\n' | grep "^busybox_[A-Z]" | uniq); pkg_and_dl=$(for p in $pkg_and_dl; do echo "https://busybox.net/downloads/binaries/$subdir/$p"; done)
-	appnames=$(echo "$pkg_and_dl" | sed 's:.*/::; s/^busybox_//g' | tr '[:upper:]' '[:lower:]')
+	source_list=$(curl -Ls https://api.github.com/repos/ivan-hc/busybox-tools/releases)
+	pkg_and_dl=$(echo "$source_list " | sed 's/[()",{} ]/\n/g' | grep -i "^http.*download.*$arch.*busybox_.*$arch")
+	appnames=$(echo "$pkg_and_dl" | sed 's:.*/::; s/^busybox_//g; s/-/\n/g' | grep "^[A-Z]" | tr '[:upper:]' '[:lower:]')
 }
 
 for arch in $architectures; do
@@ -16,7 +15,7 @@ for arch in $architectures; do
 	_sources
 	for app in $appnames; do
 		appname="$app"
-		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*download.*/busybox_$app$")
+		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*download.*/busybox_$app-[0-9]*")
 		if [ -f ../descriptions.md ] && grep -q "| $app |" ../descriptions.md; then
 			description=$(grep "^| $app |" ../descriptions.md | awk -F'|' '{print $3}' | sed 's/^ //g; s/ $//g; s/  / /g')
 			if [ "$custom" != "true" ]; then
