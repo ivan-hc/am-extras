@@ -5,8 +5,8 @@ custom="false"
 ref="https://busybox.net"
 
 _sources() {
-	source_list=$(curl -Ls https://api.github.com/repos/ivan-hc/busybox-tools/releases)
-	pkg_and_dl=$(echo "$source_list " | sed 's/[()",{} ]/\n/g' | grep -i "^http.*download.*$arch.*busybox_.*$arch")
+	source_list=$(curl -Ls "https://github.com/ivan-hc/busybox-tools/tree/main/$arch-binaries")
+	pkg_and_dl=$(echo "$source_list " | tr '">< ' '\n' | grep "^busybox_[A-Z]" | sed 's#^#https://raw.githubusercontent.com/ivan-hc/busybox-tools/refs/heads/main/x86_64-binaries/#g')
 	appnames=$(echo "$pkg_and_dl" | sed 's:.*/::; s/^busybox_//g; s/-/\n/g' | grep "^[A-Z]" | tr '[:upper:]' '[:lower:]')
 }
 
@@ -15,7 +15,7 @@ for arch in $architectures; do
 	_sources
 	for app in $appnames; do
 		appname="$app"
-		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*download.*/busybox_$app-[0-9]*")
+		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*/busybox_$app$")
 		if [ -f ../descriptions.md ] && grep -q "| $app |" ../descriptions.md; then
 			description=$(grep "^| $app |" ../descriptions.md | awk -F'|' '{print $3}' | sed 's/^ //g; s/ $//g; s/  / /g')
 			if [ "$custom" != "true" ]; then
@@ -52,11 +52,11 @@ for arch in $architectures; do
 		fi
 		[ -z "$description" ] && description="No description available"
 		[ -z "$site" ] && site="$ref"
-		[ -z "$version" ] && version=$(echo "$download" | tr '/' '\n' | tail -2 | head -1)
+		[ -z "$version" ] && version=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/busybox-tools/refs/heads/main/version)
 		echo "| $appname | $description | $site | $download | $version |" >> "$arch".md
 		unset appname description site download	version archpage
 	done
-	list=$(sort -u "$arch".md | grep -i "^| .* | .* | http.* | http.*download.* | .* |$")
+	list=$(sort -u "$arch".md | grep -i "^| .* | .* | http.* | http.* | .* |$")
 	echo "| appname | description | site | download | version |" > "$arch".md
 	echo "| ------- | ----------- | ---- | -------- | ------- |" >> "$arch".md
 	echo "$list" >> "$arch".md
