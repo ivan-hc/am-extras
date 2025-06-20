@@ -402,6 +402,7 @@
 | start_stop_d..&gt; | No description available | None |
 | start_stop_daemon | No description available | None |
 | stat | Display file or file system status | https://www.gnu.org/software/coreutils/ |
+| steam | A launcher for the Steam client from Valve Corporation | https://steampowered.com/ |
 | strings | Strings is another bad static string library, written in C. | None |
 | stty | Change and print terminal line settings | https://www.gnu.org/software/coreutils/ |
 | su | Run a command with substitute user and group ID | https://github.com/util-linux/util-linux |
