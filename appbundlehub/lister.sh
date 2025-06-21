@@ -5,9 +5,9 @@ custom="true"
 ref="https://xplshn.github.io/AppBundleHUB"
 
 _sources() {
-	source_list=$(curl -Ls "$(curl -Ls https://api.github.com/repos/xplshn/AppBundleHUB/releases | sed 's/[()",{} ]/\n/g' | grep -oi "http.*download.*metadata_$arch-Linux.json$" | head -1)")
-	pkg_and_dl=$(echo "$source_list " | grep "{\|\"pkg\"\|\"download_url\"" | sed 's/,$/ | /g' | xargs | tr '{}' '\n' | sed 's/ pkg:/|/g; s/ download_url://g' | sort -u)
-	appnames=$(echo "$pkg_and_dl" | sed 's/ | | /\n/g' | awk -F'|' '{print $2}' | sed -- 's/.dwfs.AppBundle//g; s/.sqfs.AppBundle//g; s/.AppDir//g; s/.AppBundle//g; s/-[0-9].*$//' | tr '[:upper:]' '[:lower:]')
+	source_list=$(curl -Ls https://api.github.com/repos/xplshn/AppBundleHUB/releases/latest)
+	pkg_and_dl=$(echo "$source_list " | sed 's/[()",{} ]/\n/g' | grep -oi "http.*download.*AppBundle$")
+	appnames=$(echo "$pkg_and_dl" | sed 's:.*/::' | sed -- 's/.dwfs.AppBundle//g; s/.sqfs.AppBundle//g; s/.AppDir//g; s/.AppBundle//g; s/-[0-9].*$//' | tr '[:upper:]' '[:lower:]')
 }
 
 for arch in $architectures; do
