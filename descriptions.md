@@ -29,8 +29,8 @@
 | bootchartd | No description available | None |
 | brave | Web browser that blocks ads and trackers by default | https://brave.com/ |
 | brctl | Ethernet bridge administration | https://wiki.linuxfoundation.org/networking/bridge |
-| bunzip2 | - a block-sorting file compressor, v1.0.8 | https://sourceware.org/bzip2/ |
-| bzcat | - a block-sorting file compressor, v1.0.8 | https://sourceware.org/bzip2/ |
+| bunzip2 | A block-sorting file compressor, v1.0.8 | https://sourceware.org/bzip2/ |
+| bzcat | A block-sorting file compressor, v1.0.8 | https://sourceware.org/bzip2/ |
 | bzip2 | A high-quality data compression program | https://sourceware.org/bzip2/ |
 | cal | Display a calendar | https://github.com/util-linux/util-linux |
 | cargo | Systems programming language focused on safety, speed and concurrency | https://www.rust-lang.org/ |
@@ -134,7 +134,7 @@
 | fsck_minix | No description available | None |
 | fsfreeze | Suspend access to a filesystem (Ext3/4, ReiserFS, JFS, | https://github.com/util-linux/util-linux |
 | fstrim | Discard unused blocks on a mounted filesystem | https://github.com/util-linux/util-linux |
-| fsync | - synchronize a file's in-core state with storage | https://www.kernel.org/doc/man-pages/ |
+| fsync | Synchronize a file's in-core state with storage | https://www.kernel.org/doc/man-pages/ |
 | ftpd | File Transfer Protocol server. | https://www.gnu.org/software/inetutils/ |
 | ftpget | No description available | None |
 | ftpput | No description available | None |
@@ -174,7 +174,7 @@
 | ifplugd | A daemon which brings up/down network interfaces upon cable insertion/removal. | http://0pointer.de/lennart/projects/ifplugd |
 | imagemagick | An image viewing/manipulation program | https://www.imagemagick.org/ |
 | inetd | No description available | None |
-| init | - systemd system and service manager | https://www.github.com/systemd/systemd |
+| init | Systemd system and service manager | https://www.github.com/systemd/systemd |
 | inotifyd | No description available | None |
 | insmod | Simple program to insert a module into the Linux | https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git |
 | install | Copy files and set attributes | https://www.gnu.org/software/coreutils/ |
@@ -413,8 +413,8 @@
 | svc | No description available | None |
 | svlogd | No description available | None |
 | svok | No description available | None |
-| swapoff | - enable/disable devices and files for paging and | https://github.com/util-linux/util-linux |
-| swapon | - enable/disable devices and files for paging and | https://github.com/util-linux/util-linux |
+| swapoff | Enable/disable devices and files for paging and | https://github.com/util-linux/util-linux |
+| swapon | Enable/disable devices and files for paging and | https://github.com/util-linux/util-linux |
 | switch_root | Switch to another filesystem as the root of the | https://github.com/util-linux/util-linux |
 | sync | Backup and synchronization service | None |
 | syslogd | No description available | None |
