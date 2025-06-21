@@ -160,7 +160,7 @@
 | hostid | Print the numeric identifier for the current host | https://www.gnu.org/software/coreutils/ |
 | hostname | Show or set system host name | https://www.gnu.org/software/inetutils/ |
 | http | Http | https://github.com/httpie/cli |
-| httpd | Simple, | None |
+| httpd | Simple, small and fast HTTP server | None |
 | hush | A unix shell scripting language based on the Lua programming language | None |
 | hwclock | Time clocks utility | https://github.com/util-linux/util-linux |
 | hyperbeam | Shared Browser App | None |
