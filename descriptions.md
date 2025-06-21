@@ -258,7 +258,7 @@
 | mountpoint | See if a directory or file is a mountpoint | https://github.com/util-linux/util-linux |
 | mousepad | Simple text editor for Xfce | https://docs.xfce.org/apps/mousepad/start |
 | mpstat | Report processors related statistics. | https://sysstat.github.io/ |
-| mpv | Description: | https://mpv.io/ |
+| mpv | A free, open source, and cross-platform media player. | https://mpv.io/ |
 | mt | A terminal written in GTK+ and Rust | None |
 | mv | Move (rename) files | https://www.gnu.org/software/coreutils/ |
 | nameif | Name network interfaces based on MAC addresses | http://net-tools.sourceforge.net/ |
