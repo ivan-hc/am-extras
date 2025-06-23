@@ -31,12 +31,60 @@ _debian_fallback() {
 	if [ -z "$description" ] && echo "$manpage" | grep -q "archlinux"; then
 		if curl -Ls https://manpages.debian.org/testing/"$app" | grep -q "DESCRIPTION"; then
 			manpage=$(curl -Ls https://manpages.debian.org/testing/"$app")
-			[ -n "$manpage" ] && description=$(echo "$manpage" | grep -A 2 NAME 2>/dev/null | grep "^<p " | head -1 | sed 's#</p>$##g' | _convert_html_specia_entries | sed 's/ - //g' | tr '>' '\n' | tail -1 | cut -d" "  -f3-  | sed 's/.*/\u&/')
+			description=$(echo "$manpage" | grep -A 2 NAME 2>/dev/null | grep "^<p " | head -1 | sed 's#</p>$##g' | _convert_html_specia_entries | sed 's/ - //g' | tr '>' '\n' | tail -1 | cut -d" "  -f3-  | sed 's/.*/\u&/')
 		fi
 	fi
 	if [ -z "$site" ] && echo "$manpage_bkp" | grep -q "archlinux" && echo "$manpage" | grep -q "debian"; then
 		site=$(echo "$manpage_bkp" | grep -A 200 "DESCRIPTION" | tr '"><=' '\n' | grep "^http.*" | _convert_html_specia_entries | head -1)
 		echo "$site" | grep -q "snapshot.debian.org" && site=""
+	fi
+}
+
+_man7_org_fallback() {
+	if [ -z "$description" ]; then
+		if curl -Ls https://man7.org/linux/man-pages/dir_all_alphabetic.html | grep -q ">$app("; then
+			manpage=$(curl -Ls https://man7.org/linux/man-pages/dir_all_alphabetic.html | grep ">$app(" | head -1 | tr '"' '\n' | grep "html$" | sed 's#^.#https://man7.org/linux/man-pages#g')
+			description=$(echo "$manpage_bkp" | grep -A 2 NAME 2>/dev/null | grep "^<p " | head -1 | sed 's#</p>$##g' | _convert_html_specia_entries | sed 's/ - //g' | tr '>' '\n' | tail -1 | cut -d" "  -f3-  | sed 's/.*/\u&/')
+			site=$(echo "$manpage_bkp" | grep -A 2 Upstream 2>/dev/null | tr '">< ' '\n' | grep -i "^http\|^ftp" | _convert_html_specia_entries | head -1)
+		fi
+	fi
+}
+
+_linuxcommandlibrary_fallback() {
+	if [ -z "$description" ]; then
+		if curl -Ls "https://linuxcommandlibrary.com/man/$app" | grep -q 'name="description"'; then
+			manpage=$(curl -Ls "https://linuxcommandlibrary.com/man/$app")
+			description=$(echo "$manpage" | grep 'name="description"' | tr '"><:' '\n' | grep . | tail -1 | sed 's/^ //g')
+			echo "$description" | grep -q "Handy cheat sheets with linux tips" && description=""
+		fi
+	fi
+}
+
+_pkgforge_sources() {
+	[ -z "$description" ] && description=$(echo "$manpage" | grep '"description":' | tr '"' '\n' | tail -1 | sed 's/,$/./g')
+	[ -z "$site" ] && site=$(echo "$manpage" | grep -A 2 '"homepage"' | tr '"' '\n' | grep "http.*//")
+	[ -z "$site" ] && site=$(echo "$manpage" | grep -A 2 '"src_url"' | tr '"' '\n' | grep "http.*//")
+}
+
+_pkgforge_fallback() {
+	if [ -z "$description" ]; then
+		if curl -Ls "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/$app/official/$app/raw.json" | grep -q '"description":'; then
+			manpage=$(curl -Ls "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/$app/official/$app/raw.json")
+			_pkgforge_sources
+			if [ -z "$description" ]; then
+				if curl -Ls "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/official/$app/raw.json" | grep -q '"description":'; then
+					manpage=$(curl -Ls "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/official/$app/raw.json")
+					_pkgforge_sources
+					if [ -z "$description" ]; then
+						if curl -Ls "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/$app/raw.json" | grep -q '"description":'; then
+							manpage=$(curl -Ls "https://pkgs.pkgforge.dev/repo/bincache/x86_64-linux/busybox/glibc/$app/raw.json")
+							_pkgforge_sources
+						fi
+					fi
+					[ -z "$site" ] && site="https://busybox.net"
+				fi
+			fi
+		fi
 	fi
 }
 
@@ -60,6 +108,9 @@ for app in $appnames; do
 			echo "$description" | grep -q "Description:" &&	description=""
 			_debian_fallback
 		fi
+		_man7_org_fallback
+		_linuxcommandlibrary_fallback
+		_pkgforge_fallback
 		[ -z "$description" ] && description="No description available"
 		[ -z "$site" ] && site="None"
 		echo " Add \"$appname\" - $description"
