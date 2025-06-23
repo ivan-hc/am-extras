@@ -1,15 +1,15 @@
 | appname | description | site |
 | ------- | ----------- | ---- |
 | acpid | A daemon for delivering ACPI power management events with netlink support | https://sourceforge.net/projects/acpid2/ |
-| addgroup | Or manipulate users or groups | None |
 | add_shell | To the list of valid login shells | None |
+| addgroup | Or manipulate users or groups | None |
 | adduser | Interactive front end to /usr/bin/useradd from Slackware Linux | http://www.slackware.com/ |
 | adjtimex | Allows configuration of kernel time variables | https://github.com/rogers0/adjtimex |
 | ag | The Silver Searcher. Like ack, but faster. | https://github.com/aswild/the_silver_searcher |
 | android-tools | Android platform tools | http://tools.android.com/ |
 | ar | Create, modify, and extract from archives | https://www.gnu.org/software/binutils/ |
-| arping | Send ARP REQUEST to a neighbour host | https://github.com/iputils/iputils |
 | arp | Manipulate the system ARP cache | http://net-tools.sourceforge.net/ |
+| arping | Send ARP REQUEST to a neighbour host | https://github.com/iputils/iputils |
 | ascii | Utility for conversion between various byte representations and the ASCII character table | http://www.catb.org/~esr/ascii |
 | ash | An immutable tree-shaped meta-distribution using snapshots. | https://github.com/ochibani/ash |
 | audacity | A program that lets you manipulate digital audio waveforms | https://audacityteam.org |
@@ -84,8 +84,8 @@
 | dnsdomainname | Show DNS domain name | https://www.gnu.org/software/inetutils/ |
 | docker-compose | Fast, isolated development environments using Docker | https://www.docker.com/ |
 | dos2unix | Text file format converter | https://waterlan.home.xs4all.nl/dos2unix.html |
-| dpkg_deb | Archive (.deb) manipulation tool | https://tracker.debian.org/pkg/dpkg |
 | dpkg | The Debian Package Manager tools | https://tracker.debian.org/pkg/dpkg |
+| dpkg_deb | Archive (.deb) manipulation tool | https://tracker.debian.org/pkg/dpkg |
 | du | Estimate file space usage | https://www.gnu.org/software/coreutils/ |
 | dumpkmap | No description available | None |
 | dumpleases | Army Knife of Embedded Linux | None |
@@ -97,8 +97,8 @@
 | eject | Eject removable media | https://github.com/util-linux/util-linux |
 | emacs | The extensible, customizable, self-documenting real-time display editor | https://www.gnu.org/software/emacs/emacs.html |
 | engrampa | A file archiver for MATE | https://mate-desktop.org |
-| envdir | Program with environment modified according | http://cr.yp.to/daemontools.html |
 | env | Run a program in a modified environment | https://www.gnu.org/software/coreutils/ |
+| envdir | Program with environment modified according | http://cr.yp.to/daemontools.html |
 | envuidgid | Program with environment variables | http://cr.yp.to/daemontools.html |
 | exa | A modern replacement for ls (community fork of exa) | https://github.com/eza-community/eza |
 | expand | Convert tabs to spaces | https://www.gnu.org/software/coreutils/ |
@@ -111,10 +111,10 @@
 | fatattr | Display or change attributes on a FAT filesystem | http://kernel.org/pub/linux/utils/fs/fat/fatattr/ |
 | fbset | Framebuffer setup utility | http://users.telenet.be/geertu/Linux/fbdev/ |
 | fbsplash | A userspace implementation of a splash screen for Linux (formerly known as gensplash) | https://sourceforge.net/projects/fbsplash.berlios/ |
+| fd | Simple, fast and user-friendly alternative to find | https://github.com/sharkdp/fd |
 | fdflush | No description available | None |
 | fdformat | No description available | https://github.com/karelzak/util-linux |
 | fdisk | Manipulate disk partition table | https://github.com/util-linux/util-linux |
-| fd | Simple, fast and user-friendly alternative to find | https://github.com/sharkdp/fd |
 | ffmpeg | Complete solution to record, convert and stream audio and video | https://ffmpeg.org |
 | ffprobe | Ffprobe media prober | https://ffmpeg.org |
 | fgconsole | Print the number of the active VT. | http://www.kbd-project.org |
@@ -122,10 +122,10 @@
 | find | Files in a directory hierarchy | None |
 | findfs | Find a filesystem by label or UUID | https://github.com/util-linux/util-linux |
 | firefox | Fast, Private and Safe Web Browser | https://www.mozilla.org/firefox/ |
-| flashcp | No description available | None |
 | flash_eraseall | No description available | None |
 | flash_lock | No description available | None |
 | flash_unlock | No description available | None |
+| flashcp | No description available | None |
 | flock | Manage locks from shell scripts | https://github.com/util-linux/util-linux |
 | fold | Wrap each input line to fit in specified width | https://www.gnu.org/software/coreutils/ |
 | free | Display amount of free and used memory in the system | https://gitlab.com/procps-ng/procps |
@@ -152,15 +152,15 @@
 | gunzip | Zcat - compress or expand files | https://www.gnu.org/software/gzip/ |
 | gzip | GNU compression utility | https://www.gnu.org/software/gzip/ |
 | halt | Halt - Power off, reboot, or halt the | https://www.github.com/systemd/systemd |
-| hdparm | A shell utility for manipulating Linux IDE drive/driver parameters | https://sourceforge.net/projects/hdparm/ |
 | hd | Small hex dumper utility (with optional HexII output) | https://github.com/kastelo/hd |
+| hdparm | A shell utility for manipulating Linux IDE drive/driver parameters | https://sourceforge.net/projects/hdparm/ |
 | head | Output the first part of files | https://www.gnu.org/software/coreutils/ |
 | hexdump | No description available | None |
 | hexedit | View and edit files in hexadecimal or in ASCII | https://rigaux.org/hexedit.html |
 | hostid | Print the numeric identifier for the current host | https://www.gnu.org/software/coreutils/ |
 | hostname | Show or set system host name | https://www.gnu.org/software/inetutils/ |
-| httpd | Simple, | https://tools.ietf.org/html/rfc3875 |
 | http | Http | https://github.com/httpie/cli |
+| httpd | Simple, | https://tools.ietf.org/html/rfc3875 |
 | hush | A unix shell scripting language based on the Lua programming language | https://github.com/hush-shell/hush |
 | hwclock | Time clocks utility | https://github.com/util-linux/util-linux |
 | hyperbeam | Shared Browser App | https://hyperbeam.com/ |
@@ -180,13 +180,13 @@
 | install | Copy files and set attributes | https://www.gnu.org/software/coreutils/ |
 | ionice | Set or get process I/O scheduling class and priority | https://github.com/util-linux/util-linux |
 | iostat | Report Central Processing Unit (CPU) statistics and | https://sysstat.github.io/ |
+| ip | No description available | None |
 | ipaddr | No description available | None |
 | ipcalc | Calculates IP broadcast, network, Cisco wildcard mask, and host ranges | https://jodies.de/ipcalc |
 | ipcrm | Remove certain IPC resources | https://github.com/util-linux/util-linux |
 | ipcs | Show information on IPC facilities | https://github.com/util-linux/util-linux |
 | iplink | No description available | None |
 | ipneigh | No description available | None |
-| ip | No description available | None |
 | iproute | No description available | None |
 | iprule | No description available | None |
 | iptunnel | Creates, changes, deletes, and displays | http://net-tools.sourceforge.net/ |
@@ -195,9 +195,9 @@
 | jq | Command-line JSON processor | https://jqlang.github.io/jq/ |
 | jupyter | No description available | None |
 | kbd_mode | Report or set the keyboard mode | http://www.kbd-project.org |
-| killall5 | Signal to all processes | None |
-| killall | Kill processes by name | https://gitlab.com/psmisc/psmisc |
 | kill | Terminate a process | https://github.com/util-linux/util-linux |
+| killall | Kill processes by name | https://gitlab.com/psmisc/psmisc |
+| killall5 | Signal to all processes | None |
 | klogd | Army Knife of Embedded Linux | None |
 | last | Genomic aligner for short reads https://doi.org/10.1093/nar/gkq010 | https://gitlab.com/mcfrith/last |
 | less | A terminal based program for viewing text files | https://www.greenwoodsoftware.com/less/ |
@@ -216,8 +216,8 @@
 | lpd | No description available | None |
 | lpq | Show printer queue status | https://openprinting.github.io/cups/ |
 | lpr | Print files | https://openprinting.github.io/cups/ |
-| lsattr | List ext2/ext3/ext4 file attributes | http://e2fsprogs.sourceforge.net |
 | ls | List directory contents | https://www.gnu.org/software/coreutils/ |
+| lsattr | List ext2/ext3/ext4 file attributes | http://e2fsprogs.sourceforge.net |
 | lsmod | Show the status of modules in the Linux Kernel | https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git |
 | lsof | Lists open files for running Unix processes | https://github.com/lsof-org/lsof |
 | lspci | List all PCI devices | https://mj.ucw.cz/sw/pciutils/ |
@@ -225,8 +225,8 @@
 | lsusb | List USB devices | https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usbutils.git/ |
 | lzcat | Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz | https://tukaani.org/xz/ |
 | lzma | Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz | https://tukaani.org/xz/ |
-| lzopcat | No description available | None |
 | lzop | File compressor using lzo lib | https://www.lzop.org/ |
+| lzopcat | No description available | None |
 | makedevs | No description available | None |
 | makemime | Messages | None |
 | man | A utility for reading man pages | https://gitlab.com/man-db/man-db |
@@ -251,8 +251,8 @@
 | modprobe | Add and remove modules from the Linux Kernel | https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git |
 | mogrify | Resize an image, blur, crop, despeckle, dither, draw on, | https://www.imagemagick.org/ |
 | more | Display the contents of a file in a terminal | https://github.com/util-linux/util-linux |
-| mosh-client | Client-side helper for mosh | https://mosh.org/ |
 | mosh | Mobile shell, surviving disconnects with local echo and line editing | https://mosh.org/ |
+| mosh-client | Client-side helper for mosh | https://mosh.org/ |
 | mosh-server | Server-side helper for mosh | https://mosh.org/ |
 | mount | Mount a filesystem | https://github.com/util-linux/util-linux |
 | mountpoint | See if a directory or file is a mountpoint | https://github.com/util-linux/util-linux |
@@ -294,15 +294,15 @@
 | pdm | No description available | None |
 | pee | Tee standard input to pipes | https://joeyh.name/code/moreutils/ |
 | perl | A highly capable, feature-rich programming language | https://www.perl.org |
-| pgcli | A command line interface for PostgreSQL with auto-completion and syntax highlighting | https://www.pgcli.com/ |
 | pg_dump | Extract a PostgreSQL database into a script file or | https://www.postgresql.org/ |
-| pgrep | Pidwait - look up, signal, or wait for processes | https://gitlab.com/procps-ng/procps |
 | pg_restore | Restore a PostgreSQL database from an archive file | https://www.postgresql.org/ |
+| pgcli | A command line interface for PostgreSQL with auto-completion and syntax highlighting | https://www.pgcli.com/ |
+| pgrep | Pidwait - look up, signal, or wait for processes | https://gitlab.com/procps-ng/procps |
 | pidof | Find the process ID of a running program | https://gitlab.com/procps-ng/procps |
-| ping6 | No description available | None |
 | ping | Send ICMP ECHO_REQUEST to network hosts | https://github.com/iputils/iputils |
-| pipenv | No description available | None |
+| ping6 | No description available | None |
 | pipe_progress | No description available | None |
+| pipenv | No description available | None |
 | pipx | Execute apps from Python packages. | None |
 | pivot_root | Change the root filesystem | https://github.com/util-linux/util-linux |
 | pkill | Pidwait - look up, signal, or wait for processes | https://gitlab.com/procps-ng/procps |
@@ -317,9 +317,9 @@
 | printf | Print data | None |
 | prisma | No description available | None |
 | progress | Shows running coreutils basic commands and displays stats | https://github.com/Xfennec/progress |
+| ps | Report a snapshot of the current processes. | https://gitlab.com/procps-ng/procps |
 | pscan | Security checker for C source code | None |
 | psql | Terminal | None |
-| ps | Report a snapshot of the current processes. | https://gitlab.com/procps-ng/procps |
 | pstree | Display a tree of processes | https://gitlab.com/psmisc/psmisc |
 | pv | A terminal-based tool for monitoring the progress of data through a pipeline | https://www.ivarch.com/programs/pv.shtml |
 | pwd | Print name of current/working directory | https://www.gnu.org/software/coreutils/ |
@@ -346,20 +346,20 @@
 | rg | Recursively search the current directory for lines matching a | https://github.com/BurntSushi/ripgrep |
 | ridgepole | No description available | None |
 | ristretto | A fast and lightweight picture viewer for Xfce | https://docs.xfce.org/apps/ristretto/start |
+| rm | Remove files or directories | https://www.gnu.org/software/coreutils/ |
 | rmdir | Remove empty directories | https://www.gnu.org/software/coreutils/ |
 | rmmod | Simple program to remove a module from the Linux | https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git |
-| rm | Remove files or directories | https://www.gnu.org/software/coreutils/ |
 | route | Show / manipulate the IP routing table | http://net-tools.sourceforge.net/ |
-| rpm2cpio | Extract cpio archive from RPM Package Manager (RPM) | https://rpm.org/ |
 | rpm | No description available | None |
+| rpm2cpio | Extract cpio archive from RPM Package Manager (RPM) | https://rpm.org/ |
 | rsync | A fast and versatile file copying tool for remote and local files | https://rsync.samba.org/ |
 | rtcwake | Enter a system sleep state until specified wakeup | https://github.com/util-linux/util-linux |
 | ruby | An object-oriented language for quick and easy programming | https://www.ruby-lang.org/en/ |
 | run_init | Init script in the proper SELinux context | None |
-| runlevel | And current SysV runlevel | None |
 | run_parts | Or programs in a directory | https://packages.qa.debian.org/d/debianutils.html |
-| runsvdir | No description available | None |
+| runlevel | And current SysV runlevel | None |
 | runsv | Monitors a service and optionally an appendant | http://smarden.org/runit/ |
+| runsvdir | No description available | None |
 | rustc | The Rust compiler | https://www.rust-lang.org/ |
 | rx | A modern and extensible pixel editor implemented in rust. | https://rx.cloudhead.io/ |
 | s3cmd | A command line client for Amazon S3 | https://s3tools.org/s3cmd |
@@ -380,11 +380,11 @@
 | setserial | Allows to change various attributes of a serial device | http://setserial.sourceforge.net/ |
 | setsid | Run a program in a new session | https://github.com/util-linux/util-linux |
 | setuidgid | Program under a specified account's uid | http://cr.yp.to/daemontools.html |
+| sh_is_ash | No description available | None |
 | sha1sum | Compute and check SHA1 message digest | https://www.gnu.org/software/coreutils/ |
 | sha256sum | Compute and check SHA256 message digest | https://www.gnu.org/software/coreutils/ |
 | sha3sum | Keccak-family checksum calculator, including SHA-3 | https://codeberg.org/maandree/sha3sum |
 | sha512sum | Compute and check SHA512 message digest | https://www.gnu.org/software/coreutils/ |
-| sh_is_ash | No description available | None |
 | showkey | Examine the codes sent by the keyboard | http://www.kbd-project.org |
 | shred | Overwrite a file to hide its contents, and optionally | https://www.gnu.org/software/coreutils/ |
 | shuf | Generate random permutations | https://www.gnu.org/software/coreutils/ |
@@ -397,20 +397,20 @@
 | split | No description available | None |
 | sponge | A powerful and easy-to-use Go development framework that enables you to effortlessly build high-performance, highly available backend service systems through a 'low-code' approach. | https://github.com/go-dev-frame/sponge |
 | sqlite3 | A C library that implements an SQL database engine | https://www.sqlite.org/ |
-| sshd | OpenSSH | https://www.openssh.com/portable.html |
 | ssh | OpenSSH | https://www.openssh.com/portable.html |
+| sshd | OpenSSH | https://www.openssh.com/portable.html |
 | ssl_client | No description available | None |
 | start_stop_daemon | Start and stop system daemon programs | https://packages.debian.org/source/sid/dpkg |
 | stat | Display file or file system status | https://www.gnu.org/software/coreutils/ |
 | steam | A launcher for the Steam client from Valve Corporation | https://steampowered.com/ |
 | strings | Strings is another bad static string library, written in C. | https://github.com/dimalmfao/strings |
 | stty | Change and print terminal line settings | https://www.gnu.org/software/coreutils/ |
+| su | Run a command with substitute user and group ID | https://github.com/util-linux/util-linux |
 | sulogin | Single-user login | https://github.com/util-linux/util-linux |
 | sum | Checksum and count the blocks in a file | https://www.gnu.org/software/coreutils/ |
-| su | Run a command with substitute user and group ID | https://github.com/util-linux/util-linux |
+| sv | No description available | None |
 | svc | No description available | None |
 | svlogd | Logging daemon | None |
-| sv | No description available | None |
 | svok | Running. | http://cr.yp.to/daemontools.html |
 | swapoff | Enable/disable devices and files for paging and | https://github.com/util-linux/util-linux |
 | swapon | Enable/disable devices and files for paging and | https://github.com/util-linux/util-linux |
@@ -421,27 +421,27 @@
 | tail | Output the last part of files | https://www.gnu.org/software/coreutils/ |
 | tar | Utility used to store, backup, and transport files | https://www.gnu.org/software/tar/ |
 | taskset | Set or retrieve a process's CPU affinity | https://github.com/util-linux/util-linux |
-| tcpsvd | Daemon | http://smarden.org/ipsvd/ |
 | tc | Show / manipulate traffic control settings | https://git.kernel.org/pub/scm/network/iproute2/iproute2.git |
+| tcpsvd | Daemon | http://smarden.org/ipsvd/ |
 | tee | Read from standard input and write to standard output and | https://www.gnu.org/software/coreutils/ |
 | telegram | Official Telegram Desktop client | https://desktop.telegram.org/ |
-| telnetd | Telnet server | https://www.gnu.org/software/inetutils/ |
 | telnet | User interface to TELNET | https://www.gnu.org/software/inetutils/ |
+| telnetd | Telnet server | https://www.gnu.org/software/inetutils/ |
+| test | Check file types and compare values | https://www.gnu.org/software/coreutils/ |
 | test1 | No description available | None |
 | test2 | Writing test tools that all work | https://perl-test2.slack.com/ |
-| test | Check file types and compare values | https://www.gnu.org/software/coreutils/ |
-| tftpd | No description available | None |
 | tftp | IPv4 Trivial File Transfer Protocol client | https://www.kernel.org/pub/software/network/tftp/tftp-hpa/ |
+| tftpd | No description available | None |
 | thunar | Modern, fast and easy-to-use file manager for Xfce | https://docs.xfce.org/xfce/thunar/start |
-| timeout | Run a command with a time limit | https://www.gnu.org/software/coreutils/ |
 | time | Utility for monitoring a programs use of system resources | https://www.gnu.org/software/time/ |
+| timeout | Run a command with a time limit | https://www.gnu.org/software/coreutils/ |
 | tldr | Command line client for tldr, a collection of simplified man pages. | https://github.com/tldr-pages/tldr-python-client |
 | top | Processes | None |
 | touch | Change file timestamps | https://www.gnu.org/software/coreutils/ |
-| traceroute6 | Route packets trace to network host | None |
-| traceroute | Tracks the route taken by packets over an IP network | http://traceroute.sourceforge.net |
-| tree | A directory listing program displaying a depth indented list of files | https://gitlab.com/OldManProgrammer/unix-tree |
 | tr | Translate or delete characters | https://www.gnu.org/software/coreutils/ |
+| traceroute | Tracks the route taken by packets over an IP network | http://traceroute.sourceforge.net |
+| traceroute6 | Route packets trace to network host | None |
+| tree | A directory listing program displaying a depth indented list of files | https://gitlab.com/OldManProgrammer/unix-tree |
 | true | Do nothing, successfully | https://www.gnu.org/software/coreutils/ |
 | truncate | Shrink or extend the size of a file to the specified | https://www.gnu.org/software/coreutils/ |
 | ts | Timestamp input | https://joeyh.name/code/moreutils/ |
@@ -456,8 +456,8 @@
 | ubirmvol | No description available | None |
 | ubirsvol | No description available | None |
 | ubiupdatevol | No description available | None |
-| udhcpc6 | No description available | None |
 | udhcpc | Udhcpc is a very small DHCP client program geared towards embedded systems | https://www.busybox.net |
+| udhcpc6 | No description available | None |
 | udhcpd | Army Knife of Embedded Linux | None |
 | udpsvd | Daemon | http://smarden.org/ipsvd/ |
 | uevent | No description available | None |
@@ -479,22 +479,22 @@
 | uudecode | Decode an encoded file | https://www.gnu.org/software/sharutils/ |
 | uuencode | Encode a file into email friendly text | https://www.gnu.org/software/sharutils/ |
 | vconfig | Configuration program. | None |
+| vi | The original ex/vi text editor | https://ex-vi.sourceforge.net/ |
 | vidir | Edit directories and filenames | https://joeyh.name/code/moreutils/ |
 | vim | Vi Improved, a highly configurable, improved version of the vi text editor | https://www.vim.org |
 | vipe | Edit pipe | https://joeyh.name/code/moreutils/ |
-| vi | The original ex/vi text editor | https://ex-vi.sourceforge.net/ |
 | vlock | Keytable files and keyboard utilities | http://www.kbd-project.org |
 | volname | No description available | None |
+| w | Show who is logged on and what they are doing. | https://gitlab.com/procps-ng/procps |
 | wall | Write a message to all users | https://github.com/util-linux/util-linux |
-| watchdog | Watchdog daemon | http://sourceforge.net/projects/watchdog |
 | watch | Watches for changes in a directory tree and reruns a command in an acme win or just on the terminal. | https://github.com/eaburns/Watch |
+| watchdog | Watchdog daemon | http://sourceforge.net/projects/watchdog |
 | wc | Print newline, word, and byte counts for each file | https://www.gnu.org/software/coreutils/ |
 | wget | Network utility to retrieve files from the web | https://www.gnu.org/software/wget/wget.html |
 | which | A utility to show the full path of commands | https://savannah.gnu.org/projects/which/ |
+| who | Show who is logged on | https://www.gnu.org/software/coreutils/ |
 | whoami | Print effective user name | https://www.gnu.org/software/coreutils/ |
 | whois | Intelligent WHOIS client | https://github.com/rfc1036/whois |
-| who | Show who is logged on | https://www.gnu.org/software/coreutils/ |
-| w | Show who is logged on and what they are doing. | https://gitlab.com/procps-ng/procps |
 | xargs | Build and execute command lines from standard input | https://www.gnu.org/software/findutils/ |
 | xfce4-multicall | No description available | None |
 | xfce4-power-manager | Power Manager for Xfce | https://docs.xfce.org/xfce/xfce4-power-manager/start |
@@ -503,8 +503,8 @@
 | xfce4-terminal | A modern terminal emulator primarily for the Xfce desktop environment | https://docs.xfce.org/apps/terminal/start |
 | xonsh | A python-powered shell. Full-featured and cross-platform. | https://xon.sh/ |
 | xxd | Make a hex dump or do the reverse. | https://www.vim.org |
-| xzcat | Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz | https://tukaani.org/xz/ |
 | xz | Library and command line tools for XZ and LZMA compressed files | https://tukaani.org/xz/ |
+| xzcat | Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz | https://tukaani.org/xz/ |
 | yarn | Fast, reliable, and secure dependency management | https://classic.yarnpkg.com/ |
 | yes | Output a string repeatedly until killed | https://www.gnu.org/software/coreutils/ |
 | youtube-dl | A command-line program to download videos from YouTube.com and a few more sites | https://ytdl-org.github.io/youtube-dl/ |
