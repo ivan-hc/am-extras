@@ -1,45 +1,68 @@
 #!/bin/sh
 
 arch="x86_64"
+
+_check_manpage() {
+	# Determine man page
+	if curl -Ls https://archlinux.org/packages/extra/"$arch"/"$app"/ | grep -q "Description:"; then
+		manpage=$(curl -Ls https://archlinux.org/packages/extra/"$arch"/"$app"/)
+	elif curl -Ls https://archlinux.org/packages/extra/"$arch"/"$app"-desktop/ | grep -q "Description:"; then
+		manpage=$(curl -Ls https://archlinux.org/packages/extra/"$arch"/"$app"-desktop/)
+	elif curl -Ls https://archlinux.org/packages/core/"$arch"/"$app"/ | grep -q "Description:"; then
+		manpage=$(curl -Ls https://archlinux.org/packages/core/"$arch"/"$app"/)
+	elif curl -Ls https://archlinux.org/packages/core/"$arch"/"$app"-desktop/ | grep -q "Description:"; then
+		manpage=$(curl -Ls https://archlinux.org/packages/core/"$arch"/"$app"-desktop/)
+	elif curl -Ls https://aur.archlinux.org/packages/"$app" | grep -q "Description:"; then
+		manpage=$(curl -Ls https://aur.archlinux.org/packages/"$app")
+	elif curl -Ls https://aur.archlinux.org/packages/"$app"-git | grep -q "Description:"; then
+		manpage=$(curl -Ls https://aur.archlinux.org/packages/"$app"-git)
+	elif curl -Ls https://man.archlinux.org/man/"$app" | grep -q "DESCRIPTION"; then
+		manpage=$(curl -Ls https://man.archlinux.org/man/"$app")
+	elif curl -Ls https://manpages.debian.org/testing/"$app" | grep -q "DESCRIPTION"; then
+		manpage=$(curl -Ls https://manpages.debian.org/testing/"$app")
+	fi
+}
+
+_convert_html_specia_entries() {
+	perl -n -mHTML::Entities -e ' ; print HTML::Entities::decode_entities($_) ;'
+}
+
+_debian_fallback() {
+	if [ -z "$description" ] && echo "$manpage" | grep -q "archlinux"; then
+		if curl -Ls https://manpages.debian.org/testing/"$app" | grep -q "DESCRIPTION"; then
+			manpage=$(curl -Ls https://manpages.debian.org/testing/"$app")
+			[ -n "$manpage" ] && description=$(echo "$manpage" | grep -A 2 NAME 2>/dev/null | grep "^<p " | head -1 | sed 's#</p>$##g' | _convert_html_specia_entries | sed 's/ - //g' | tr '>' '\n' | tail -1 | cut -d" "  -f3-  | sed 's/.*/\u&/')
+		fi
+	fi
+	if [ -z "$site" ] && echo "$manpage_bkp" | grep -q "archlinux" && echo "$manpage" | grep -q "debian"; then
+		site=$(echo "$manpage_bkp" | grep -A 200 "DESCRIPTION" | tr '"><=' '\n' | grep "^http.*" | _convert_html_specia_entries | head -1)
+		echo "$site" | grep -q "snapshot.debian.org" && site=""
+	fi
+}
+
 appnames=$(awk '{print $2}' ./*/x86_64.md | uniq | grep -v -- "^-\|appname$" | xargs)
 for app in $appnames; do
 	appname="$app"
 	if ! grep -q "^| $app | [A-Z].* |$" ./descriptions.md; then
-		# Determine Arch Linux web page
-		if curl -Ls https://archlinux.org/packages/extra/"$arch"/"$app"/ | grep -q "Description:"; then
-			manpage=$(curl -Ls https://archlinux.org/packages/extra/"$arch"/"$app"/)
-		elif curl -Ls https://archlinux.org/packages/extra/"$arch"/"$app"-desktop/ | grep -q "Description:"; then
-			manpage=$(curl -Ls https://archlinux.org/packages/extra/"$arch"/"$app"-desktop/)
-		elif curl -Ls https://archlinux.org/packages/core/"$arch"/"$app"/ | grep -q "Description:"; then
-			manpage=$(curl -Ls https://archlinux.org/packages/core/"$arch"/"$app"/)
-		elif curl -Ls https://archlinux.org/packages/core/"$arch"/"$app"-desktop/ | grep -q "Description:"; then
-			manpage=$(curl -Ls https://archlinux.org/packages/core/"$arch"/"$app"-desktop/)
-		elif curl -Ls https://aur.archlinux.org/packages/"$app" | grep -q "Description:"; then
-			manpage=$(curl -Ls https://aur.archlinux.org/packages/"$app")
-		elif curl -Ls https://aur.archlinux.org/packages/"$app"-git | grep -q "Description:"; then
-			manpage=$(curl -Ls https://aur.archlinux.org/packages/"$app"-git)
-		elif curl -Ls https://man.archlinux.org/man/"$app" | grep -q "DESCRIPTION"; then
-			manpage=$(curl -Ls https://man.archlinux.org/man/"$app")
-		elif curl -Ls https://manpages.debian.org/testing/"$app" | grep -q "DESCRIPTION"; then
-			manpage=$(curl -Ls https://manpages.debian.org/testing/"$app")
+		_check_manpage
+		if [ -z "$manpage" ]; then
+			app=$(echo "$app" | sed 's/_/-/g')
+			_check_manpage
 		fi
-		if echo "$manpage" | grep -q "DESCRIPTION"; then
-			description=$(echo "$manpage" | grep -A 2 NAME 2>/dev/null | grep "^<p " | head -1 | sed 's#</p>$##g' | sed -- "s/&amp\;/and/g; s/&#39\;/\'/g; s/&#x00B4\;/\'/g; s/&lt\;//g; s/&#x27\;//g; s/&gt\;//g; s/ - //g" | tr '>' '\n' | tail -1 | cut -d" "  -f3-)
-			[ -n "$description" ] && description=$(echo "$description" | sed 's/.*/\u&/')
-			site=$(echo "$manpage" | grep -A 2 Upstream 2>/dev/null | tr '">< ' '\n' | grep -i "^http\|^ftp" | head -1)
-			[ -z "$site" ] && site=$(echo "$manpage" | grep -A 200 "DESCRIPTION" | tr '"><=' '\n' | grep "^http.*" | head -1)
+		manpage_bkp="$manpage"
+		if echo "$manpage_bkp" | grep -q "DESCRIPTION"; then
+			description=$(echo "$manpage_bkp" | grep -A 2 NAME 2>/dev/null | grep "^<p " | head -1 | sed 's#</p>$##g' | _convert_html_specia_entries | sed 's/ - //g' | tr '>' '\n' | tail -1 | cut -d" "  -f3-  | sed 's/.*/\u&/')
+			site=$(echo "$manpage_bkp" | grep -A 2 Upstream 2>/dev/null | tr '">< ' '\n' | grep -i "^http\|^ftp" | _convert_html_specia_entries | head -1)
+			_debian_fallback
 		else
-			description=$(echo "$manpage" | grep -A 2 Description: | tr '><' '\n' | grep "^[A-Z]" | sed -- "s/&amp\;/and/g; s/&#39\;/\'/g; s/&#x00B4\;/\'/g; s/&lt\;//g; s/&#x27\;//g; s/&gt\;//g; s/ - //g" | tail -1)
-			site=$(echo "$manpage" | grep -A 2 "Upstream URL" | tr '><' '\n' | grep "^http.*" | tail -1)
-			if [ -z "$site" ]; then
-				if curl -Ls https://manpages.debian.org/testing/"$app" | grep -q "DESCRIPTION"; then
-					manpage=$(curl -Ls https://manpages.debian.org/testing/"$app")
-					site=$(echo "$manpage" | grep -A 200 "DESCRIPTION" | tr '"><=' '\n' | grep "^http.*" | head -1)
-				fi
-			fi
+			description=$(echo "$manpage_bkp" | grep -A 2 Description: | tr '><' '\n' | grep "^[A-Z]" | _convert_html_specia_entries | tail -1)
+			site=$(echo "$manpage_bkp" | grep -A 200 "Upstream URL" | tr '><' '\n' | grep "^http.*//.*" | _convert_html_specia_entries | head -1)
+			echo "$description" | grep -q "Description:" &&	description=""
+			_debian_fallback
 		fi
 		[ -z "$description" ] && description="No description available"
 		[ -z "$site" ] && site="None"
+		echo " Add \"$appname\" - $description"
 		echo "| $appname | $description | $site |" >> descriptions.md
 	fi
 	unset appname description site download	version manpage
