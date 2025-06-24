@@ -32,6 +32,7 @@
 | bunzip2 | A block-sorting file compressor, v1.0.8 | https://sourceware.org/bzip2/ |
 | bzcat | A block-sorting file compressor, v1.0.8 | https://sourceware.org/bzip2/ |
 | bzip2 | A high-quality data compression program | https://sourceware.org/bzip2/ |
+| caja | File manager for the MATE desktop | https://mate-desktop.org |
 | cal | Display a calendar | https://github.com/util-linux/util-linux |
 | cargo | Systems programming language focused on safety, speed and concurrency | https://www.rust-lang.org/ |
 | cat | Concatenate files and print on the standard output | https://www.gnu.org/software/coreutils/ |
