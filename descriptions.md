@@ -6,6 +6,7 @@
 | adduser | Interactive front end to /usr/bin/useradd from Slackware Linux | http://www.slackware.com/ |
 | adjtimex | Allows configuration of kernel time variables | https://github.com/rogers0/adjtimex |
 | ag | The Silver Searcher. Like ack, but faster. | https://github.com/aswild/the_silver_searcher |
+| alacritty | A cross-platform, GPU-accelerated terminal emulator | https://github.com/alacritty/alacritty |
 | android-tools | Android platform tools | http://tools.android.com/ |
 | ar | Create, modify, and extract from archives | https://www.gnu.org/software/binutils/ |
 | arp | Manipulate the system ARP cache | http://net-tools.sourceforge.net/ |
@@ -74,6 +75,7 @@
 | deluser | A user or group from the system | None |
 | deno | A secure runtime for JavaScript and TypeScript | https://deno.land |
 | depmod | Generate modules.dep and map files. | https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git |
+| desmume | Nintendo DS emulator | https://desmume.org/ |
 | devmem | A simple program to read/write from/to any location in memory | http://free-electrons.com/pub/mirror/devmem2.c |
 | df | Report file system space usage | https://www.gnu.org/software/coreutils/ |
 | dhcprelay | No description available | None |
@@ -145,6 +147,7 @@
 | getopt | Parse command options (enhanced) | https://github.com/util-linux/util-linux |
 | getty | Getty | None |
 | gh | GitHub CLI | https://github.com/cli/cli |
+| gimp | GNU Image Manipulation Program | https://www.gimp.org/ |
 | git | The fast distributed version control system | https://git-scm.com/ |
 | go | Core compiler tools for the Go programming language | https://golang.org/ |
 | grep | A string search utility | https://www.gnu.org/software/grep/ |
@@ -260,6 +263,7 @@
 | mousepad | Simple text editor for Xfce | https://docs.xfce.org/apps/mousepad/start |
 | mpstat | Report processors related statistics. | https://sysstat.github.io/ |
 | mpv | A free, open source, and cross-platform media player. | https://mpv.io/ |
+| mpv-v0.40.0-github.com.pkgforge-dev.mpv-appimage | No description available | None |
 | mt | A terminal written in GTK+ and Rust | https://gitlab.com/Miridyan/mt |
 | mv | Move (rename) files | https://www.gnu.org/software/coreutils/ |
 | nameif | Name network interfaces based on MAC addresses | http://net-tools.sourceforge.net/ |
@@ -282,6 +286,7 @@
 | ntpd | NTP daemon program | https://www.ntp.org/ |
 | nuke | No description available | None |
 | nvim | Edit | https://neovim.io |
+| obs-studio-studio-github.com.pkgforge-dev.obs-studio-appimage | No description available | None |
 | od | Dump files in octal and other formats | https://www.gnu.org/software/coreutils/ |
 | openarena-quake3e | A Community-Produced Deathmatch FPS Based on GPL idTech3 Technology (Quake3e Engine) | http://openarena.ws/ |
 | openvt | Start a program on a new virtual terminal (VT). | http://www.kbd-project.org |
@@ -314,6 +319,7 @@
 | postgres | PostgreSQL database server | https://www.postgresql.org/ |
 | poweroff | Halt - Power off, reboot, or halt the | https://www.github.com/systemd/systemd |
 | powertop | A tool to diagnose issues with power consumption and power management | https://github.com/fenrus75/powertop/ |
+| ppsspp | A PSP emulator written in C++ | https://www.ppsspp.org/ |
 | printenv | Print all or part of environment | https://www.gnu.org/software/coreutils/ |
 | printf | Print data | None |
 | prisma | No description available | None |
@@ -442,6 +448,7 @@
 | tr | Translate or delete characters | https://www.gnu.org/software/coreutils/ |
 | traceroute | Tracks the route taken by packets over an IP network | http://traceroute.sourceforge.net |
 | traceroute6 | Route packets trace to network host | None |
+| transmission-qt-qt-github.com.pkgforge-dev.transmission-qt-appimage | No description available | None |
 | tree | A directory listing program displaying a depth indented list of files | https://gitlab.com/OldManProgrammer/unix-tree |
 | true | Do nothing, successfully | https://www.gnu.org/software/coreutils/ |
 | truncate | Shrink or extend the size of a file to the specified | https://www.gnu.org/software/coreutils/ |
@@ -468,6 +475,7 @@
 | unexpand | Convert spaces to tabs | https://www.gnu.org/software/coreutils/ |
 | uniq | Report or omit repeated lines | https://www.gnu.org/software/coreutils/ |
 | unix2dos | DOS/Mac to Unix and vice versa text file format | https://waterlan.home.xs4all.nl/dos2unix.html |
+| unleashedrecomp | No description available | None |
 | unlink | Call the unlink function to remove the specified file | https://www.gnu.org/software/coreutils/ |
 | unlzma | Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz | https://tukaani.org/xz/ |
 | unlzop | No description available | None |
@@ -513,4 +521,5 @@
 | yt-dlp | A youtube-dl fork with additional features and fixes | https://github.com/yt-dlp/yt-dlp |
 | zcat | Zcat - compress or expand files | https://www.gnu.org/software/gzip/ |
 | zcip | No description available | None |
+| zenity | Display graphical dialog boxes from shell scripts | https://gitlab.gnome.org/GNOME/zenity |
 | zsh | A very advanced and programmable command interpreter (shell) for UNIX | https://www.zsh.org/ |
