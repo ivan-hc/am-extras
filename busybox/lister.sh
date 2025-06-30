@@ -23,6 +23,7 @@ for arch in $architectures; do
 				[ "$site" = "None" ] && site=""
 			fi
 		fi
+		version=$(echo "$download" | sed 's:.*/::' | grep -oP '(?<=-)([0-9]+\.?)+' | sed 's/ //g' | head -1)
 		[ -z "$description" ] && description="No description available"
 		[ -z "$site" ] && site="$ref"
 		[ -z "$version" ] && version="$VERSION" #version=$(echo "$download" | tr '/' '\n' | tail -2 | head -1)
