@@ -7,7 +7,7 @@ ref="https://xplshn.github.io/AppBundleHUB"
 _sources() {
 	source_list=$(curl -Ls https://api.github.com/repos/xplshn/AppBundleHUB/releases/latest)
 	pkg_and_dl=$(echo "$source_list " | sed 's/[()",{} ]/\n/g' | grep -oi "http.*download.*AppBundle$")
-	appnames=$(echo "$pkg_and_dl" | sed 's:.*/::' | sed -- 's/.dwfs.AppBundle//g; s/.sqfs.AppBundle//g; s/.AppDir//g; s/.AppBundle//g; s/-[0-9].*$//' | tr '[:upper:]' '[:lower:]')
+	appnames=$(echo "$pkg_and_dl" | sed 's:.*/::' | sed -- 's/.dwfs.AppBundle//g; s/.sqfs.AppBundle//g; s/.AppDir//g; s/.AppBundle//g; s/-[0-9].*$//; s/-v[0-9].*$//' | tr '[:upper:]' '[:lower:]')
 }
 
 for arch in $architectures; do
