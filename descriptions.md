@@ -286,6 +286,7 @@
 | ntpd | NTP daemon program | https://www.ntp.org/ |
 | nuke | No description available | None |
 | nvim | Edit | https://neovim.io |
+| obs-studio | Free, open source software for live streaming and recording | https://obsproject.com |
 | obs-studio-studio-github.com.pkgforge-dev.obs-studio-appimage | No description available | None |
 | od | Dump files in octal and other formats | https://www.gnu.org/software/coreutils/ |
 | openarena-quake3e | A Community-Produced Deathmatch FPS Based on GPL idTech3 Technology (Quake3e Engine) | http://openarena.ws/ |
@@ -448,6 +449,7 @@
 | tr | Translate or delete characters | https://www.gnu.org/software/coreutils/ |
 | traceroute | Tracks the route taken by packets over an IP network | http://traceroute.sourceforge.net |
 | traceroute6 | Route packets trace to network host | None |
+| transmission-qt | Fast, easy, and free BitTorrent client (Qt GUI) | http://www.transmissionbt.com/ |
 | transmission-qt-qt-github.com.pkgforge-dev.transmission-qt-appimage | No description available | None |
 | tree | A directory listing program displaying a depth indented list of files | https://gitlab.com/OldManProgrammer/unix-tree |
 | true | Do nothing, successfully | https://www.gnu.org/software/coreutils/ |
