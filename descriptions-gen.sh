@@ -118,7 +118,7 @@ for app in $appnames; do
 	fi
 	unset appname description site download	version manpage
 done
-list=$(sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |")
+list=$(sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |\|^| .*pkgforge.* | .* | .* |$")
 echo "| appname | description | site |" > descriptions.md
 echo "| ------- | ----------- | ---- |" >> descriptions.md
 echo "$list" >> descriptions.md
