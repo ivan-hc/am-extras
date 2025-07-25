@@ -11,8 +11,9 @@ _sources() {
 }
 
 for arch in $architectures; do
-	rm -f "$arch".md
 	_sources
+	[ -z "$source_list" ] && exit 1
+	rm -f "$arch".md
 	for app in $appnames; do
 		appname="$app"
 		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*download.*/$app.")
