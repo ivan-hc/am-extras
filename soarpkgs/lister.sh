@@ -1,19 +1,22 @@
 #!/bin/sh
-
-architectures="x86_64 aarch64"
-categories="bincache pkgcache"
-for arch in $architectures; do
-	rm -f "$arch".md
-	echo "| ------- | ----------- | ---- | -------- | ------- |" >> "$arch".md
-	for c in $categories; do
-		curl -Ls "https://github.com/pkgforge/$c/releases/download/metadata/$arch-Linux.json" | jq '.' \
-		| grep "{\|\"pkg_name\"\|\"description\"\|\"pkg_webpage\"\|\"download_url\"\|\"version\"" \
-		| sed 's/,$/ | /g' | xargs | tr '{}' '\n' | sed 's/ pkg_name:/|/g' | sort -u \
-		| sed 's/description:/ | /g; s/pkg_webpage:/ | /g; s/download_url:/ | /g; s/version:/ | /g; s/  / /g; s/  / /g' \
-		| sed 's/| |/|/g' | awk -F'|' '{print $1 $2 $4 $3 $6 $5}' | sed 's/  / | /g; s/^/|/g; s/$/|/g' \
-		| grep -v "| |\|||\||[a-zA-Z0-9]" | grep -vi "/nixappimage/" | grep -vi "0ad-matters\|ivan-hc" \
-		| grep -i "^| .* | .* | http.* | http.*download.* | .* |$" | sort -u >> "$arch".md
-	done
-	list=$(sort -u "$arch".md)
-	printf "| appname | description | site | download | version |\n%b" "$list" > "$arch".md
-done
+ARCH="x86_64 aarch64"
+CATEGORY="bincache pkgcache"
+header='| appname | description | site | download | version |
+| ------- | ----------- | ---- | -------- | ------- |'
+for arch in $ARCH; do
+  rows=$( for c in $CATEGORY; do
+      curl -fsSL "https://raw.githubusercontent.com/pkgforge/metadata/main/$c/data/${arch}-Linux.json" | \
+      awk '
+        /"pkg_name"/    { name = $0; gsub(/.*: *"/,"",name); gsub(/".*/,"",name) }
+        /"description"/ { desc = $0; gsub(/.*: *"/,"",desc); gsub(/".*/,"",desc) }
+        /"pkg_webpage"/ { site = $0; gsub(/.*: *"/,"",site); gsub(/".*/,"",site) }
+        /"download_url"/{ dl  = $0; gsub(/.*: *"/,"",dl); gsub(/".*/,"",dl) }
+        /"version"/     { ver = $0; gsub(/.*: *"/,"",ver); gsub(/".*/,"",ver);
+          printf("| %s | %s | %s | %s | %s |\n", name, desc, site, dl, ver)
+        }' 
+         done )
+{
+  printf '%s\n' "$header"
+  printf '%s\n' "$rows" | sort -u
+  } > "${arch}.md"
+			done
