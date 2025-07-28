@@ -34,24 +34,11 @@ jobs:
              fi
           done
 
-      - name: "Update local descriptions"
-        run: |
-          echo "◆ Updating local descriptions"
-          [ ! -x ./descriptions-gen.sh ] && chmod a+x ./descriptions-gen.sh
-          ./descriptions-gen.sh
-
-      - name: "Run lister again"
-        run: |
-          DATABASES=$(ls -d */ | tr '/' ' ' | xargs)
-          for db in $DATABASES; do
-             if ! grep -i -A 1 "^# $db$" ./am-extras | tail -1 | grep -q "^#export"; then
-                cd "$db" || exit 1
-                echo "◆ Updating \"$db\" lists"
-                [ ! -x ./lister.sh ] && chmod a+x ./lister.sh
-                ./lister.sh 2>/dev/null
-                cd ..
-             fi
-          done
+#      - name: "Update local descriptions"
+#        run: |
+#          echo "◆ Updating local descriptions"
+#          [ ! -x ./descriptions-gen.sh ] && chmod a+x ./descriptions-gen.sh
+#          ./descriptions-gen.sh
 
       - name: "Push to Source"
         run: |
