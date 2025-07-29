@@ -13,7 +13,8 @@ for arch in $ARCH; do
 		/"ghcr_url"/{ dl  = $0; gsub(/.*: *"/,"",dl); gsub(/".*/,"",dl) }
 		/"version"/     { ver = $0; gsub(/.*: *"/,"",ver); gsub(/".*/,"",ver);
 		printf("| %s | %s | %s | %s | %s |\n", name, desc, site, dl, ver)
-		}' | grep -v pkgcache
+		}' | grep -v "/appimage/\|nixappimage\|runimage\|appbundle\|flatimage" | \
+		grep -v " teamviewer \| telegram-desktop "
 	done )
 	{
 	printf '%s\n' "$header"
