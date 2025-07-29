@@ -26,7 +26,7 @@ for arch in $architectures; do
 		fi
 		version=$(echo "$download" | sed 's:.*/::' | grep -oP '(?<=-)([0-9]+\.?)+' | sed 's/ //g' | head -1)
 		[ -z "$description" ] && description="No description available"
-		[ -z "$site" ] && site="$ref#$appname"
+		[ -z "$site" ] && site="$ref"
 		[ -z "$version" ] && version=$(echo "$download" | tr '/' '\n' | tail -2 | head -1)
 		echo "| $appname | $description | $site | $download | $version |" >> "$arch".md
 		unset appname description site download	version archpage
