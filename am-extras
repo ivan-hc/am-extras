@@ -1,20 +1,40 @@
-# 1BIN
-#export onebin_repo="https://github.com/nikvdp/1bin"
-#export onebin_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/1bin/${ARCH}.md"
-#[ -n "$onebin_readme" ] && third_party_flags="$third_party_flags --onebin"
+#!/bin/sh
 
-# APPBUNDLEHUB
-export appbundle_repo="https://github.com/xplshn/AppBundleHUB"
-export appbundle_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/appbundlehub/${ARCH}.md"
-[ -n "$appbundle_readme" ] && third_party_flags="$third_party_flags --appbundle"
+# This file is intended to list variables related to third-party databases managed by "AM"/AppMan
+
+################################################################################
+#	Databases using the generic "AM-SAMPLE-Archive" template (default)
+################################################################################
 
 # BUSYBOX
 export busybox_repo="https://busybox.net"
 export busybox_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/busybox/${ARCH}.md"
 [ -n "$busybox_readme" ] && third_party_flags="$third_party_flags --busybox"
 
-# SOARPKGS
-#export soarpkg_repo="https://github.com/pkgforge/soarpkgs"
-#export soarpkg_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/soarpkgs/${ARCH}.md"
-#[ -n "$soarpkg_readme" ] && third_party_flags="$third_party_flags --soarpkg"
-#export soarpkg_missing_file_msg="\nIt appears that the selected file is not available.\n\nThis happens due to pkgforge's mirror Issue.\nLearn more: https://docs.pkgforge.dev/repositories/bincache/cache\n\nAlternatively, install \"soar\" or \"dbin\" and use those.\n\n"
+# ONEBIN
+#export onebin_repo="https://github.com/nikvdp/1bin"
+#export onebin_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/onebin/${ARCH}.md"
+#[ -n "$onebin_readme" ] && third_party_flags="$third_party_flags --onebin"
+
+################################################################################
+#	Databases using their own template
+################################################################################
+
+if [ -n "$MODULES_PATH" ] && [ -f "$MODULES_PATH/install.am" ]; then
+
+	# APPBUNDLE
+	if grep -q "AM-SAMPLE-AppBundle" "$MODULES_PATH/install.am"; then
+		export appbundle_repo="https://github.com/xplshn/AppBundleHUB"
+		export appbundle_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/appbundle/${ARCH}.md"
+		[ -n "$appbundle_readme" ] && third_party_flags="$third_party_flags --appbundle"
+	fi
+
+	# SOARPKGS
+	if grep -q "AM-SAMPLE-soarpkg" "$MODULES_PATH/install.am"; then
+		export soarpkg_repo="https://github.com/pkgforge/soarpkgs"
+		export soarpkg_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/soarpkg/${ARCH}.md"
+		[ -n "$soarpkg_readme" ] && third_party_flags="$third_party_flags --soarpkg"
+		export soarpkg_missing_file_msg="\nIt appears that the selected file is not available.\n\nThis happens due to pkgforge's mirror Issue.\nLearn more: https://docs.pkgforge.dev/repositories/bincache/cache\n\nAlternatively, install \"soar\" or \"dbin\" and use those.\n\n"
+	fi
+
+fi
