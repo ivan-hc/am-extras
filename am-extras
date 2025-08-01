@@ -29,7 +29,7 @@ if [ -n "$MODULES_PATH" ] && [ -f "$MODULES_PATH/install.am" ]; then
 		[ -n "$appbundle_readme" ] && third_party_flags="$third_party_flags --appbundle"
 	fi
 
-	# SOARPKGS
+	# SOARPKG
 	if grep -q "AM-SAMPLE-soarpkg" "$MODULES_PATH/install.am"; then
 		export soarpkg_repo="https://github.com/pkgforge/soarpkgs"
 		export soarpkg_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/soarpkg/${ARCH}.md"
