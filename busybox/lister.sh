@@ -23,7 +23,7 @@ for arch in $ARCH; do
 	for app in $appnames; do
 		appname=$( echo "$app" | tr '_' '-')
 		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*/busybox_$app$")
-		description=$(echo "$descriptions" | grep "^| $appname |" | awk -F'|' '{print $3}' | sed 's/^ //g; s/ $//g; s/  / /g' | head -1 | sed 's/ \[.*\]/\./g')
+		description=$(echo "$descriptions" | grep "^| $appname |" | awk -F'|' '{print $3}' | sed 's/^ //g; s/ $//g; s/  / /g' | grep -i busybox | head -1 | sed 's/ \[.*\]/\./g')
 		echo "| $appname | $description | $site | $download | $version |" >> "$arch".md
 		unset appname description download
 	done
