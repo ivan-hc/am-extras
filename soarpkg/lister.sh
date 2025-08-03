@@ -1,10 +1,13 @@
 #!/bin/sh
-ARCH="x86_64 aarch64"
-CATEGORY="bincache pkgcache"
+
+architectures="x86_64 aarch64"
+category="bincache pkgcache"
+
 header='| appname | description | site | download | version |
 | ------- | ----------- | ---- | -------- | ------- |'
-for arch in $ARCH; do
-	rows=$( for c in $CATEGORY; do
+
+for arch in $architectures; do
+	rows=$( for c in $category; do
 	curl -fsSL "https://raw.githubusercontent.com/pkgforge/metadata/main/$c/data/${arch}-Linux.json" | jq '.' | \
 	awk '
 		/"pkg_name"/    { name = $0; gsub(/.*: *"/,"",name); gsub(/".*/,"",name) }
