@@ -1,8 +1,15 @@
 #!/bin/sh
-
-architectures="i686 x86_64"
-custom="false"
-ref="https://busybox.net"; VERSION=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/busybox-tools/refs/heads/main/version)
+ARCH="x86_64 i686"
+site="https://busybox.net"
+version=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/busybox-tools/refs/heads/main/version)
+descriptions=$(curl -fsSL "https://raw.githubusercontent.com/pkgforge/metadata/main/bincache/data/x86_64-Linux.json" | jq '.' | \
+	awk '
+		/"pkg_name"/    { name = $0; gsub(/.*: *"/,"",name); gsub(/".*/,"",name) }
+		/"description"/ { desc = $0; gsub(/.*: *"/,"",desc); gsub(/".*/,"",desc);
+		printf("| %s | %s |\n", name, desc)
+		}')
+header='| appname | description | site | download | version |
+| ------- | ----------- | ---- | -------- | ------- |'
 
 _sources() {
 	source_list=$(curl -Ls "https://github.com/ivan-hc/busybox-tools/tree/main/$arch-binaries")
@@ -10,28 +17,14 @@ _sources() {
 	appnames=$(echo "$pkg_and_dl" | sed 's:.*/::; s/^busybox_//g; s/-/\n/g' | grep "^[A-Z]" | tr '[:upper:]' '[:lower:]')
 }
 
-for arch in $architectures; do
-	rm -f "$arch".md
+for arch in $ARCH; do
+	printf '%s\n' "$header" > "$arch".md
 	_sources
 	for app in $appnames; do
-		appname="$app"
+		appname=$( echo "$app" | tr '_' '-')
 		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*/busybox_$app$")
-		if [ -f ../descriptions.md ] && grep -q "| $app |" ../descriptions.md; then
-			description=$(grep "^| $app |" ../descriptions.md | awk -F'|' '{print $3}' | sed 's/^ //g; s/ $//g; s/  / /g')
-			if [ "$custom" != "true" ]; then
-				site=$(grep "^| $app " ../descriptions.md | awk -F'|' '{print $4}' | sed 's/^ //g; s/ $//g; s/  / /g')
-				[ "$site" = "None" ] && site=""
-			fi
-		fi
-		version=$(echo "$download" | sed 's:.*/::' | grep -oP '(?<=-)([0-9]+\.?)+' | sed 's/ //g' | head -1)
-		[ -z "$description" ] && description="No description available"
-		[ -z "$site" ] && site="$ref"
-		[ -z "$version" ] && version="$VERSION" #version=$(echo "$download" | tr '/' '\n' | tail -2 | head -1)
+		description=$(echo "$descriptions" | grep "^| $appname |" | awk -F'|' '{print $3}' | sed 's/^ //g; s/ $//g; s/  / /g' | grep -i busybox | head -1 | sed 's/ \[.*\]/\./g')
 		echo "| $appname | $description | $site | $download | $version |" >> "$arch".md
-		unset appname description site download	version archpage
+		unset appname description download
 	done
-	list=$(sort -u "$arch".md | grep -i "^| .* | .* | http.* | http.* | .* |$")
-	echo "| appname | description | site | download | version |" > "$arch".md
-	echo "| ------- | ----------- | ---- | -------- | ------- |" >> "$arch".md
-	echo "$list" >> "$arch".md
 done
