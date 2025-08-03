@@ -14,19 +14,15 @@ descriptions=$(curl -fsSL "https://raw.githubusercontent.com/pkgforge/metadata/m
 header='| appname | description | site | download | version |
 | ------- | ----------- | ---- | -------- | ------- |'
 
-_sources() {
+for arch in $ARCH; do
+	printf '%s\n' "$header" > "$arch".md
 	source_list=$(curl -Ls "https://github.com/ivan-hc/busybox-tools/tree/main/$arch-binaries")
 	pkg_and_dl=$(echo "$source_list " | tr '">< ' '\n' | grep "^busybox_[A-Z]" | sed 's#^#https://raw.githubusercontent.com/ivan-hc/busybox-tools/refs/heads/main/x86_64-binaries/#g')
 	appnames=$(echo "$pkg_and_dl" | sed 's:.*/::; s/^busybox_//g; s/-/\n/g' | grep "^[A-Z]" | tr '[:upper:]' '[:lower:]')
-}
-
-for arch in $ARCH; do
-	printf '%s\n' "$header" > "$arch".md
-	_sources
 	for app in $appnames; do
 		appname=$( echo "$app" | tr '_' '-')
 		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*/busybox_$app$")
-		description=$(echo "$descriptions" | grep "^| $appname |" | awk -F'|' '{print $3}' | sed 's/^ //g; s/ $//g; s/  / /g' | grep -i busybox | head -1 | sed 's/ \[.*\]//g')
+		description=$(echo "$descriptions" | grep "^| $appname |" | awk -F'|' '{print $3}' | sed 's/^ //g; s/ $//g; s/  / /g' head -1 | sed 's/ \[.*\]//g')
 		echo "| $appname | $description | $site | $download | $version |" >> "$arch".md
 	done
 done
