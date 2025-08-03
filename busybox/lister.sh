@@ -5,8 +5,11 @@ version=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/busybox-tools/refs/
 descriptions=$(curl -fsSL "https://raw.githubusercontent.com/pkgforge/metadata/main/bincache/data/x86_64-Linux.json" | jq '.' | \
 	awk '
 		/"pkg_name"/    { name = $0; gsub(/.*: *"/,"",name); gsub(/".*/,"",name) }
-		/"description"/ { desc = $0; gsub(/.*: *"/,"",desc); gsub(/".*/,"",desc);
-		printf("| %s | %s |\n", name, desc)
+		/"description"/ { desc = $0; gsub(/.*: *"/,"",desc); gsub(/".*/,"",desc) }
+		/"pkg_webpage"/ { site = $0; gsub(/.*: *"/,"",site); gsub(/".*/,"",site) }
+		/"ghcr_blob"/{ dl  = $0; gsub(/.*: *"/,"",dl); gsub(/".*/,"",dl) }
+		/"version"/     { ver = $0; gsub(/.*: *"/,"",ver); gsub(/".*/,"",ver);
+		printf("| %s | %s | %s | %s | %s |\n", name, desc, site, dl, ver)
 		}')
 header='| appname | description | site | download | version |
 | ------- | ----------- | ---- | -------- | ------- |'
@@ -25,6 +28,5 @@ for arch in $ARCH; do
 		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*/busybox_$app$")
 		description=$(echo "$descriptions" | grep "^| $appname |" | awk -F'|' '{print $3}' | sed 's/^ //g; s/ $//g; s/  / /g' | grep -i busybox | head -1 | sed 's/ \[.*\]//g')
 		echo "| $appname | $description | $site | $download | $version |" >> "$arch".md
-		unset appname description download
 	done
 done
