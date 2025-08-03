@@ -1,5 +1,6 @@
 #!/bin/sh
-ARCH="x86_64 i686"
+
+architectures="x86_64 i686"
 site="https://busybox.net"
 version=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/busybox-tools/refs/heads/main/version)
 descriptions=$(curl -fsSL "https://raw.githubusercontent.com/pkgforge/metadata/main/bincache/data/x86_64-Linux.json" | jq '.' | \
@@ -11,6 +12,7 @@ descriptions=$(curl -fsSL "https://raw.githubusercontent.com/pkgforge/metadata/m
 		/"version"/     { ver = $0; gsub(/.*: *"/,"",ver); gsub(/".*/,"",ver);
 		printf("| %s | %s | %s | %s | %s |\n", name, desc, site, dl, ver)
 		}')
+
 header='| appname | description | site | download | version |
 | ------- | ----------- | ---- | -------- | ------- |'
 
@@ -20,7 +22,7 @@ _sources() {
 	appnames=$(echo "$pkg_and_dl" | sed 's:.*/::; s/^busybox_//g; s/-/\n/g' | grep "^[A-Z]" | tr '[:upper:]' '[:lower:]')
 }
 
-for arch in $ARCH; do
+for arch in $architectures; do
 	printf '%s\n' "$header" > "$arch".md
 	_sources
 	for app in $appnames; do
