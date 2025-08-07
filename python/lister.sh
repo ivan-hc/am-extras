@@ -16,7 +16,7 @@ if [ -n "$source_list" ] && echo "$pkg_and_dl" | grep -qi "appimage$"; then
 		echo "$header" > "$arch".md
 		for app in $appnames; do
 			appname="$app"
-			description="Interactive high-level object-oriented language."
+			description="Interactive high-level object-oriented language"
 			site="$ref"
 			download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*download.*/$app/.*$arch.*")
 			version=$(echo "$download" | tr '/-' '\n' | grep "^python[0-9].[0-9]" | tail -1 | sed 's/python//g')
