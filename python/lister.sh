@@ -16,13 +16,13 @@ if [ -n "$source_list" ] && echo "$pkg_and_dl" | grep -qi "appimage$"; then
 		echo "$header" > "$arch".md
 		for app in $appnames; do
 			appname="$app"
-			description="Interactive high-level object-oriented language"
 			site="$ref"
 			download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*download.*/$app/.*$arch.*")
 			version=$(echo "$download" | tr '/-' '\n' | grep "^python[0-9].[0-9]" | tail -1 | sed 's/python//g')
 			for d in $download; do
 				if echo "| $appname | $description | $site | $d | $version |" | grep -qi "^| .* | .* | http.* | http.*download.* | .* |$"; then
-					series=$(echo "$d" | sed 's:.*/::' | tr '.-' '\n' | grep -i "^cp\|^manylinux" | xargs | tr ' ' '-')
+					series=$(echo "$d" | sed "s:.*/::; s/\_$arch//g" | tr '.-' '\n' | grep -i "^cp\|^manylinux" | xargs | tr ' ' '-')
+					description="Interactive high-level object-oriented language [AppImage, build $series]"
 					echo "| $appname | $description | $site/.../$appname-$series | $d | $version |" >> "$arch".md
 				fi
 			done
