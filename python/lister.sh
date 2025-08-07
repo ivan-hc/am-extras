@@ -1,7 +1,6 @@
 #!/bin/sh
 
 architectures="aarch64 i686 x86_64"
-custom="true"
 ref="https://python-appimage.readthedocs.io"
 
 header='| appname | description | site | download | version |
