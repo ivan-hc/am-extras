@@ -23,7 +23,7 @@ if [ -n "$source_list" ] && echo "$pkg_and_dl" | grep -qi "appimage$"; then
 				if echo "| $appname | $description | $site | $d | $version |" | grep -qi "^| .* | .* | http.* | http.*download.* | .* |$"; then
 					series=$(echo "$d" | sed "s:.*/::; s/\_$arch//g" | tr '.-' '\n' | grep -i "^cp\|^manylinux" | xargs | tr ' ' '-')
 					description="Interactive high-level object-oriented language [AppImage, build $series]"
-					echo "| $appname | $description | $site/.../$series | $d | $version |" >> "$arch".md
+					echo "| $appname | $description | $site/@$series | $d | $version |" >> "$arch".md
 				fi
 			done
 			unset appname description site download	version series
