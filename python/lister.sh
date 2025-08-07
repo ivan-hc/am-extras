@@ -22,10 +22,11 @@ if [ -n "$source_list" ] && echo "$pkg_and_dl" | grep -qi "appimage$"; then
 			version=$(echo "$download" | tr '/-' '\n' | grep "^python[0-9].[0-9]" | tail -1 | sed 's/python//g')
 			for d in $download; do
 				if echo "| $appname | $description | $site | $d | $version |" | grep -qi "^| .* | .* | http.* | http.*download.* | .* |$"; then
-					echo "| $appname | $description | $site | $d | $version |" >> "$arch".md
+					series=$(echo "$d" | sed 's:.*/::' | tr '.-' '\n' | grep -i "^cp\|^manylinux" | xargs | tr ' ' '-')
+					echo "| $appname | $description | $site/.../$appname-$series | $d | $version |" >> "$arch".md
 				fi
 			done
-			unset appname description site download	version
+			unset appname description site download	version series
 		done
 	done
 fi
