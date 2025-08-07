@@ -16,6 +16,11 @@ export busybox_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/
 #export onebin_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/onebin/${ARCH}.md"
 #[ -n "$onebin_readme" ] && third_party_flags="$third_party_flags --onebin"
 
+# PYTHON
+#export python_repo="https://python-appimage.readthedocs.io"
+#export python_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/python/${ARCH}.md"
+#[ -n "$python_readme" ] && third_party_flags="$third_party_flags --python"
+
 ################################################################################
 #	Databases using their own template
 ################################################################################
