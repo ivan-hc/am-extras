@@ -1,7 +1,6 @@
 #!/bin/sh
 
 architectures="x86_64"
-custom="true"
 ref="https://xplshn.github.io/AppBundleHUB"
 
 header='| appname | description | site | download | version |
