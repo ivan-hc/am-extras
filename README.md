@@ -1,4 +1,11 @@
-**Extensions for "[AM](https://github.com/ivan-hc/AM)", the package manager for AppImages and portable apps for GNU/Linux**
+# AM-extras
+***Extensions for "AM", the package manager for AppImages and portable apps for GNU/Linux***
+
+<img width="747" height="510" alt="Istantanea_2025-08-08_13-08-17" src="https://github.com/user-attachments/assets/3063499c-9682-48a9-b305-ea7d2abe2297" />
+
+This repository is used to extend the available AM/AppMan software portfolio by adding third-party sources to the AM database.
+
+***To know more about AM, visit https://github.com/ivan-hc/AM***
 
 ---------------------------------
 ## How it works
