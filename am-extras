@@ -9,16 +9,19 @@
 # BUSYBOX
 export busybox_repo="https://busybox.net"
 export busybox_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/busybox/${ARCH}.md"
+export busybox_info="This database provides the complete set of official BusyBox tools."
 [ -n "$busybox_readme" ] && third_party_flags="$third_party_flags --busybox"
 
 # ONEBIN
 #export onebin_repo="https://github.com/nikvdp/1bin"
 #export onebin_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/onebin/${ARCH}.md"
+#export onebin_info="A wide range of pre-compiled binaries wrote in Rust."
 #[ -n "$onebin_readme" ] && third_party_flags="$third_party_flags --onebin"
 
 # PYTHON
 export python_repo="https://python-appimage.readthedocs.io"
 export python_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/python/${ARCH}.md"
+export python_info="This database creates and distributes all Python versions in AppImage formats, ensuring they can be installed side-by-side and without conflict. Visit https://github.com/niess/python-appimage to learn more."
 [ -n "$python_readme" ] && third_party_flags="$third_party_flags --python"
 
 ################################################################################
@@ -31,6 +34,7 @@ if [ -n "$MODULES_PATH" ] && [ -f "$MODULES_PATH/install.am" ]; then
 	if grep -q "AM-SAMPLE-AppBundle" "$MODULES_PATH/install.am"; then
 		export appbundle_repo="https://github.com/xplshn/AppBundleHUB"
 		export appbundle_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/appbundle/${ARCH}.md"
+		export appbundle_info="This database provides AppBundles, similar to Appimages but with greater portability and compatibility across multiple systems. They are built using PELF, see https://github.com/xplshn/pelf for more information."
 		[ -n "$appbundle_readme" ] && third_party_flags="$third_party_flags --appbundle"
 	fi
 
@@ -38,6 +42,7 @@ if [ -n "$MODULES_PATH" ] && [ -f "$MODULES_PATH/install.am" ]; then
 	if grep -q "AM-SAMPLE-soarpkg" "$MODULES_PATH/install.am"; then
 		export soarpkg_repo="https://github.com/pkgforge/soarpkgs"
 		export soarpkg_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/soarpkg/${ARCH}.md"
+		export soarpkg_info="This is the largest collection of static binary packages, created for the SOAR package manager and maintained by the Package Forge organization and its affiliates. Visit https://github.com/pkgforge to learn more."
 		[ -n "$soarpkg_readme" ] && third_party_flags="$third_party_flags --soarpkg"
 		export soarpkg_missing_file_msg="\nIt appears that the selected file is not available.\n\nThis happens due to pkgforge's mirror Issue.\nLearn more: https://docs.pkgforge.dev/repositories/bincache/cache\n\nAlternatively, install \"soar\" or \"dbin\" and use those.\n\n"
 	fi
