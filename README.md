@@ -1,33 +1,74 @@
 **Extensions for "[AM](https://github.com/ivan-hc/AM)", the package manager for AppImages and portable apps for GNU/Linux**
 
-## Usage
+---------------------------------
+## How it works
+Each database has one or more table .md with the name of the architecture that will use it.
 
-To be valid, a list must have these references
+Each table has the following format:
+
+| appname | description | site | download | version |
+| ------- | ----------- | ---- | -------- | ------- |
+| program0 | Description of program0 | url-of-the-main-page | url-to-the-file | 1.5 |
+| program1 | Description of program1 | url-of-the-main-page | url-to-the-file | 0.8 |
+
+Note the spaces between one separator and another (see the code below):
 ```
 | appname | description | source (URL) | download (URL) | version |
 ```
-Note the spaces between one separator and another.
 
-Each directory of this repository has a script called `lister.sh` to generate this table.
+To create a table, use a script named `lister.sh`. You can check the one in each directory of this repo as an example.
 
-The tables are used by the "[AM](https://github.com/ivan-hc/AM)" package manager to generate the lists, download the applications and get more information about each app available in that database.
+**All lists available in this repository are updated every hour.**
 
-To add new databases, the two variables ending with _repo and _readme must start with the name of the database, and a flag in `$third_party_flags` must be added.
+---------------------------------
+## Database name, extension and flag
+Each database must have its own simple name. This will be used:
+- as a flag after two dashes, in `-l`, `-q` and `-i`
+- as an extension after a dot, in `-a` and `-i`
+- as first word into a variable name
 
-Optionally you can add a third variable for the description to be displayed while running `am -h`, with the database name and ending with _info
+Given the above rules, and given a database we will call "sample":
+- the flag will be `--sample`
+- the extension will be `.sample`
+- the variables will be called `sample_repo`, `sample_readme` and `sample_info` (see below)
 
-For example, where "`sample`" is the name of your database... simply export the following variables:
+---------------------------------
+## Variables names
+Given the "sample" database and given the three variables above:
+- `sample_repo` is the main page of the database. This will be shown in `-h`/`help` and `-a`/`about`
+- `sample_readme` is the .md file of the targeted architecture. **NOTE** thst "`$ARCH`" is set in AM/AppMan directly
+- `sample_info` (new) is a description of the content of your database, to be shown in `-h`/`help`
+
+These must be added in "[am-extras](https://github.com/ivan-hc/am-extras/blob/main/am-extras)".
+
+To be used in AM/AppMan, you need also to add a flag name that can be enablec if `sample_readme` is not empty.
+
+Given all these info, this is how lines in "am-extras" must appear for the "sample" database:
 ```
 export sample_repo="https://github.com/NAME/PROJECT"
 export sample_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/sample/${ARCH}.md"
-export sample_info="This database contains amazing software"
+export sample_info="This database contains amazing software in TYPE format."
 export third_party_flags="$third_party_flags --sample"
 ```
+
+NOTE, `third_party_flags` is a common variable needed to collect all flags of all databases. This is enriched with new flags each time it appear exported in "am-extras".
+
+You can test your variables also from terminal, by exporting them
 ![Istantanea_2025-02-24_20-44-12](https://github.com/user-attachments/assets/bd70d753-3952-48b3-a59f-20c787b21919)
 
-Each database will automatically have its own flag and extension.
+---------------------------------
+## Usage in AM and AppMan
+Given the table above, AM and AppMan will use `awk` to detect the item, in the following order:
+1. `appname` is the name of the program, used in all interested options
+2. `description` is the description of this app and is used in when AM/AppMan crates the lists to be used in `-l`/`list` and `-q`/`query`
+3. `site` can be both the homepage of the project, the url of the database or an unique URL, also a fake one, in case there are multiple `appname` with the same name in the same table. For the latters, the option `-i`/`install` will use the multiple values of `site` to prompt a list from where you can pick one. We call them "families"
+4. `download` is the direct download URL of the program. In the installation script and in the AM-updater, `awk` uses it to download the file, when `version` is changed
+5. `version` is the version of the program or the releases (all depends on the targeted database), and it is used in the AM-updater to compare online and offline versions. If they are different, `download` will be called to replace the existing program
 
-**All lists available in this repository are updated every hour.**
+In [APP-MANAGER](https://github.com/ivan-hc/AM/blob/main/APP-MANAGER) (core script of AM/AppMan), each of these numbered columns is represented by one of these variables
+```
+export awk_name="1" awk_description="2" awk_site="3" awk_dl="4" awk_ver="5"
+```
 
 ---------------------------------
 ## How to test
