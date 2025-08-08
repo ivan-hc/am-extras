@@ -28,3 +28,13 @@ export third_party_flags="$third_party_flags --sample"
 Each database will automatically have its own flag and extension.
 
 **All lists available in this repository are updated every hour.**
+
+---------------------------------
+## How to test
+In APP-MANAGER (`am`) or in `appman` there is a function named `_sync_third_party_lists` that contains a line `_am_extras_sources`:
+1. comment the line `_am_extras_sources` in the `_sync_third_party_lists` function
+2. add your lines to the ~/.local/share/AM/am-extras file
+3. run `am -l --yourdatabase` to see all available apps from your database
+4. run `am -i appname.yourdatabase` or `am -i --yourdatabase appname` to install an app from your database
+5. run `am -a appname.yourdatabase` to get more info about the targeted app from your database
+6. if everything is ok, submit your pull request to am-extras
