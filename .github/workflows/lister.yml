@@ -26,11 +26,13 @@ jobs:
           DATABASES=$(ls -d */ | tr '/' ' ' | xargs)
           for db in $DATABASES; do
              if ! grep -i -A 1 "^# $db$" ./am-extras | tail -1 | grep -q "#export "; then
-                cd "$db" || exit 1
-                echo "◆ Updating \"$db\" lists"
-                [ ! -x ./lister.sh ] && chmod a+x ./lister.sh
-                ./lister.sh 2>/dev/null
-                cd ..
+               if [ -f "$db"/lister.sh ]; then
+                 cd "$db" || exit 1
+                 echo "◆ Updating \"$db\" lists"
+                 [ ! -x ./lister.sh ] && chmod a+x ./lister.sh
+                 ./lister.sh 2>/dev/null
+                 cd ..
+               fi
              fi
           done
 
