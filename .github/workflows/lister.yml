@@ -34,6 +34,26 @@ jobs:
              fi
           done
 
+      - name: "Merge all lists"
+        run: |
+          architectures="aarch64 i686 x86_64"
+          DATABASES=$(ls -d */ | tr '/' ' ' | xargs)
+
+          mkdir -p ALL
+          rm -f ALL/*
+
+          for db in $DATABASES; do
+            if ! grep -i -A 1 "^# $db$" ./am-extras | tail -1 | grep -q "#export "; then
+              for arch in $architectures; do
+                if [ -f "$db"/"$arch".md ]; then
+                  printf "# %b\n\n" "$db" >> ALL/"$arch".md
+                  cat "$db"/"$arch".md >> ALL/"$arch".md
+                  printf "\n" >> ALL/"$arch".md
+                fi
+              done
+            fi
+          done
+
       - name: "Push to Source"
         run: |
           git config --global user.name "ivan-hc"
