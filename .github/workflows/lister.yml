@@ -48,9 +48,18 @@ jobs:
             if ! grep -i -A 1 "^# $db$" ./am-extras | tail -1 | grep -q "#export "; then
               for arch in $architectures; do
                 if [ -f "$db"/"$arch".md ]; then
+
+                  # Markdown
                   printf "# %b\n\n" "$db" >> ALL/"$arch".md
                   cat "$db"/"$arch".md >> ALL/"$arch".md
                   printf "\n" >> ALL/"$arch".md
+
+                  # List for AM
+                  printf "# %b\n" "$db" >> ALL/"$arch"-all.md
+                  cat "$db"/"$arch".md | grep -v -- "---\|^| appname" | grep "^| .* | .* | http.* | http.* | .* |$" 2>/dev/null | awk -F'|' '{print $2, $3}' | sed 's/^/◆/g; s/   / : /g; s/ $//g' \
+                  | sed "s/$/. To install it use the --$db flag or the .$db extension./g" | sort >> ALL/"$arch"-all.md
+                  printf "\n" >> ALL/"$arch"-all.md
+
                 fi
               done
             fi
