@@ -2341,6 +2341,7 @@
 ◆ pkgconf : Package compiler and linker metadata Toolkit. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pkill : Send a signal to process(es) selected by regex PATTERN [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pkill : Send a signal to process(es) selected by regex PATTERN [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
+◆ pkill : Send a signal to processes based on name and other attributes [procps]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pktstat : A network monitoring tool with bandwidth tracking. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ planor : TUI client for cloud services (AWS, Vultr, Heroku, Render.com, Fleek & More). To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ plipconfig : Fine tune PLIP device parameters. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2411,6 +2412,7 @@
 ◆ proxy-ns : Run programs in a network namespace where all traffic go through proxy. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ proxychains : Redirect any TCP connection through a proxy or proxy chain. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ proxychains-daemon : Redirect any TCP connection through a proxy or proxy chain. To install it use the --soarpkg flag or the .soarpkg extension.
+◆ prtstat : Print statistics of a process [psmisc]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ps : Report a snapshot of the current processes [procps]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ps : Report process status [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ps : Report process status [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
