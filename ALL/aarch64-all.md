@@ -2696,6 +2696,7 @@
 ◆ rmmod : Remove a module from the Linux Kernel [kmod]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rmmod : Removes a module from the Linux kernel [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rmmod : Removes a module from the Linux kernel [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
+◆ rmt : Remote magnetic tape server [tar]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rngseed : Manipulates the Linux kernel's entropy pool [s6-linux-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rnr : A CLI tool to rename files and directories that supports regex. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ robotstxt : Extract paths from robots.txt [lit-bb-hack-tools]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3337,8 +3338,10 @@
 ◆ sysctl : Configure kernel parameters at runtime [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sysctl : Configure kernel parameters at runtime [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sysctl : Configure kernel parameters at runtime [procps]. To install it use the --soarpkg flag or the .soarpkg extension.
+◆ sysinfo-collector : collect ram/cpu usage from OS and show it in pretty graphs. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ syslogd : System logging utility [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ syslogd : System logging utility [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
+◆ system-info-collector : collect ram/cpu usage from OS and show it in pretty graphs. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ system_info_collector : collect ram/cpu usage from OS and show it in pretty graphs. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ systemctl-tui : Simple TUI for interacting with systemd services and their logs. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ t1dotlessj : Create a dotless-j PostScript Type 1 font [lcdf-typetools]. To install it use the --soarpkg flag or the .soarpkg extension.
