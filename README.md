@@ -1,7 +1,7 @@
 # AM-extras
 ***Extensions for "AM", the package manager for AppImages and portable apps for GNU/Linux***
 
-<img width="747" height="510" alt="Istantanea_2025-08-10_20-58-39" src="https://github.com/user-attachments/assets/76ca0a8c-f040-4445-8f51-7beb78173de9" />
+<img width="747" height="654" alt="Istantanea_2025-12-03_04-58-28" src="https://github.com/user-attachments/assets/ee5bc78c-949b-49dd-99e0-710716018670" />
 
 This repository is used to extend the available AM/AppMan software portfolio by adding third-party sources to the AM database.
 
