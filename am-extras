@@ -12,6 +12,12 @@ export busybox_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/
 export busybox_info="This database provides the complete set of official BusyBox tools."
 [ -n "$busybox_readme" ] && third_party_flags="$third_party_flags --busybox"
 
+# COREUTILSH
+#export coreutilsh_repo="https://github.com/Samueru-sama/coreutils-sh"
+#export coreutilsh_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/coreutilsh/${ARCH}.md"
+#export coreutilsh_info="This database provides coreutils wrote using pure sh (not bash)."
+#[ -n "$coreutilsh_readme" ] && third_party_flags="$third_party_flags --coreutilsh"
+
 # ONEBIN
 #export onebin_repo="https://github.com/nikvdp/1bin"
 #export onebin_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/onebin/${ARCH}.md"
