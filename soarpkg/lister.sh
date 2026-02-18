@@ -28,7 +28,7 @@ done
 
 # Remove AppImage already available in AM
 TAKES_COUNT=0
-am_appimages=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/AM/refs/heads/main/programs/x86_64-appimage)
+am_appimages=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/AM/refs/heads/main/programs/x86_64-appimages)
 while [ "$TAKES_COUNT" -lt 10 ]; do
 	if ! echo "$am_appimages" | grep -q "^◆ [a-z].* : "; then
 		printf "\n AppImages list is empty, attempt %b of 10 will start in 5 seconds...\n\n" "$((TAKES_COUNT + 1))"
