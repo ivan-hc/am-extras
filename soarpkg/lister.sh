@@ -26,26 +26,26 @@ for arch in $architectures; do
 	sed -i 's# ghcr.io/# https://ghcr.io/#g' "${arch}.md"
 done
 
-# Remove AppImage already available in AM
+# Remove apps already available in AM
 TAKES_COUNT=0
-am_appimages=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/AM/refs/heads/main/programs/x86_64-appimages)
+am_apps=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/AM/refs/heads/main/programs/x86_64-apps)
 while [ "$TAKES_COUNT" -lt 10 ]; do
-	if ! echo "$am_appimages" | grep -q "^◆ [a-z].* : "; then
-		printf "\n AppImages list is empty, attempt %b of 10 will start in 5 seconds...\n\n" "$((TAKES_COUNT + 1))"
+	if ! echo "$am_apps" | grep -q "^◆ [a-z].* : "; then
+		printf "\n Apps list is empty, attempt %b of 10 will start in 5 seconds...\n\n" "$((TAKES_COUNT + 1))"
 		sleep 5
 	fi
 	TAKES_COUNT=$((TAKES_COUNT + 1))
 done
 
-if ! echo "$am_appimages" | grep -q "^◆ [a-z].* : "; then
-	printf "\n Error while trying to list AppImages from the AM database. Exiting.\n\n"
+if ! echo "$am_apps" | grep -q "^◆ [a-z].* : "; then
+	printf "\n Error while trying to list apps from the AM database. Exiting.\n\n"
 	exit 1
 fi
 
-am_appimages=$(echo "$am_appimages" | awk '{print $2}')
+am_apps=$(echo "$am_apps" | awk '{print $2}')
 for arch in $architectures; do
-	for a in $am_appimages; do
-		if grep -q "^| $a |.*appimage" "${arch}.md"; then
+	for a in $am_apps; do
+		if grep -q "^| $a |" "${arch}.md"; then
 			sed -i "/^| $a |/d" "${arch}.md"
 		fi
 	done
