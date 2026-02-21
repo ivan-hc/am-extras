@@ -49,5 +49,4 @@ for arch in $architectures; do
 			sed -i "/^| $a |/d" "${arch}.md"
 		fi
 	done
-	sed -i "/^| firefox |/d" "${arch}.md"
 done
