@@ -18,6 +18,12 @@ export busybox_info="This database provides the complete set of official BusyBox
 #export coreutilsh_info="This database provides coreutils wrote using pure sh (not bash)."
 #[ -n "$coreutilsh_readme" ] && third_party_flags="$third_party_flags --coreutilsh"
 
+# GTK3
+export gtk3_repo="https://github.com/ivan-hc/GNOME3-appimages"
+export gtk3_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/gtk3/${ARCH}.md"
+export gtk3_info="This database creates and distributes all GTK3 versions of GNOME apps in AppImage format. Visit https://github.com/ivan-hc/GNOME3-appimages to learn more."
+[ -n "$gtk3_readme" ] && third_party_flags="$third_party_flags --gtk3"
+
 # ONEBIN
 #export onebin_repo="https://github.com/nikvdp/1bin"
 #export onebin_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/onebin/${ARCH}.md"
@@ -27,7 +33,7 @@ export busybox_info="This database provides the complete set of official BusyBox
 # PYTHON
 export python_repo="https://python-appimage.readthedocs.io"
 export python_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/python/${ARCH}.md"
-export python_info="This database creates and distributes all Python versions in AppImage formats, ensuring they can be installed side-by-side and without conflict. Visit https://github.com/niess/python-appimage to learn more."
+export python_info="This database creates and distributes all Python versions in AppImage format, ensuring they can be installed side-by-side and without conflict. Visit https://github.com/niess/python-appimage to learn more."
 [ -n "$python_readme" ] && third_party_flags="$third_party_flags --python"
 
 ################################################################################
