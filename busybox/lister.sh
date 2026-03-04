@@ -27,7 +27,7 @@ for arch in $architectures; do
 	_sources
 	for app in $appnames; do
 		appname=$( echo "$app" | tr '_' '-')
-		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*/busybox_$app$")
+		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*/busybox_$app$" | head -1)
 		description=$(echo "$descriptions" | grep "^| $appname |" | awk -F'|' '{print $3}' | sed 's/^ //g; s/ $//g; s/  / /g' | head -1 | sed 's/ \[.*\]//g')
 		[ -z "$description" ] && description="No description available"
 		echo "| $appname | $description | $site | $download | $version |" >> "$arch".md
