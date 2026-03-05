@@ -97,12 +97,19 @@ _compile_descriptions() {
 			_check_manpage
 		fi
 		manpage_bkp="$manpage"
+		if grep -q "^| $app |" soarpkg/x86_64.md; then
+			description=$(grep "^| $app |" soarpkg/x86_64.md | awk -F'|' '{print $3}' | head -1)
+		fi
 		if echo "$manpage_bkp" 2>/dev/null | grep -q "DESCRIPTION"; then
-			description=$(echo "$manpage_bkp" | grep -A 2 NAME 2>/dev/null | grep "^<p " | head -1 | sed 's#</p>$##g' | _convert_html_specia_entries | sed 's/ - //g' | tr '>' '\n' | tail -1 | cut -d" "  -f3-  | sed 's/.*/\u&/')
+			if [ -z "$description" ]; then
+				description=$(echo "$manpage_bkp" | grep -A 2 NAME 2>/dev/null | grep "^<p " | head -1 | sed 's#</p>$##g' | _convert_html_specia_entries | sed 's/ - //g' | tr '>' '\n' | tail -1 | cut -d" "  -f3-  | sed 's/.*/\u&/')
+			fi
 			site=$(echo "$manpage_bkp" | grep -A 2 Upstream 2>/dev/null | tr '">< ' '\n' | grep -i "^http\|^ftp" | _convert_html_specia_entries | head -1)
 			_debian_fallback
 		else
-			description=$(echo "$manpage_bkp" | grep -A 2 Description: | tr '><' '\n' | grep "^[A-Z]" | _convert_html_specia_entries | tail -1)
+			if [ -z "$description" ]; then
+				description=$(echo "$manpage_bkp" | grep -A 2 Description: | tr '><' '\n' | grep "^[A-Z]" | _convert_html_specia_entries | tail -1)
+			fi
 			site=$(echo "$manpage_bkp" | grep -A 200 "Upstream URL" | tr '><' '\n' | grep "^http.*//.*" | _convert_html_specia_entries | head -1)
 			echo "$description" | grep -q "Description:" &&	description=""
 			_debian_fallback
@@ -111,13 +118,7 @@ _compile_descriptions() {
 		_linuxcommandlibrary_fallback
 		_pkgforge_fallback
 		[ "$description" = "." ] && description=""
-		if [ -z "$description" ]; then
-			if grep -q "^| $app |" soarpkg/x86_64.md; then
-				description=$(grep "^| $app |" soarpkg/x86_64.md | awk -F'|' '{print $3}')
-			else
-				description="No description available"
-			fi
-		fi
+		[ -z "$description" ] && description="No description available"
 		[ -z "$site" ] && site="None"
 		echo " Add \"$appname\" - $description"
 		echo "| $appname | $description | $site |" >> descriptions.md
