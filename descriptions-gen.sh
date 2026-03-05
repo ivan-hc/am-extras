@@ -135,6 +135,6 @@ sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description |
 wait
 echo "| appname | description | site |" > descriptions.md
 echo "| ------- | ----------- | ---- |" >> descriptions.md
-sort -u tmp.txt >> descriptions.md
+sort -u tmp.txt | sed -E '/^\|[^|]*\| *[^ |]+ *\|/d' >> descriptions.md
 wait
 rm -f tmp.txt
