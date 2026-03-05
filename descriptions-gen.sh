@@ -131,7 +131,9 @@ for app in $appnames; do
 done
 wait
 
-list=$(sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |\|^| .*pkgforge.* | .* | .* |$" | grep "^| ")
+sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |\|^| .*pkgforge.* | .* | .* |$ " | grep "^| " > tmp.txt
+wait
 echo "| appname | description | site |" > descriptions.md
 echo "| ------- | ----------- | ---- |" >> descriptions.md
-echo "$list" >> descriptions.md
+echo tmp.txt >> descriptions.md
+rm -f tmp.txt
