@@ -88,8 +88,7 @@ _pkgforge_fallback() {
 	fi
 }
 
-appnames=$(awk '{print $2}' ./*/x86_64.md | uniq | grep -v -- "^-\|appname$" | xargs)
-for app in $appnames; do
+_compile_descriptions() {
 	appname="$app"
 	if ! grep -q "^| $app | [A-Z].* |$" ./descriptions.md; then
 		_check_manpage
@@ -111,13 +110,27 @@ for app in $appnames; do
 		_man7_org_fallback
 		_linuxcommandlibrary_fallback
 		_pkgforge_fallback
-		[ -z "$description" ] && description="No description available"
+		[ "$description" = "." ] && description=""
+		if [ -z "$description" ]; then
+			if grep -q "^| $app |" soarpkg/x86_64.md; then
+				description=$(grep "^| $app |" soarpkg/x86_64.md | awk -F'|' '{print $3}')
+			else
+				description="No description available"
+			fi
+		fi
 		[ -z "$site" ] && site="None"
 		echo " Add \"$appname\" - $description"
 		echo "| $appname | $description | $site |" >> descriptions.md
 	fi
 	unset appname description site download	version manpage
+}
+
+appnames=$(awk '{print $2}' ./*/x86_64.md | uniq | grep -v -- "^-\|appname$" | xargs)
+for app in $appnames; do
+	_compile_descriptions &
 done
+wait
+
 list=$(sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |\|^| .*pkgforge.* | .* | .* |$")
 echo "| appname | description | site |" > descriptions.md
 echo "| ------- | ----------- | ---- |" >> descriptions.md
