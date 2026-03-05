@@ -146,7 +146,9 @@
 | ftpput | No description available | None |
 | fuser | Identify processes using files or sockets | https://gitlab.com/psmisc/psmisc |
 | fzf | Command-line fuzzy finder | https://github.com/junegunn/fzf |
+| galculator | GTK+ based scientific calculator | http://galculator.sourceforge.net/ |
 | gawk | GNU version of awk | https://www.gnu.org/software/gawk/ |
+| gedit | Easy-to-use general-purpose text editor | https://gedit-text-editor.org/ |
 | getopt | Parse command options (enhanced) | https://github.com/util-linux/util-linux |
 | getty | Getty | None |
 | gh | GitHub CLI | https://github.com/cli/cli |
