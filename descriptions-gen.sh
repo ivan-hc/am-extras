@@ -97,7 +97,7 @@ _compile_descriptions() {
 			_check_manpage
 		fi
 		manpage_bkp="$manpage"
-		if echo "$manpage_bkp" | grep -q "DESCRIPTION"; then
+		if echo "$manpage_bkp" 2>/dev/null | grep -q "DESCRIPTION"; then
 			description=$(echo "$manpage_bkp" | grep -A 2 NAME 2>/dev/null | grep "^<p " | head -1 | sed 's#</p>$##g' | _convert_html_specia_entries | sed 's/ - //g' | tr '>' '\n' | tail -1 | cut -d" "  -f3-  | sed 's/.*/\u&/')
 			site=$(echo "$manpage_bkp" | grep -A 2 Upstream 2>/dev/null | tr '">< ' '\n' | grep -i "^http\|^ftp" | _convert_html_specia_entries | head -1)
 			_debian_fallback
@@ -131,7 +131,7 @@ for app in $appnames; do
 done
 wait
 
-list=$(sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |\|^| .*pkgforge.* | .* | .* |$")
+list=$(sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |\|^| .*pkgforge.* | .* | .* |$" | grep "^| ")
 echo "| appname | description | site |" > descriptions.md
 echo "| ------- | ----------- | ---- |" >> descriptions.md
 echo "$list" >> descriptions.md
