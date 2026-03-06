@@ -98,8 +98,8 @@
 | axfr2hosts | Transfer DNS zones (AXFR) and convert A/AAAA/CNAME records into a hosts file for offline use | https://github.com/dkorunic/axfr2hosts |
 | b2sum | Check BLAKE2 message digest | None |
 | b3sum | Command line utility for calculating BLAKE3 hashes | None |
-| background | Launch a command in the background 
-| backtick | Run a program and stores its output in an environment variable 
+| background | Launch a command in the background | None |
+| backtick | Run a program and stores its output in an environment variable | None |
 | backtrace | Backtrace_symbols_fdsupport for | None |
 | badblocks | Device for bad blocks | None |
 | baddns | Tool to check subdomains for subdomain takeovers and other DNS issues | None |
@@ -269,7 +269,7 @@
 | ciphey | Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes | None |
 | circumflex | Hacker News client for the terminal | None |
 | cirrus-cli | CLI for executing Cirrus tasks locally and in any CI | https://github.com/cirruslabs/cirrus-cli |
-| citron | Nintendo Switch emulator forked from yuzu (x86-64-v3) 
+| citron | Nintendo Switch emulator forked from yuzu (x86-64-v3) | None |
 | cksum | Compute and verify file checksums | https://www.gnu.org/software/coreutils/ |
 | cleanpath | Extract unique paths from URL list | None |
 | cleanup-rules | Strips rules from STDIN that are not compatible with a specified platform | None |
@@ -344,7 +344,7 @@
 | cron | Execute scheduled commands (Vixie Cron) | None |
 | crond | Daemon to execute scheduled commands | https://github.com/cronie-crond/cronie/ |
 | crontab | Maintains crontab files for individual users | https://github.com/cronie-crond/cronie/ |
-| crt | A CLI tool to check Certificate Transparency logs of a domain name 
+| crt | A CLI tool to check Certificate Transparency logs of a domain name | None |
 | crtsher | Obtain domains from certificate transparency logs | https://github.com/root4loot/crtsher |
 | cryptpw | No description available | None |
 | cryptsetup | Configuring and managing encrypted | None |
@@ -417,7 +417,7 @@
 | deallocvt | Deallocate unused virtual consoles | http://www.kbd-project.org |
 | deark | A utility for extracting data from various file formats | None |
 | debugfs | System debugger | None |
-| define | Replace a literal with a value & execute a program 
+| define | Replace a literal with a value & execute a program | None |
 | delgroup | A user or group from the system | None |
 | delpart | Kernel to forget about a partition | None |
 | delta | An useful tool that lets you minimize interesting files subject to a test of their interestingness. | https://docs.rs/chrono/latest/chrono/format/strftime/index.html |
@@ -472,7 +472,7 @@
 | docker-repack | Repack docker images to optimize for pulling speed | https://github.com/orf/docker-repack |
 | docker-slim | Minify and Secure Docker containers | None |
 | docker-slim-sensor | Minify and Secure Docker containers | None |
-| dollarat | Print the positional parameters of an execline script 
+| dollarat | Print the positional parameters of an execline script | None |
 | domainname | Set the system's host name | None |
 | doomxss | Detect DOM XSS sinks in HTML/JS files | None |
 | dos2unix | Text file format converter | https://waterlan.home.xs4all.nl/dos2unix.html |
@@ -513,7 +513,7 @@
 | dropbear | Lightweight SSH server | None |
 | dropbearconvert | Dropbear and OpenSSH private key | None |
 | dropbearkey | Create private keys for the use with dropbear/dbclient | None |
-| dropbearmulti | Lightweight Alternative to OpenSSH 
+| dropbearmulti | Lightweight Alternative to OpenSSH | None |
 | dround | Round DATE/TIME to the next occurrence of RNDSPEC (alias=dateround) | None |
 | dselect | Management frontend | None |
 | dseq | Generate a sequence of date/times from FIRST to LAST or in INCREMENT (alias=dateseq) | None |
@@ -532,7 +532,7 @@
 | dumpkmap | No description available | None |
 | dumpleases | Army Knife of Embedded Linux | None |
 | dunst | Customizable and lightweight notification-daemon | https://dunst-project.org/ |
-| duplicut | Quickly dedupe massive wordlists, without changing the order 
+| duplicut | Quickly dedupe massive wordlists, without changing the order | None |
 | dura | A background Daemon process that watches your Git repositories and commits your uncommitted changes | None |
 | durl | Remove duplicate URLs by retaining only the unique combinations of hostname, path, and parameter names | https://github.com/j3ssie/durl |
 | dvc | A version control system and experiment tracker designed for machine learning projects | None |
@@ -577,13 +577,13 @@
 | elfcat | ELF visualizer. Generates HTML files from ELF binaries. | https://github.com/ruslashev/elfcat |
 | elfedit | Header and program property of ELF files | None |
 | elfexec | Execute ELF binary directly from stdin pipe | None |
-| elgetopt | Perform getopt-style parsing on the arguments to an execline script 
-| elgetpositionals | Substitute the positional parameters of an execline script 
-| elglob | Perform globbing on a pattern & execute a program 
-| eltest | Evaluate an expression and indicates the result via its exit status 
+| elgetopt | Perform getopt-style parsing on the arguments to an execline script | None |
+| elgetpositionals | Substitute the positional parameters of an execline script | None |
+| elglob | Perform globbing on a pattern & execute a program | None |
+| eltest | Evaluate an expression and indicates the result via its exit status | None |
 | emacs | The extensible, customizable, self-documenting real-time display editor | https://www.gnu.org/software/emacs/emacs.html |
 | emailfinder | Search emails from a domain through search engines | None |
-| emptyenv | Empty/Cleanup the current environment & execute a program 
+| emptyenv | Empty/Cleanup the current environment & execute a program | None |
 | enc | Cipher routines | None |
 | encrypted-dns | An easy to install, high-performance, zero maintenance proxy to run an encrypted DNS server | None |
 | encrypted-dns-server | An easy to install, high-performance, zero maintenance proxy to run an encrypted DNS server | https://github.com/DNSCrypt/encrypted-dns-server |
@@ -595,7 +595,7 @@
 | enumerepo | List all public repositories for (valid) GitHub usernames | None |
 | env | Run a program in a modified environment | https://www.gnu.org/software/coreutils/ |
 | envdir | Program with environment modified according | http://cr.yp.to/daemontools.html |
-| envfile | Read a file containing variable assignments, add the variables to the environment & execute a program 
+| envfile | Read a file containing variable assignments, add the variables to the environment & execute a program | None |
 | envsubst | Variables in shell format | None |
 | envuidgid | Program with environment variables | http://cr.yp.to/daemontools.html |
 | eog | Eye of Gnome: An image viewing and cataloging program | https://wiki.gnome.org/Apps/EyeOfGnome |
@@ -606,16 +606,16 @@
 | etcd | The official Go etcd client | None |
 | etcdctl | Command Line Client for etcd | None |
 | etcdutl | Command Line Administration utility for etcd | None |
-| ether-wake | Send a magic packet to wake up a computer 
+| ether-wake | Send a magic packet to wake up a computer | None |
 | ex | A programmer's text editor | None |
 | exa | A modern replacement for ls (community fork of exa) | https://github.com/eza-community/eza |
 | exatorrent | Self-hostable, easy-to-use, lightweight, and feature-rich torrent client | https://github.com/varbhat/exatorrent |
 | exatorrent-noui | Self-hostable, easy-to-use, lightweight, and feature-rich torrent client | None |
 | exec | Execle, execv, execvp, execvpeexecute a file | None |
 | execline | Non-interactive scripting Tools (Multicall) | None |
-| execline-cd | Change the current working directory to a given directory & execute a program 
-| execline-umask | Set the umask (file creation mask) & execute a program 
-| execlineb | Read and Execute a script from a file as command line 
+| execline-cd | Change the current working directory to a given directory & execute a program | None |
+| execline-umask | Set the umask (file creation mask) & execute a program | None |
+| execlineb | Read and Execute a script from a file as command line | None |
 | exfat2img | Of an exFAT filesystem | None |
 | exfatattrib | Set or display exFAT file attributes | None |
 | exfatfsck | Check an exFAT file system (alias=fsck.exfat) | None |
@@ -661,16 +661,16 @@
 | fclones | Finds duplicate, unique, under- or over-replicated files | None |
 | fd | Simple, fast and user-friendly alternative to find | https://github.com/sharkdp/fd |
 | fd-find | A simple, fast and user-friendly alternative to find | None |
-| fdblock | Set/Unset the O_NONBLOCK flag on a given file descriptor & execute a program 
-| fdclose | Close a given file descriptor & execute a program 
+| fdblock | Set/Unset the O_NONBLOCK flag on a given file descriptor & execute a program | None |
+| fdclose | Close a given file descriptor & execute a program | None |
 | fdcmp | Compare two file descriptors and run a command based on the result | None |
 | fdflush | No description available | None |
 | fdformat | Format floppy disks | https://github.com/karelzak/util-linux |
 | fdisk | Manipulate disk partition table | https://github.com/util-linux/util-linux |
-| fdmove | Move/Copy a given file descriptor & execute a program 
-| fdreserve | Update the environment with file descriptors that are guaranteed safe to use & execute a program 
+| fdmove | Move/Copy a given file descriptor & execute a program | None |
+| fdreserve | Update the environment with file descriptors that are guaranteed safe to use & execute a program | None |
 | fdseal | Add/Check/Get memfd seals on file descriptors using F_ADD_SEALS and F_GET_SEALS | None |
-| fdswap | Swap two file descriptors & execute a program 
+| fdswap | Swap two file descriptors & execute a program | None |
 | fdtruncate | Truncate an open file descriptor to a specified length & execute a command | None |
 | fdupes | Files in a given set of directories | None |
 | feroxbuster | Fast, simple, recursive content discovery tool | None |
@@ -708,19 +708,19 @@
 | flash_lock | No description available | None |
 | flash_unlock | No description available | None |
 | flashcp | No description available | None |
-| flashfetch | Fastfetch with minimal features & configuration 
+| flashfetch | Fastfetch with minimal features & configuration | None |
 | flawz | A Terminal UI for browsing security vulnerabilities (CVEs) | None |
 | flock | Manage locks from shell scripts | https://github.com/util-linux/util-linux |
 | flow6 | Assessment tool for the IPv6 Flow Label | None |
 | flyscrape | Standalone and Scriptable web scraper | https://github.com/philippta/flyscrape |
 | fmt | Text formatter | None |
 | fold | Wrap each input line to fit in specified width | https://www.gnu.org/software/coreutils/ |
-| forbacktickx | Run a program and uses its output as loop elements to run another program 
-| foreground | Execute a sequence of commands 
+| forbacktickx | Run a program and uses its output as loop elements to run another program | None |
+| foreground | Execute a sequence of commands | None |
 | forkstat | To show process fork/exec/exit activity | None |
-| forstdin | Use its input as loop elements to run another program 
+| forstdin | Use its input as loop elements to run another program | None |
 | fortune | Write fortune (strfile) databases | None |
-| forx | Run a loop 
+| forx | Run a loop | None |
 | fpart | Generate partitioned file lists for backups | None |
 | fping | ECHO_REQUEST packets to network hosts | None |
 | fpsync | Sync directories in parallel using fpart | None |
@@ -734,7 +734,7 @@
 | frps | Fast Reverse Proxy | None |
 | fscan | A comprehensive intranet scanning tool | https://github.com/shadow1ng/fscan |
 | fsck | Check and repair a Linux filesystem | https://github.com/util-linux/util-linux |
-| fsck-minix | Check MINIX filesystem 
+| fsck-minix | Check MINIX filesystem | None |
 | fsck.btrfs | A stub command that does nothing (use btrfs check instead) | None |
 | fsck.cramfs | ROM file system | None |
 | fsck.exfat | ExFAT filesystem | None |
@@ -791,9 +791,9 @@
 | genscope | Generate BurpSuite Config from domain list | None |
 | gensquashfs | Generate squashfs images | None |
 | geodns | Network tools that run from multiple geographic locations using the GeoNet API | None |
-| geoip.dat | A proxy server for bypassing network restrictions 
+| geoip.dat | A proxy server for bypassing network restrictions | None |
 | geoping | Network tools that run from multiple geographic locations using the GeoNet API | None |
-| geosite.dat | A proxy server for bypassing network restrictions 
+| geosite.dat | A proxy server for bypassing network restrictions | None |
 | getcap | Display the capabilities on the queried file(s) | None |
 | getcwd | Get_current_dir_nameget current working | None |
 | getfattr | Attributes of filesystem objects | None |
@@ -807,7 +807,7 @@
 | gettext.sh | Gettext as a shell function library | None |
 | gettextize | Upgrade gettext infrastructure | None |
 | getty | Open a tty, prompt for a login name, then invoke /bin/login | None |
-| gf | A wrapper around grep (Improved) 
+| gf | A wrapper around grep (Improved) | None |
 | gh | GitHub CLI | https://github.com/cli/cli |
 | gh-dash | A beautiful CLI dashboard for GitHub | https://github.com/dlvhdr/gh-dash |
 | ghalint | GitHub Actions linter | https://github.com/suzuki-shunsuke/ghalint |
@@ -869,7 +869,7 @@
 | gosec | Go source code static analyzer, focusing on security | https://github.com/securego/gosec |
 | gosmee | Command line server and client for webhooks deliveries | https://github.com/chmouel/gosmee |
 | gospider | Fast web spider written in Go | https://github.com/jaeles-project/gospider |
-| gost | A simple tunnel written in golang 
+| gost | A simple tunnel written in golang | None |
 | gotator | Generate DNS wordlists through permutations | None |
 | gotty | Share terminal as a web application | None |
 | gowitness | A commandline web screenshot and information gathering tool | https://github.com/sensepost/gowitness |
@@ -933,7 +933,7 @@
 | hcxpsktool | Calculate candidates for hashcat and john | None |
 | hcxwltool | Calculate candidates for hashcat and john based on mixed wordlists | None |
 | hd | Small hex dumper utility (with optional HexII output) | https://github.com/kastelo/hd |
-| hdiffz | Fast Binary diff/patch tools with small deltas/differentials and low memory use 
+| hdiffz | Fast Binary diff/patch tools with small deltas/differentials and low memory use | None |
 | hdparm | A shell utility for manipulating Linux IDE drive/driver parameters | https://sourceforge.net/projects/hdparm/ |
 | heacoll | Collect unique HTTP headers | None |
 | head | Output the first part of files | https://www.gnu.org/software/coreutils/ |
@@ -942,7 +942,7 @@
 | hearth | Linux server monitoring via SSH | https://github.com/aheart/hearth |
 | hednsextractor | Raw html extractor from Hurricane Electric portal | None |
 | herd | Massively parallel ssh client | None |
-| heredoc | Run a command with a certain string fed to a file descriptor 
+| heredoc | Run a command with a certain string fed to a file descriptor | None |
 | hermit | Manage isolated, self-bootstrapping sets of tools in software projects | https://cashapp.github.io/hermit
 | hex | Encode/decode data to standard output | None |
 | hexdump | Display file contents in hexadecimal format | None |
@@ -951,12 +951,12 @@
 | hexyl | A command-line hex viewer | None |
 | hide-pid | Hide any PID/Directory in the Linux kernel | None |
 | hl | Log viewer/processor that transforms logs in JSON/logfmt formats into a human-readable output | https://github.com/pamburus/hl |
-| homeof | Print the home directory of a user 
+| homeof | Print the home directory of a user | None |
 | horust | Horust is a supervisor/init system written in rust and designed to run inside containers | https://github.com/FedericoPonzi/Horust |
 | hostctl | CLI tool to manage the /etc/hosts file | None |
 | hostid | Print the numeric identifier for the current host | https://www.gnu.org/software/coreutils/ |
 | hostname | Show or set system host name | https://www.gnu.org/software/inetutils/ |
-| hpatchz | Fast Binary diff/patch tools with small deltas/differentials and low memory use 
+| hpatchz | Fast Binary diff/patch tools with small deltas/differentials and low memory use | None |
 | hpwd | Full path to the current HFS working | None |
 | hrekt | A really fast HTTP Prober | None |
 | hsync_demo | No description available | None |
@@ -999,18 +999,18 @@
 | ifconfig | Configure a network interface | http://net-tools.sourceforge.net/ |
 | ifdata | Interface info without parsing ifconfig | None |
 | ifdown | Bring a network interface down | None |
-| ifelse | Perform conditional execution, with two branches 
+| ifelse | Perform conditional execution, with two branches | None |
 | ifenslave | No description available | None |
 | ifne | If the standard input is not empty | None |
 | ifplugd | A daemon which brings up/down network interfaces upon cable insertion/removal. | http://0pointer.de/lennart/projects/ifplugd |
 | ifstat | Handy utility to read network interface statistics | None |
-| ifte | Perform a conditional alternative 
-| ifthenelse | Perform a conditional alternative 
+| ifte | Perform a conditional alternative | None |
+| ifthenelse | Perform a conditional alternative | None |
 | ifup | Management commands | None |
 | image-bootstrap | Generate Bootable Virtual Machine Images and write them to a Block Device | None |
 | imagemagick | An image viewing/manipulation program | https://www.imagemagick.org/ |
-| importas | Replace a literal with the value of an environment variable & execute a program 
-| importenv | Launch an executable file with environment variables from a specific process id 
+| importas | Replace a literal with the value of an environment variable & execute a program | None |
+| importenv | Launch an executable file with environment variables from a specific process id | None |
 | indextree | Generates the tree of the directory listing page | https://github.com/riza/indextree |
 | inetd | No description available | None |
 | ini-file | CLI tool for modifying .ini files | https://github.com/bitnami/ini-file |
@@ -1090,7 +1090,7 @@
 | jyt | A tridirectional converter between Json, Yaml, and Toml | https://github.com/ken-matsui/jyt |
 | k9s | Terminal UI to interact with Kubernetes clusters | None |
 | katana | Crawling and spidering framework | None |
-| kbd-mode | Report or set the keyboard mode 
+| kbd-mode | Report or set the keyboard mode | None |
 | kbd_mode | Report or set the keyboard mode | http://www.kbd-project.org |
 | kcptun-client | Tunnel Based On KCP | None |
 | kcptun-server | Tunnel Based On KCP | None |
@@ -1131,7 +1131,7 @@
 | ld.bfd | The GNU linker with BFD libraries | None |
 | ld.gold | A new, faster, ELF only linker | None |
 | ldattach | Line discipline to a serial line | None |
-| lddtree | Display ELF dependencies as a tree 
+| lddtree | Display ELF dependencies as a tree | None |
 | len | Filter words by length, outputting only those within a specified range | None |
 | less | A terminal based program for viewing text files | https://www.greenwoodsoftware.com/less/ |
 | lessecho | Display uninterpreted strings to less | None |
@@ -1174,7 +1174,7 @@
 | logtimer | Add timestamp to output | https://github.com/Eun/logtimer |
 | loksh | Linux port of OpenBSDs Korn Shell (ksh) | None |
 | look | Beginning with a given string | None |
-| loopwhilex | Perform a conditional loop 
+| loopwhilex | Perform a conditional loop | None |
 | losetup | Set up and control loop devices | https://github.com/util-linux/util-linux |
 | lpd | No description available | None |
 | lpq | Show printer queue status | https://openprinting.github.io/cups/ |
@@ -1221,7 +1221,7 @@
 | maddy | Composable all-in-one mail server | https://maddy.email
 | mailpit | Email and SMTP testing tool with API for developers | https://github.com/axllent/mailpit |
 | make | Utility to maintain groups of programs | None |
-| make-prime-list | Generate Prime Numbers 
+| make-prime-list | Generate Prime Numbers | None |
 | makebb | Compiles many Go commands into one busybox-style binary | None |
 | makebbmain | Adds u-root command package imports to an existing main() template file | None |
 | makedevs | No description available | None |
@@ -1299,10 +1299,10 @@
 | mkexfatfs | Create an exFAT file system (alias=mkfs.exfat) | None |
 | mkfifo | Make FIFOs (named pipes) | https://www.gnu.org/software/coreutils/ |
 | mkfs | Linux filesystem | None |
-| mkfs-ext2 | Make an EXT2 filesystem 
-| mkfs-minix | Make a MINIX filesystem 
+| mkfs-ext2 | Make an EXT2 filesystem | None |
+| mkfs-minix | Make a MINIX filesystem | None |
 | mkfs-reiser | No description available | None |
-| mkfs-vfat | Make a FAT32 filesystem 
+| mkfs-vfat | Make a FAT32 filesystem | None |
 | mkfs.bfs | SCO bfs filesystem | None |
 | mkfs.btrfs | Btrfs filesystem | None |
 | mkfs.cramfs | ROM file system | None |
@@ -1348,7 +1348,7 @@
 | mount.exfat-fuse | ExFAT file system | None |
 | mount.fuse | Mount options for FUSE file systems | None |
 | mount.fuse3 | Mount options for FUSE file systems | None |
-| mount.unionfs | Mount a filesystem as an Union Filesystem 
+| mount.unionfs | Mount a filesystem as an Union Filesystem | None |
 | mountpoint | See if a directory or file is a mountpoint | https://github.com/util-linux/util-linux |
 | mousepad | Simple text editor for Xfce | https://docs.xfce.org/apps/mousepad/start |
 | mp2enc | Layer-II audio encoder | None |
@@ -1386,9 +1386,9 @@
 | mubeng | An incredibly fast proxy checker & IP rotator with ease | None |
 | muffet | Website link checker which scrapes and inspects all pages in a website recursively | https://github.com/raviqqe/muffet |
 | mult | Run a command multiple times and glance at the outputs | https://github.com/dhth/mult |
-| multidefine | Split a value and define several variables at once & execute a program 
+| multidefine | Split a value and define several variables at once & execute a program | None |
 | multirootca | CLI certificate authority server that can use multiple signing keys | None |
-| multisubstitute | Perform several substitutions at once in its argv & execute a program 
+| multisubstitute | Perform several substitutions at once in its argv & execute a program | None |
 | mup | Micro μ file Uploader | https://github.com/aziis98/mup |
 | mux | Of input events | None |
 | mv | Move (rename) files | https://www.gnu.org/software/coreutils/ |
@@ -1399,8 +1399,8 @@
 | namegen | A unique(ish) random name and id generator | None |
 | namei | Pathname until a terminal point is found | None |
 | nameif | Name network interfaces based on MAC addresses | http://net-tools.sourceforge.net/ |
-| nanddump | Reads NAND flash memory and dumps its contents 
-| nandwrite | Writes data to a NAND flash memory device 
+| nanddump | Reads NAND flash memory and dumps its contents | None |
+| nandwrite | Writes data to a NAND flash memory device | None |
 | nbdclient | No description available | None |
 | nc | Arbitrary TCP and UDP connections and listens. | https://salsa.debian.org/debian/netcat-openbsd |
 | ncal | Chimera Linux userland Tools | None |
@@ -1478,7 +1478,7 @@
 | numademo | A libnuma test/demo program that benchmarks NUMA memory configurations | None |
 | numastat | Memory statistics for | None |
 | numfmt | From/to human-readable strings | None |
-| nushell | Shell with a focus on structured data 
+| nushell | Shell with a focus on structured data | None |
 | objcopy | Translate object files | None |
 | objdump | From object files | None |
 | obs-studio | Free, open source software for live streaming and recording | https://obsproject.com |
@@ -1571,15 +1571,15 @@
 | pingmole | CLI that helps to filter pingmole servers and pick the closest one | None |
 | pingtunnel | Reliably tunnel TCP connections over ICMP packets | https://github.com/esrrhs/pingtunnel |
 | pinky | Lightweight finger | None |
-| pipe-progress | Show progress of piped data transfer 
+| pipe-progress | Show progress of piped data transfer | None |
 | pipe_progress | No description available | None |
-| pipeline | Run two commands with a pipe between them 
+| pipeline | Run two commands with a pipe between them | None |
 | pipenv | Manage project dependencies in isolated environments | None |
-| piperw | Create a pipe (an anonymous one) & execute a program 
+| piperw | Create a pipe (an anonymous one) & execute a program | None |
 | pipesz | Examine pipe and FIFO buffer sizes | None |
 | pipetty | To pipe from a pseudoterminal | None |
 | pipx | Execute apps from Python packages. | None |
-| pivot-root | Move the current root file system to PUT_OLD and make NEW_ROOT the new root file system 
+| pivot-root | Move the current root file system to PUT_OLD and make NEW_ROOT the new root file system | None |
 | pivot_root | Change the root filesystem | https://github.com/util-linux/util-linux |
 | pixelpulse2 | Pixelpulse2 is a user interface for analog systems exploration. | None |
 | pixi | Fast cross-platform conda package manager | None |
@@ -1603,8 +1603,8 @@
 | port-for | CLI for local TCP ports management | None |
 | portguard | Zero Config port forwarding tool works like ssh tunneling | https://github.com/wlh320/portguard |
 | portmap | Fast Passive Portscan Tool using Shodan/InternetDB Public Data | None |
-| posix-cd | Change the current working directory to a given directory & execute a program 
-| posix-umask | Change its file mode creation mask & execute a program 
+| posix-cd | Change the current working directory to a given directory & execute a program | None |
+| posix-umask | Change its file mode creation mask & execute a program | None |
 | postgres | PostgreSQL database server | https://www.postgresql.org/ |
 | powerliminalsplayer | Plays multiple audios simultaneously at varying speeds | None |
 | poweroff | Halt - Power off, reboot, or halt the | https://www.github.com/systemd/systemd |
@@ -1786,7 +1786,7 @@
 | rebuilderd-worker | Independent verification system of binary packages | None |
 | recode-sr-latin | Text from Cyrillic to Latin | None |
 | redguard | RedGuard is a C2 front flow control tool To Avoid Blue Teams,AVs,EDRs check | None |
-| redirfd | Redirect a given file descriptor to a file & execute a program 
+| redirfd | Redirect a given file descriptor to a file & execute a program | None |
 | redis-cli | To redis-server | None |
 | redive | Trace URL redirections in the terminal. | None |
 | reformime | Reformatting tool | None |
@@ -1870,11 +1870,11 @@
 | ruby | An object-oriented language for quick and easy programming | https://www.ruby-lang.org/en/ |
 | ruff | Extremely fast Python linter and formatter | None |
 | rules_optimize | No description available | None |
-| run-init | Executes the specified program as the initial process in a new system environment 
+| run-init | Executes the specified program as the initial process in a new system environment | None |
 | run-parts | Or programs in a directory | None |
 | run_init | Init script in the proper SELinux context | None |
 | run_parts | Or programs in a directory | https://packages.qa.debian.org/d/debianutils.html |
-| runblock | Write execline commands in the execline language 
+| runblock | Write execline commands in the execline language | None |
 | runcon | With specified security context | None |
 | runcron | simple, safe, container-friendly cron alternative | None |
 | runiq | An efficient way to filter duplicate lines from input (Rust uniq) | None |
@@ -2098,7 +2098,7 @@
 | sdns | A high-performance, recursive DNS resolver server with DNSSEC support | https://github.com/semihalev/sdns |
 | secretmemfd | Create a secret memory file descriptor, duplicate it to a given file descriptor & execute a command | None |
 | sed | GNU stream editor | https://www.gnu.org/software/sed/ |
-| seedrng | Seed the random number generator 
+| seedrng | Seed the random number generator | None |
 | seekablepipe | Turns the reading end of a pipe into a seekable file descriptor, using a temporary file | None |
 | sendmail | A general purpose internetwork email routing MTA | http://www.sendmail.org |
 | sendme | Tool to send files and directories | https://github.com/n0-computer/sendme |
@@ -2125,7 +2125,7 @@
 | sg | To a new group | None |
 | sgpt | AI-powered shell assistant using ChatGPT | None |
 | sh | GNU Bourne-Again Shell, the de facto standard shell on Linux | None |
-| sh-is-ash | The ASH Shell 
+| sh-is-ash | The ASH Shell | None |
 | sh_is_ash | No description available | None |
 | sha1 | Calculate shasum for a file | None |
 | sha1sum | Compute and check SHA1 message digest | https://www.gnu.org/software/coreutils/ |
@@ -2190,7 +2190,7 @@
 | sort | Sort lines of text files | https://www.gnu.org/software/coreutils/ |
 | sourcemapper | Extract JavaScript source trees from Sourcemap files | None |
 | spc | Print to standard output | None |
-| spectest-interp | Read a Spectest JSON file, and run its tests in the interpreter 
+| spectest-interp | Read a Spectest JSON file, and run its tests in the interpreter | None |
 | speedtest-go | CLI to Test Internet Speed using multiple-servers | https://github.com/showwin/speedtest-go |
 | spirv-as | Standalone assembler | None |
 | spirv-cfg | Control flow graph dumper | None |
@@ -2227,10 +2227,10 @@
 | ssh-keyscan | Gather SSH public keys from servers | None |
 | ssh-keysign | Sign SSH authentication requests with a private key | None |
 | ssh-pkcs11-helper | Use PKCS#11 tokens for SSH authentication | None |
-| ssh-sk-helper | OpenSSH helper for FIDO authenticator support 
+| ssh-sk-helper | OpenSSH helper for FIDO authenticator support | None |
 | sshamble | Unexpected Exposures in SSH | https://sshamble.com
 | sshd | OpenSSH daemon | None |
-| sshd-session | OpenSSH Privilege Separation 
+| sshd-session | OpenSSH Privilege Separation | None |
 | sshesame | SSH honeypot, a fake SSH server that lets anyone in and logs their activity | None |
 | sshkeys | Get all ssh public keys of a ssh server | https://github.com/Eun/sshkeys |
 | sshpass | Password provider | None |
@@ -2238,7 +2238,7 @@
 | sshs | Terminal user interface for SSH | https://github.com/quantumsheep/sshs |
 | sshx | Fast, collaborative live terminal sharing over the web | https://sshx.io
 | sshx-server | Fast, collaborative live terminal sharing over the web | None |
-| ssl-client | SSL/TLS client 
+| ssl-client | SSL/TLS client | None |
 | ssl_client | No description available | None |
 | sslocal | Lightweight secured SOCKS5 proxy | None |
 | sslscan | Test SSL/TLS enabled services to discover supported cipher suites | None |
@@ -2316,10 +2316,10 @@
 | swaplabel | Change the label or UUID of a swap area | None |
 | swapoff | Enable/disable devices and files for paging and | https://github.com/util-linux/util-linux |
 | swapon | Enable/disable devices and files for paging and | https://github.com/util-linux/util-linux |
-| switch-root | Free initramfs and switch to another root fs 
+| switch-root | Free initramfs and switch to another root fs | None |
 | switch_root | Switch to another filesystem as the root of the | https://github.com/util-linux/util-linux |
 | symlinks | Maintenance utility | None |
-| symtree | Display libraries that satisfy undefined symbols, as a tree 
+| symtree | Display libraries that satisfy undefined symbols, as a tree | None |
 | sync | Backup and synchronization service | https://www.gnu.org/software/coreutils/ |
 | sync-color-schemes | Sync color schemes between wezterm sessions | None |
 | syncat | Syntax aware cat utility | https://github.com/foxfriends/syncat |
@@ -2426,7 +2426,7 @@
 | truncate | Shrink or extend the size of a file to the specified | https://www.gnu.org/software/coreutils/ |
 | trurl | A command line tool for URL parsing and Manipulation | None |
 | try | Process errors and exceptions | None |
-| tryexec | Execute into a command line, with a fallback 
+| tryexec | Execute into a command line, with a fallback | None |
 | ts | Timestamp input | https://joeyh.name/code/moreutils/ |
 | tscat | Timestamp stdin to stdout/stderr | None |
 | tsort | Perform a topological sort | None |
@@ -2497,12 +2497,12 @@
 | undock | Extract contents of a container image in a local folder | None |
 | unew | A tool for adding new lines to files, skipping duplicates | https://github.com/rix4uni/unew |
 | unexpand | Convert spaces to tabs | https://www.gnu.org/software/coreutils/ |
-| unexport | Remove a variable from the environment & execute a program 
+| unexport | Remove a variable from the environment & execute a program | None |
 | unf | UNixize Filename, replace annoying anti-unix characters in filenames | None |
 | unfurl | Pull out bits of URLs provided on stdin | None |
 | unifetch | An unofficial inheritor of Neofetch | None |
-| unionfs | Overlay several directories into one single mount point 
-| unionfsctl | Utility to control unionfs-fuse over ioctl 
+| unionfs | Overlay several directories into one single mount point | None |
+| unionfsctl | Utility to control unionfs-fuse over ioctl | None |
 | uniq | Report or omit repeated lines | https://www.gnu.org/software/coreutils/ |
 | uniqs | uniq(1) alternative with streaming support | https://github.com/simnalamburt/uniqs |
 | uniqtoo | A real-time, single-binary alternative to 'sort | https://github.com/JakeWharton/uniqtoo |
@@ -2573,7 +2573,7 @@
 | vimtutor | The VIM Tutor for learning VIM | None |
 | vipe | Edit pipe | https://joeyh.name/code/moreutils/ |
 | vipw | The password, group, shadow-password or | None |
-| vis | Display non-printable characters in a visual format 
+| vis | Display non-printable characters in a visual format | None |
 | visudo | Safely edit sudoers configuration | None |
 | vlock | Keytable files and keyboard utilities | http://www.kbd-project.org |
 | vmexec | Run a single command in a speedy virtual machine with zero-setup | None |
@@ -2606,12 +2606,12 @@
 | warp-taskbar | Cloudflare WARP Taskbar Applet | None |
 | wasm-as | Assemble WebAssembly in text format | None |
 | wasm-ctor-eval | At compile time | None |
-| wasm-decompile | Decompile a wasm binary into readable C-like syntax 
+| wasm-decompile | Decompile a wasm binary into readable C-like syntax | None |
 | wasm-dis | Un-assemble WebAssembly in binary format into text format | None |
 | wasm-emscripten-finalize | Take a wasm binary produced by llvm+lld and performs emscripten-specific passes over it | None |
 | wasm-fuzz-lattices | For reflexivity, transitivity, | None |
 | wasm-fuzz-types | Construction, canonicalization, and | None |
-| wasm-interp | Decode and run a WebAssembly binary file using a stack-based interpreter 
+| wasm-interp | Decode and run a WebAssembly binary file using a stack-based interpreter | None |
 | wasm-merge | Files into one. | None |
 | wasm-metadce | Performs dead code elimination (DCE) on a | None |
 | wasm-objdump | Display WebAssembly binary file information | None |
@@ -2621,14 +2621,14 @@
 | wasm-stats | Output stats for a WASM module | None |
 | wasm-strip | Strip custom sections from WebAssembly files | None |
 | wasm-tools | CLI for low-level manipulation of WebAssembly modules | None |
-| wasm-validate | Validate a file in the WebAssembly binary format 
+| wasm-validate | Validate a file in the WebAssembly binary format | None |
 | wasm2c | Convert WebAssembly to portable C code | None |
 | wasm2wat | Disassemble WebAssembly binary to text | None |
 | wasm2wat-fuzz | The WebAssembly Binary Toolkit | None |
 | wasmi-cli | Efficient and Lightweight WebAssembly interpreter with a focus on constrained and embedded systems | None |
 | wasmtime | Standalone WebAssembly runtime | None |
-| wast2json | Convert a file in the wasm spec test format to a JSON file and associated wasm binary files 
-| wat-desugar | Parse .wat text form and print 'canonical' flat format 
+| wast2json | Convert a file in the wasm spec test format to a JSON file and associated wasm binary files | None |
+| wat-desugar | Parse .wat text form and print 'canonical' flat format | None |
 | wat2wasm | Assemble WebAssembly text to binary | None |
 | watch | Watches for changes in a directory tree and reruns a command in an acme win or just on the terminal. | https://github.com/eaburns/Watch |
 | watchdog | Watchdog daemon | http://sourceforge.net/projects/watchdog |
@@ -2663,7 +2663,7 @@
 | wireproxy | Wireguard client that exposes itself as a SOCKS5 proxy | https://github.com/pufferffish/wireproxy |
 | wiretap | VPN-like proxy server that tunnels traffic via WireGuard without requiring special privileges | https://github.com/sandialabs/wiretap |
 | witchcraft | Versatile toolkit for cybersecurity | https://github.com/cosmic-zip/witchcraft |
-| withstdinas | Read the entirety of standard input in an environment variable & execute a program 
+| withstdinas | Read the entirety of standard input in an environment variable & execute a program | None |
 | wlancap2wpasec | Upload multiple (gzip compressed) pcapng, pcap and cap files to https://wpa-sec.stanev.org | None |
 | wormhole-rs | To another computer, securely | None |
 | wpjson-parser | Extract URLs from the WordPress wp-json route and identify authentication-less routes | https://github.com/pkgforge-security/wpjson-parser |
@@ -2825,6 +2825,6 @@
 | zstdgrep | Matching a pattern in | None |
 | zstdless | View Zstandard compressed files with less | None |
 | zstdmt | Unzstd, zstdcatCompress or | None |
-| zsv | A command-line utility for parsing CSV 
+| zsv | A command-line utility for parsing CSV | None |
 | ztee | And splitter | None |
 | ztests | A tests harness tool for zmap | None |
