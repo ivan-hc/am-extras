@@ -90,7 +90,7 @@ _pkgforge_fallback() {
 
 _compile_descriptions() {
 	appname="$app"
-	if ! grep -q "^| $app | [A-Z].* |$" ./descriptions.md; then
+	if ! grep -q "^| $app |" ./descriptions.md; then
 		_check_manpage
 		if [ -z "$manpage" ]; then
 			app=$(echo "$app" | sed 's/_/-/g')
