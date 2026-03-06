@@ -132,10 +132,20 @@ for app in $appnames; do
 done
 wait
 
-sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |\|^| .*pkgforge.* | .* | .* |$ " | grep "^| " > tmp.txt
+sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |\|^| .*pkgforge.* | .* | .* |$ " | grep "^| " | sed -i 's/\[.*\]//g; s/   / /g; s/  / /g' > tmp.txt
 wait
+
+ARGS=$(awk '{print $2}' ./tmp.txt | xargs)
+for arg in $ARGS; do
+	if grep -q "^| $arg | .* | .*ttp.*/" ./tmp.txt; then
+		grep "^| $arg | .* | .*ttp.*/" ./tmp.txt | head -1 >> tmp2.txt
+	else
+		grep "^| $arg |" ./tmp.txt | head -1 >> tmp2.txt
+	fi
+done
+
 echo "| appname | description | site |" > descriptions.md
 echo "| ------- | ----------- | ---- |" >> descriptions.md
-sort -u tmp.txt | sed -E '/^\|[^|]*\| *[^ |]+ *\|/d' >> descriptions.md
+sort -u tmp2.txt | sed -E '/^\|[^|]*\| *[^ |]+ *\|/d' >> descriptions.md
 wait
-rm -f tmp.txt
+rm -f ./*.txt
