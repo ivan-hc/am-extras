@@ -6,13 +6,13 @@
 | acpid | A daemon for delivering ACPI power management events with netlink support | https://sourceforge.net/projects/acpid2/ |
 | act | Run your GitHub Actions locally | None |
 | actionlint | Static checker for GitHub Actions workflow files | https://github.com/rhysd/actionlint
+| add-section | Add a dummy/minimal Section Header to binaries with no section headers | None |
+| add-shell | To the list of valid login shells | None |
+| add_shell | To the list of valid login shells | None |
 | addgroup | Or manipulate users or groups | None |
 | addpart | Kernel about the existence of a partition | None |
 | addr2line | Or symbol+offset into file names and | None |
 | addr6 | Address analysis and manipulation tool | None |
-| add-section | Add a dummy/minimal Section Header to binaries with no section headers | None |
-| add-shell | To the list of valid login shells | None |
-| add_shell | To the list of valid login shells | None |
 | adduser | Interactive front end to /usr/bin/useradd from Slackware Linux | http://www.slackware.com/ |
 | adjtimex | Allows configuration of kernel time variables | https://github.com/rogers0/adjtimex |
 | afio | And files | None |
@@ -37,28 +37,27 @@
 | almalinux-minimal | Portable Ephemeral AlmaLinux Docker Image (DockerC) | None |
 | alpine | Licensed Program for Internet News and | None |
 | alterx | Fast and customizable subdomain wordlist generator using DSL | https://github.com/projectdiscovery/alterx |
+| am-i-isolated | Validate the isolation posture of Container Environments | https://github.com/edera-dev/am-i-isolated |
 | amass | Attack surface mapping and asset discovery | None |
 | amazonlinux | Portable Ephemeral AmazonLinux Docker Image (DockerC) | https://github.com/aws/amazon-linux-docker-images |
-| am-i-isolated | Validate the isolation posture of Container Environments | https://github.com/edera-dev/am-i-isolated |
 | amp | Vi/Vim-inspired terminal text editor | None |
 | anakin | Kill orphan processes | None |
 | analyticsrelationships | Get related domains/subdomains by looking at Google Analytics IDs | None |
 | android-messages | Android Messages as a Cross-platform Desktop App | None |
 | android-tools | Android platform tools | http://tools.android.com/ |
 | anew | A tool for adding new lines to files, skipping duplicates | None |
-| anewer | Append lines from stdin to a file if they don't already exist in the file | None |
 | anew-rs | An efficient way to filter duplicate lines from input, à la uniq | https://github.com/zer0yu/anew |
+| anewer | Append lines from stdin to a file if they don't already exist in the file | None |
 | anipy-cli | Watch and Download Anime from the terminal | None |
 | ansi2html | HTML converter | None |
 | ansi2txt | Plain text converter | None |
 | anyproxy | TCP stream forwarder & Proxy | None |
 | aperf | Gather performance data and visualize using HTML graphs | https://github.com/aws/aperf |
-| apkeep | Download APKs from app stores | None |
-| apk.sh | Make reverse engineering Android apps easier | https://github.com/ax/apk.sh |
 | apk-static | Alpine Package Keeper (apk) | https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper
+| apk.sh | Make reverse engineering Android apps easier | https://github.com/ax/apk.sh |
+| apkeep | Download APKs from app stores | None |
 | appbundle | No description available | None |
 | apply | Anonymous function | None |
-| appname | description | site |
 | apprise | That work with just about | None |
 | appstreamcli | Metadata formats and query | None |
 | apptainer | Platform optimized for High | None |
@@ -113,10 +112,10 @@
 | bat | Cat clone with syntax highlighting and git integration | https://github.com/sharkdp/bat |
 | batcat | With syntax highlighting and Git | None |
 | bb-arch | No description available | None |
-| bb_arch | No description available | None |
-| bbscope | Generate In-Scope Items based on URLs, Subdomains or BurpSuite Config File | None |
 | bb-sysctl | No description available | None |
+| bb_arch | No description available | None |
 | bb_sysctl | No description available | None |
+| bbscope | Generate In-Scope Items based on URLs, Subdomains or BurpSuite Config File | None |
 | bbtargets | Extract Bug Bounty targets from Project Discovery Chaos list | None |
 | bc | An arbitrary precision calculator language | https://www.gnu.org/software/bc/ |
 | bear | To generate compilation database for Clang | None |
@@ -129,10 +128,10 @@
 | beszel | Lightweight server monitoring hub with historical data, docker stats, and alerts | https://github.com/henrygd/beszel |
 | beszel-agent | Lightweight server monitoring hub with historical data, docker stats, and alerts | None |
 | bfs | A breadth-first version of find | https://tavianator.com/projects/bfs.html |
+| bin-graph | Visualize binary files | None |
 | bin2video | Tool for encoding files as videos | https://github.com/pixelomer/bin2video |
 | binary-security-check | Analyzer of security features in executable binaries | https://codeberg.org/koutheir/binary-security-check |
 | binfmt | Tool to enable/setup binfmt | None |
-| bin-graph | Visualize binary files | None |
 | bingrep | Binary Parser, Analyzer and Colorizer | None |
 | binocle | A graphical tool to visualize binary data | None |
 | binsider | TUI tool for analyzing ELF binaries | None |
@@ -141,9 +140,9 @@
 | bison | Parser generator (yacc replacement) | None |
 | bita | Differential file synchronization over http | https://github.com/oll3/bita |
 | bitcoin-cli | Line interface to interact with a | None |
-| bitcoind | Bitcoin Core full node daemon | None |
 | bitcoin-tx | Create, Parse, or Modify Bitcoin Core transactions | None |
 | bitcoin-wallet | Tool for creating and interacting with | None |
+| bitcoind | Bitcoin Core full node daemon | None |
 | blackhole6 | To find IPv6 blackholes | None |
 | bleve | CLI for interacting with a Bleve index | https://github.com/blevesearch/bleve |
 | blkdiscard | Discard sectors on a device | https://github.com/util-linux/util-linux |
@@ -169,12 +168,12 @@
 | bsdunzip | Extract files from a ZIP archive | None |
 | btm | Cross-platform graphical process/system | None |
 | btrfs | To manage btrfs filesystems | None |
-| btrfsck | Repair a btrfs filesystem | None |
 | btrfs-convert | Ext2/3/4 or reiserfs filesystem to | None |
 | btrfs-find-root | Find btrfs root | None |
 | btrfs-image | Image of the filesystem | None |
 | btrfs-map-logical | Logical extent to physical | None |
 | btrfs-select-super | Superblock with a backup | None |
+| btrfsck | Repair a btrfs filesystem | None |
 | btrfstune | Filesystem parameters | None |
 | bucketloot | Automated S3-compatible bucket inspector | None |
 | bulkdns | DNS scanner for large-scale measurement | https://github.com/maroofi/bulkDNS |
@@ -187,6 +186,7 @@
 | bzip3 | Statistical file compressor and spiritual | None |
 | c2w | Container to WASM converter | None |
 | c2w-net | Container to WASM converter | None |
+| c_rehash | C_rehash, rehashCreate | None |
 | cache | Wrap any command line tool to provide caching for the output of that too | None |
 | caddy | Web server with automatic HTTPS | None |
 | caido | Lightweight web security auditing toolkit | None |
@@ -213,8 +213,8 @@
 | cdncheck | A utility to detect various technology for a given IP address | https://github.com/projectdiscovery/cdncheck |
 | cdwe | cdwe (cd with env) is a configurable cd wrapper that lets you define your environment per Directory | None |
 | cent | Fetch & Organize all Nuclei Templates | https://github.com/xm1k3/cent |
-| certbot | Let's Encrypt certificate management | None |
 | cert-cli | Obtain domains from SSL/TLS certificates using crt.sh | https://github.com/mihneamanolache/cert-cli |
+| certbot | Let's Encrypt certificate management | None |
 | certgraph | An open source intelligence tool to crawl the graph of certificate Alternate Names | https://lanrat.github.io/certgraph
 | certinfo | Scrape domain names from SSL certificates of arbitrary hosts | https://github.com/rix4uni/certinfo |
 | certspotter | Log Monitor | None |
@@ -226,9 +226,9 @@
 | cfssl | PKI/TLS certificate authority toolkit | None |
 | cfssl-bundle | CLI to bundle local/remote certificate files | None |
 | cfssl-certinfo | CLI to output certinfo about the given cert | None |
-| cfssljson | CLI to split out JSON with cert, csr, and key fields to separate files | None |
 | cfssl-newkey | CLI to generate a new key and CSR | None |
 | cfssl-scan | CLI to scan a host for certificate issues | None |
+| cfssljson | CLI to split out JSON with cert, csr, and key fields to separate files | None |
 | cftun | Third-party Cloudflare Tunnel client | None |
 | cgrep | All indexed files | None |
 | chafa | Facsimile generator | None |
@@ -262,9 +262,9 @@
 | chsh | Change login shell | None |
 | chsrc | Change Source everywhere for every software | https://chsrc.run
 | chvt | Change foreground virtual terminal | http://www.kbd-project.org |
+| ci-info | CLI tool to get CI related information | https://github.com/suzuki-shunsuke/ci-info |
 | ciadpi | SOCKS proxy server implementing some DPI bypass methods | None |
 | cidr | Addresses to CIDR specifications | None |
-| ci-info | CLI tool to get CI related information | https://github.com/suzuki-shunsuke/ci-info |
 | cindex | Prepare the trigram index for use by csearch | None |
 | ciphey | Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes | None |
 | circumflex | Hacker News client for the terminal | None |
@@ -277,17 +277,17 @@
 | clearlinux | Portable Ephemeral ClearLinux Docker Image (DockerC) | https://github.com/clearlinux/docker-brew-clearlinux |
 | cleed | Feed reader for the command line | https://github.com/radulucut/cleed |
 | cli53 | Amazon Route 53 DNS management tool | None |
-| clipcatctl | CLI client for Clipcat | None |
-| clipcatd | Server daemon for Clipcat | None |
 | clipcat-menu | Clipcat client that utilizes a built-in or external finder to select clips | None |
 | clipcat-notify | A tool for monitoring clipboard events & sending it to clipcatd | None |
+| clipcatctl | CLI client for Clipcat | None |
+| clipcatd | Server daemon for Clipcat | None |
 | clive | Automate terminal operations | https://github.com/koki-develop/clive |
 | cloak-client | A censorship circumvention tool to evade detection by authoritarian state adversaries | None |
 | cloak-server | A censorship circumvention tool to evade detection by authoritarian state adversaries | None |
 | clockdiff | Difference between hosts | None |
 | cloudcash | Check your cloud spending from the CLI | None |
-| cloudflared | Cloudflare Tunnel client for secure connections | None |
 | cloudflare-warp-speedtest | Test the latency and speed of Cloudflare WARP IP addresses | None |
+| cloudflared | Cloudflare Tunnel client for secure connections | None |
 | cloudfox | Automating situational awareness for cloud penetration tests | https://github.com/BishopFox/cloudfox |
 | cloudlist | A tool for listing Assets from multiple Cloud Providers | https://github.com/projectdiscovery/cloudlist |
 | cloudreve | Self-hosted file management and sharing system, supports multiple storage providers | https://github.com/cloudreve/Cloudreve |
@@ -314,9 +314,9 @@
 | combipow | Produce all unique combinations from a short list of inputs | None |
 | comm | Compare two sorted files line by line | https://www.gnu.org/software/coreutils/ |
 | commix | Automated All-in-One OS Command Injection and Exploitation Tool | None |
+| compile_et | Error table compiler | None |
 | compiledb | Generate Clang's JSON Compilation Database files for make-based build systems | None |
 | compiledb-go | Generate Clang's JSON Compilation Database files for make-based build systems | None |
-| compile_et | Error table compiler | None |
 | compress | And expand data | None |
 | conspy | Remote control of Linux virtual consoles | https://conspy.sourceforge.net/ |
 | containerd | An open and reliable container runtime | None |
@@ -339,7 +339,6 @@
 | crcsum | Check CRC Checksum | None |
 | creatememfd | Create a memory file descriptor at a given FD & execute a command with | None |
 | credsweeper | Tool to detect credentials in any directories or files | None |
-| c_rehash | C_rehash, rehashCreate | None |
 | crictl | CRI-compatible container runtime CLI | None |
 | crlfuzz | A fast tool to scan CRLF vulnerability written in Go | None |
 | cron | Execute scheduled commands (Vixie Cron) | None |
@@ -356,8 +355,8 @@
 | csvtk | A cross-platform, efficient and practical CSV/TSV toolkit | https://github.com/shenwei356/csvtk |
 | csweb | Web UI to query CodeSearch | None |
 | ct3_to_ntlm | No description available | None |
-| ctags | Generates an index file of language objects found in source files | https://ctags.io/ |
 | ct_monitor | No description available | None |
+| ctags | Generates an index file of language objects found in source files | https://ctags.io/ |
 | ctrlaltdel | Function of the Ctrl-Alt-Del combination | None |
 | ctrsploit | A Penetration Toolkit for Container Environments | https://github.com/ctrsploit/ctrsploit |
 | ctrsploit-checksec | Check basic security posture on a Container Environment | None |
@@ -367,8 +366,8 @@
 | cup | Generator for Java(tm) | None |
 | curl | Command line tool and library for transferring data with URLs | https://curl.se/ |
 | cut | From each line of files | None |
-| cutb | Cut specific prefixes or suffixes from wordlist entries for use in Combinator attacks | None |
 | cut-cdn | Removing CDN IPs from the list of IP addresses | https://github.com/ImAyrix/cut-cdn |
+| cutb | Cut specific prefixes or suffixes from wordlist entries for use in Combinator attacks | None |
 | cutlines | Cut & Paste Lines (from | https://github.com/pkgforge-security/cutlines |
 | cvemap | A structured and easily navigable interface to various vulnerability databases | https://github.com/projectdiscovery/cvemap |
 | cvtsudoers | Convert between sudoers file formats | None |
@@ -458,9 +457,9 @@
 | dmesg | Print or control the kernel ring buffer | https://github.com/util-linux/util-linux |
 | dmon | Daemonize and monitor Processes | None |
 | dns-bench | Find the fastest DNS in your location to improve internet browsing experience | https://github.com/qwerty541/dns-bench |
+| dns-doctor | Runs dig +trace and dig +norecurse , parses the output, and tries to diagnose some problems | None |
 | dnscrypt-proxy | Flexible DNS proxy, with support for encrypted DNS protocols | None |
 | dnsd | No description available | None |
-| dns-doctor | Runs dig +trace and dig +norecurse , parses the output, and tries to diagnose some problems | None |
 | dnsdomainname | Show DNS domain name | https://www.gnu.org/software/inetutils/ |
 | dnslookup | Simple command line utility to make DNS lookups to the specified server | None |
 | dnspyre | High QPS DNS benchmark tool | None |
@@ -488,7 +487,6 @@
 | dpkg-buildtree | Build tree operations during package | None |
 | dpkg-checkbuilddeps | Dependencies and conflicts | None |
 | dpkg-deb | Archive (.deb) manipulation tool | None |
-| dpkg_deb | Archive (.deb) manipulation tool | https://tracker.debian.org/pkg/dpkg |
 | dpkg-distaddfile | To debian/files | None |
 | dpkg-divert | Package's version of a file | None |
 | dpkg-fsys-usrunmess | Undoes the merged-/usr-via-aliased-dirs mess | None |
@@ -510,6 +508,7 @@
 | dpkg-statoverride | And mode of files | None |
 | dpkg-trigger | Trigger utility | None |
 | dpkg-vendor | About distribution vendors | None |
+| dpkg_deb | Archive (.deb) manipulation tool | https://tracker.debian.org/pkg/dpkg |
 | drlog | Read lines from stdin and append them to auto-rotated logs | None |
 | dropbear | Lightweight SSH server | None |
 | dropbearconvert | Dropbear and OpenSSH private key | None |
@@ -526,9 +525,9 @@
 | dufs | File server that supports static serving, uploading, searching, etc | https://github.com/sigoden/dufs |
 | dumbpipe | Unix pipes between devices | https://dumbpipe.dev
 | dummyhttp | Super simple HTTP server that replies a fixed body with a fixed response code | None |
+| dump.exfat | Information of exfat filesystem | None |
 | dumpe2fs | File system information | None |
 | dumpelf | ELF structure | None |
-| dump.exfat | Information of exfat filesystem | None |
 | dumpexfat | Show on-disk information of exfat filesystem | None |
 | dumpkmap | No description available | None |
 | dumpleases | Army Knife of Embedded Linux | None |
@@ -538,10 +537,10 @@
 | durl | Remove duplicate URLs by retaining only the unique combinations of hostname, path, and parameter names | https://github.com/j3ssie/durl |
 | dvc | A version control system and experiment tracker designed for machine learning projects | None |
 | dwarfs | Mount highly compressed read-only file system | None |
+| dwarfs-tools | Single Binary DwarFS Toolset including dwarfs, dwarfsck, dwarfsextract & mkdwarfs | None |
 | dwarfs2 | Mount highly compressed read-only file system (fuse2) | None |
 | dwarfsck | Check DwarFS image | None |
 | dwarfsextract | Extract DwarFS image | None |
-| dwarfs-tools | Single Binary DwarFS Toolset including dwarfs, dwarfsck, dwarfsextract & mkdwarfs | None |
 | dwp | Packaging utility | None |
 | dyff | YAML/JSON diff tool for configuration files | None |
 | dynamic-file-searcher | Scan servers and hosts using dynamic paths | https://github.com/dsecuredcom/dynamic-file-searcher |
@@ -614,9 +613,9 @@
 | exatorrent-noui | Self-hostable, easy-to-use, lightweight, and feature-rich torrent client | None |
 | exec | Execle, execv, execvp, execvpeexecute a file | None |
 | execline | Non-interactive scripting Tools (Multicall) | None |
-| execlineb | Read and Execute a script from a file as command line 
 | execline-cd | Change the current working directory to a given directory & execute a program 
 | execline-umask | Set the umask (file creation mask) & execute a program 
+| execlineb | Read and Execute a script from a file as command line 
 | exfat2img | Of an exFAT filesystem | None |
 | exfatattrib | Set or display exFAT file attributes | None |
 | exfatfsck | Check an exFAT file system (alias=fsck.exfat) | None |
@@ -654,17 +653,17 @@
 | fc-cat | Information cache files | None |
 | fc-conflist | Configuration files processed by | None |
 | fc-list | List available fonts | None |
-| fclones | Finds duplicate, unique, under- or over-replicated files | None |
 | fc-match | Match available fonts | None |
 | fc-pattern | Show pattern | None |
 | fc-query | Query font files | None |
 | fc-scan | Files or directories | None |
 | fc-validate | Validate font files | None |
+| fclones | Finds duplicate, unique, under- or over-replicated files | None |
 | fd | Simple, fast and user-friendly alternative to find | https://github.com/sharkdp/fd |
+| fd-find | A simple, fast and user-friendly alternative to find | None |
 | fdblock | Set/Unset the O_NONBLOCK flag on a given file descriptor & execute a program 
 | fdclose | Close a given file descriptor & execute a program 
 | fdcmp | Compare two file descriptors and run a command based on the result | None |
-| fd-find | A simple, fast and user-friendly alternative to find | None |
 | fdflush | No description available | None |
 | fdformat | Format floppy disks | https://github.com/karelzak/util-linux |
 | fdisk | Manipulate disk partition table | https://github.com/util-linux/util-linux |
@@ -679,37 +678,37 @@
 | ffmpeg | Complete solution to record, convert and stream audio and video | https://ffmpeg.org |
 | ffprobe | Ffprobe media prober | https://ffmpeg.org |
 | ffuf | Fast web fuzzer written in Go | None |
+| ffuf-workflow | Automate the process of running FFUF and post-processing its results to extract valid URLs | https://github.com/nullenc0de/FFUF-Workflow-Tool |
 | ffufpostprocessing | Filter ffuf results | https://github.com/dsecuredcom/ffufPostprocessing |
 | ffufw | A wrapper around ffuf to make directory bruteforcing easier and more intelligent | None |
-| ffuf-workflow | Automate the process of running FFUF and post-processing its results to extract valid URLs | https://github.com/nullenc0de/FFUF-Workflow-Tool |
 | fgconsole | Print the number of the active VT. | http://www.kbd-project.org |
 | fget | Multithread download for a list of files | https://github.com/pkgforge-security/fget |
 | fgrep | Fgrep, rgrepprint lines that match patterns | None |
 | fico | Extract icons from app packages, executables, images, resource files & more | https://github.com/orcastor/fico |
 | filan | Prints information about files/file descriptors meant for debugging socat | None |
 | file | Determine the type of a file from its contents | None |
+| file-roller | Create and modify archives | https://wiki.gnome.org/Apps/FileRoller |
 | filecap | To see capabilities | None |
 | filefrag | File fragmentation | None |
-| file-roller | Create and modify archives | https://wiki.gnome.org/Apps/FileRoller |
 | fim | File Integrity Monitoring tool to track any event over files | None |
 | fin | Docksal Docker development environment CLI | None |
 | fincore | Of file contents in core | None |
 | find | Files in a directory hierarchy | None |
+| find-suid | Find setuid binaries on a file system with speed | https://github.com/sweetbbak/find-suid |
 | findfs | Find a filesystem by label or UUID | https://github.com/util-linux/util-linux |
 | findmnt | Find a (mounted) filesystem: list or search mounted filesystems | None |
 | findomain | The Fastest Subdomain Enumerator | None |
-| find-suid | Find setuid binaries on a file system with speed | https://github.com/sweetbbak/find-suid |
 | fingerprintx | Standalone utility for service discovery on open ports | https://github.com/praetorian-inc/fingerprintx |
 | firefox | Fast, Private and Safe Web Browser | https://www.mozilla.org/firefox/ |
 | flac | Audio Codec | None |
-| flashcp | No description available | None |
 | flash-eraseall | No description available | None |
-| flash_eraseall | No description available | None |
-| flashfetch | Fastfetch with minimal features & configuration 
 | flash-lock | No description available | None |
-| flash_lock | No description available | None |
 | flash-unlock | No description available | None |
+| flash_eraseall | No description available | None |
+| flash_lock | No description available | None |
 | flash_unlock | No description available | None |
+| flashcp | No description available | None |
+| flashfetch | Fastfetch with minimal features & configuration 
 | flawz | A Terminal UI for browsing security vulnerabilities (CVEs) | None |
 | flock | Manage locks from shell scripts | https://github.com/util-linux/util-linux |
 | flow6 | Assessment tool for the IPv6 Flow Label | None |
@@ -735,15 +734,15 @@
 | frps | Fast Reverse Proxy | None |
 | fscan | A comprehensive intranet scanning tool | https://github.com/shadow1ng/fscan |
 | fsck | Check and repair a Linux filesystem | https://github.com/util-linux/util-linux |
+| fsck-minix | Check MINIX filesystem 
 | fsck.btrfs | A stub command that does nothing (use btrfs check instead) | None |
 | fsck.cramfs | ROM file system | None |
 | fsck.exfat | ExFAT filesystem | None |
 | fsck.ext2 | Linux ext2/ext3/ext4 file system | None |
 | fsck.ext3 | Linux ext2/ext3/ext4 file system | None |
 | fsck.ext4 | Linux ext2/ext3/ext4 file system | None |
-| fsck-minix | Check MINIX filesystem 
-| fsck_minix | No description available | None |
 | fsck.overlay | Maintenance tools for overlay-filesystem | None |
+| fsck_minix | No description available | None |
 | fsfreeze | Suspend access to a filesystem (Ext3/4, ReiserFS, JFS, | https://github.com/util-linux/util-linux |
 | fsize | A more readable alternative to the stat command | https://github.com/Tom5521/fsize |
 | fsnotifywait | For changes to files using | None |
@@ -754,8 +753,8 @@
 | ftpget | No description available | None |
 | ftpgrab | Mirroring utility | None |
 | ftpput | No description available | None |
-| fuse2fs | System client for ext2/ext3/ext4 file | None |
 | fuse-overlayfs | FUSE implementation for overlayfs | None |
+| fuse2fs | System client for ext2/ext3/ext4 file | None |
 | fuser | Identify processes using files or sockets | https://gitlab.com/psmisc/psmisc |
 | fusermount | Unmount FUSE filesystems | None |
 | fusermount3 | Unmount FUSE filesystems | None |
@@ -780,9 +779,9 @@
 | gdu | Disk usage analyzer written in Go | None |
 | geckodriver | Proxy for using WebDriver clients with Gecko-based browsers | https://github.com/mozilla/geckodriver
 | gedit | Easy-to-use general-purpose text editor | https://gedit-text-editor.org/ |
+| gen_crc32ctable | No description available | None |
 | gencat | NLS catalog compiler | None |
 | gencmddeps | Generates a command dependency Go file | None |
-| gen_crc32ctable | No description available | None |
 | gendesc | Test case description file | None |
 | generate-bidi | Generate Unicode Bidi | None |
 | generate-rules | Stand-alone utility to generate random rules | None |
@@ -805,15 +804,15 @@
 | getpid | Process identification | None |
 | getsubids | Subordinate id ranges for a user | None |
 | gettext | Retrieve text string from message database | None |
-| gettextize | Upgrade gettext infrastructure | None |
 | gettext.sh | Gettext as a shell function library | None |
+| gettextize | Upgrade gettext infrastructure | None |
 | getty | Open a tty, prompt for a login name, then invoke /bin/login | None |
 | gf | A wrapper around grep (Improved) 
 | gh | GitHub CLI | https://github.com/cli/cli |
+| gh-dash | A beautiful CLI dashboard for GitHub | https://github.com/dlvhdr/gh-dash |
 | ghalint | GitHub Actions linter | https://github.com/suzuki-shunsuke/ghalint |
 | ghauri | Tool for detecting and exploiting SQL injection security flaws | None |
 | ghcp | Tool to fork a repository, commit files, create a pull request and upload assets using GitHub API | https://github.com/suzuki-shunsuke/ghcp |
-| gh-dash | A beautiful CLI dashboard for GitHub | https://github.com/dlvhdr/gh-dash |
 | ghfetch | CLI tool to fetch GitHub user information and show like neofetch | https://github.com/orangekame3/ghfetch |
 | ghorg | Quickly clone or backup an entire org/users repositories into one directory | https://github.com/gabrie30/ghorg |
 | ghostunnel | SSL/TLS proxy with mutual authentication for securing non-TLS services | https://github.com/ghostunnel/ghostunnel |
@@ -827,8 +826,11 @@
 | gio-querymodules | Query information about GIO module files | None |
 | gip | A command-line tool to get Global IP address | https://github.com/dalance/gip |
 | git | The fast distributed version control system | https://git-scm.com/ |
-| gitdorks_go | No description available | None |
 | git-dumper | A tool to dump a git repository from a website | None |
+| git-lfs | Large files in Git repositories | None |
+| git-sizer | Compute and report repository size metrics | None |
+| git-who | List remote branches by author and last commit date | None |
+| gitdorks_go | No description available | None |
 | gitea | Self-hosted Git service with web interface | None |
 | github-comment | CLI to create and hide GitHub comments | https://github.com/suzuki-shunsuke/github-comment |
 | github-endpoints | Find endpoints on GitHub of a given domain | None |
@@ -836,18 +838,16 @@
 | github-subdomains | Find subdomains on GitHub | None |
 | gitlab-cli | Official Gitlab CLI | https://docs.gitlab.com/ee/editor_extensions/gitlab_cli |
 | gitlab-subdomains | Find subdomains on Gitlab | None |
-| git-lfs | Large files in Git repositories | None |
-| git-sizer | Compute and report repository size metrics | None |
 | gitty | Download GitHub File & Directory | https://github.com/worlpaker/gitty |
-| git-who | List remote branches by author and last commit date | None |
 | glib-compile-resources | GLib resource file compiler | None |
 | glib-compile-schemas | Compile GSettings schemas | None |
 | glider | Forward proxy with multiple protocols support & dns/dhcp server with like dnsmasq | https://github.com/nadoo/glider |
 | globalping-cli | CLI tool for benchmarking, monitoring, and optimizing internet infrastructure using a global network of probes | https://www.jsdelivr.com/globalping/cli
 | gnome-system-monitor | View current processes and monitor system state | https://apps.gnome.org/SystemMonitor |
 | go | Core compiler tools for the Go programming language | https://golang.org/ |
-| goanywhere | Creates a Go workspace & executes command after '--' | None |
 | go-audit | An alternative to the auditd daemon that ships with many distros | https://github.com/slackhq/go-audit |
+| go-fasttld | A high performance effective top level domains (eTLD) extraction module | https://github.com/elliotwutingfeng/go-fasttld |
+| goanywhere | Creates a Go workspace & executes command after '--' | None |
 | goawk | Interpreter with CSV support | None |
 | gobject-query | Display a tree of types | None |
 | gobusybox | Core u-root cmds into a Single Busybox like Multicall Binary | None |
@@ -856,7 +856,6 @@
 | gocurl | Simplified version of curl written in pure Go | https://github.com/ameshkov/gocurl |
 | godns | Dynamic DNS client tool supports AliDNS, Cloudflare, Google Domains, DNSPod, HE.net & DuckDNS & DreamHost, etc | https://github.com/TimothyYe/godns |
 | godnsbench | Simple DNS bench util that supports encrypted protocols | None |
-| go-fasttld | A high performance effective top level domains (eTLD) extraction module | https://github.com/elliotwutingfeng/go-fasttld |
 | gofireprox | FireProx written in Go | None |
 | gogo | Highly controllable and Scalable Automation Engine for Red Teams | https://github.com/chainreactors/gogo |
 | gokr-rsync | Go Implementation of rsync Client & Server | None |
@@ -892,9 +891,9 @@
 | grpconv | Grpconv, grpunconvconvert to and from shadow | None |
 | grpcurl | Command-line tool for interacting with gRPC servers | None |
 | grpunconv | Grpconv, grpunconvconvert to and from shadow | None |
+| gs-netcat | Netcat on steroids | None |
 | gsan | Extract subdomains from SSL certificates in HTTPS sites | None |
 | gsettings | GNOME desktop configuration command-line interface | None |
-| gs-netcat | Netcat on steroids | None |
 | gsocket | Connect two users behind NAT/firewall via TCP/IP | None |
 | gstring | Swiss army knife for manipulating strings | https://github.com/Allaman/gstring |
 | gtester | Test running utility | None |
@@ -1027,9 +1026,9 @@
 | interactsh-server | An Out Of Bounds (OOB) interaction gathering server and client tool | None |
 | intercept | Input events to stdout | None |
 | interlace | Easily turn single threaded CLIs into a fast, multi-threaded application with CIDR and glob support | None |
-| intltoolize | Related files to software package | None |
 | intltool-merge | Strings into various types of | None |
 | intltool-prepare | To make use of intltool | None |
+| intltoolize | Related files to software package | None |
 | invidtui | A TUI based Invidious client | https://github.com/darkhz/invidtui |
 | ionice | Set or get process I/O scheduling class and priority | https://github.com/util-linux/util-linux |
 | ioping | I/O latency monitoring tool | None |
@@ -1038,22 +1037,22 @@
 | iotop-c | I/O monitor | None |
 | ip | Manage network interfaces, routing, and tunnels | None |
 | ip2net | Group ipv4/ipv6 list from stdout into subnets | None |
+| ip_compact | No description available | None |
+| ip_diff | No description available | None |
+| ip_match | No description available | None |
+| ipa-server | Upload and install Apple ipa and Android apk in web | https://github.com/iineva/ipa-server |
 | ipaddr | No description available | None |
 | ipasd | Upload and install Apple ipa and Android apk in web | None |
-| ipa-server | Upload and install Apple ipa and Android apk in web | https://github.com/iineva/ipa-server |
 | ipcalc | Calculates IP broadcast, network, Cisco wildcard mask, and host ranges | https://jodies.de/ipcalc |
 | ipcmk | IPC resources | None |
-| ip_compact | No description available | None |
 | ipcrm | Remove certain IPC resources | https://github.com/util-linux/util-linux |
 | ipcs | Show information on IPC facilities | https://github.com/util-linux/util-linux |
-| ip_diff | No description available | None |
 | iperf | Traffic tests using network sockets. | None |
 | iperf3 | Throughput tests | None |
 | ipfswatch | Tool to Monitor a directory and adds changes to IPFS | None |
 | iphandle | Automatically remove HoneyPot IPs during Port Scan | https://github.com/YouChenJun/IpHandle |
 | ipinfo | Official Command Line Interface for the IPinfo API | None |
 | iplink | No description available | None |
-| ip_match | No description available | None |
 | ipneigh | No description available | None |
 | iproute | No description available | None |
 | iprule | No description available | None |
@@ -1095,8 +1094,8 @@
 | kbd_mode | Report or set the keyboard mode | http://www.kbd-project.org |
 | kcptun-client | Tunnel Based On KCP | None |
 | kcptun-server | Tunnel Based On KCP | None |
-| keepalived | High-availability service | None |
 | keep-sorted | Language-agnostic Formatter that sorts lines between two markers in a larger file | None |
+| keepalived | High-availability service | None |
 | keyspace | Calculate keyspace in a hashcat-aware manner | None |
 | kill | Terminate a process | https://github.com/util-linux/util-linux |
 | killall | Kill processes by name | https://gitlab.com/psmisc/psmisc |
@@ -1129,10 +1128,10 @@
 | lckdo | Program with a lock held | None |
 | lcov | GCOV front-end | None |
 | ld | Standalone Linker Compiler | None |
-| ldattach | Line discipline to a serial line | None |
 | ld.bfd | The GNU linker with BFD libraries | None |
-| lddtree | Display ELF dependencies as a tree 
 | ld.gold | A new, faster, ELF only linker | None |
+| ldattach | Line discipline to a serial line | None |
+| lddtree | Display ELF dependencies as a tree 
 | len | Filter words by length, outputting only those within a specified range | None |
 | less | A terminal based program for viewing text files | https://www.greenwoodsoftware.com/less/ |
 | lessecho | Display uninterpreted strings to less | None |
@@ -1161,13 +1160,13 @@
 | loadfont | Load fonts into the Linux console | None |
 | loadkmap | No description available | None |
 | locate | In databases that match a pattern | None |
+| log_proxy | No description available | None |
+| log_proxy_wrapper | No description available | None |
 | logdy | Web based real-time log viewer | https://logdy.dev |
 | logger | Enter messages into the system log | https://github.com/util-linux/util-linux |
 | login | Begin session on the system | https://github.com/util-linux/util-linux |
 | logname | Print user's login name | https://www.gnu.org/software/coreutils/ |
 | logoutd | Enforce login time restrictions | None |
-| log_proxy | No description available | None |
-| log_proxy_wrapper | No description available | None |
 | logread | Army Knife of Embedded Linux | None |
 | logsave | Output of a command in a logfile | None |
 | logss | Split & Visualize an input stream of text/logs | https://github.com/todoesverso/logss |
@@ -1222,11 +1221,11 @@
 | maddy | Composable all-in-one mail server | https://maddy.email
 | mailpit | Email and SMTP testing tool with API for developers | https://github.com/axllent/mailpit |
 | make | Utility to maintain groups of programs | None |
+| make-prime-list | Generate Prime Numbers 
 | makebb | Compiles many Go commands into one busybox-style binary | None |
 | makebbmain | Adds u-root command package imports to an existing main() template file | None |
 | makedevs | No description available | None |
 | makemime | Create multipart MIME-encoded message from FILEs | None |
-| make-prime-list | Generate Prime Numbers 
 | maketab | Chimera Linux userland Tools | None |
 | malwoverview | Tool for threat hunting and gathering intel information from various sources | None |
 | man | A utility for reading man pages | https://gitlab.com/man-db/man-db |
@@ -1291,8 +1290,8 @@
 | mise | Polyglot runtime and dev tool version manager | None |
 | mispipe | Commands, returning the exit status of the | None |
 | mitmproxy | SSL/TLS-capable man-in-the-middle proxy for HTTP and Websockets | None |
-| mkbundle | A bundled executable. | None |
 | mk_cmds | Convert a table of command names and help messages into a C source file | None |
+| mkbundle | A bundled executable. | None |
 | mkdir | Make directories | https://www.gnu.org/software/coreutils/ |
 | mkdosfs | Create an MS-DOS FAT filesystem | https://github.com/dosfstools/dosfstools |
 | mkdwarfs | Create highly compressed read-only file systems | None |
@@ -1300,19 +1299,19 @@
 | mkexfatfs | Create an exFAT file system (alias=mkfs.exfat) | None |
 | mkfifo | Make FIFOs (named pipes) | https://www.gnu.org/software/coreutils/ |
 | mkfs | Linux filesystem | None |
+| mkfs-ext2 | Make an EXT2 filesystem 
+| mkfs-minix | Make a MINIX filesystem 
+| mkfs-reiser | No description available | None |
+| mkfs-vfat | Make a FAT32 filesystem 
 | mkfs.bfs | SCO bfs filesystem | None |
 | mkfs.btrfs | Btrfs filesystem | None |
 | mkfs.cramfs | ROM file system | None |
 | mkfs.exfat | ExFAT filesystem | None |
-| mkfs-ext2 | Make an EXT2 filesystem 
-| mkfs_ext2 | No description available | None |
 | mkfs.ext3 | Ext2/ext3/ext4 file system | None |
 | mkfs.ext4 | Ext2/ext3/ext4 file system | None |
-| mkfs-minix | Make a MINIX filesystem 
+| mkfs_ext2 | No description available | None |
 | mkfs_minix | No description available | None |
-| mkfs-reiser | No description available | None |
 | mkfs_reiser | No description available | None |
-| mkfs-vfat | Make a FAT32 filesystem 
 | mkfs_vfat | No description available | None |
 | mkmanifest | Create Google Repo manifest files | None |
 | mknod | Make block or character special files | https://www.gnu.org/software/coreutils/ |
@@ -1349,8 +1348,8 @@
 | mount.exfat-fuse | ExFAT file system | None |
 | mount.fuse | Mount options for FUSE file systems | None |
 | mount.fuse3 | Mount options for FUSE file systems | None |
-| mountpoint | See if a directory or file is a mountpoint | https://github.com/util-linux/util-linux |
 | mount.unionfs | Mount a filesystem as an Union Filesystem 
+| mountpoint | See if a directory or file is a mountpoint | https://github.com/util-linux/util-linux |
 | mousepad | Simple text editor for Xfce | https://docs.xfce.org/apps/mousepad/start |
 | mp2enc | Layer-II audio encoder | None |
 | mpartition | Partition media for Minix filesystem | None |
@@ -1545,11 +1544,11 @@
 | permute | A stand-alone implementation of the Permutation Attack | None |
 | permute_exist | No description available | None |
 | pg_activity | Database server monitoring | None |
-| pgcli | A command line interface for PostgreSQL with auto-completion and syntax highlighting | https://www.pgcli.com/ |
 | pg_dump | Extract a PostgreSQL database into a script file or | https://www.postgresql.org/ |
+| pg_restore | Restore a PostgreSQL database from an archive file | https://www.postgresql.org/ |
+| pgcli | A command line interface for PostgreSQL with auto-completion and syntax highlighting | https://www.pgcli.com/ |
 | pgmtoy4m | Pgm and pgmpipe output to | None |
 | pgrep | Pidwait - look up, signal, or wait for processes | https://gitlab.com/procps-ng/procps |
-| pg_restore | Restore a PostgreSQL database from an archive file | https://www.postgresql.org/ |
 | pgrok | Selfhosted TCP/HTTP tunnel, alternative to ngrok | https://github.com/pgrok/pgrok |
 | pgweb | Cross-platform client for PostgreSQL databases | None |
 | php-bulk-cli | Static PHP CLI with most extensions | None |
@@ -1572,10 +1571,10 @@
 | pingmole | CLI that helps to filter pingmole servers and pick the closest one | None |
 | pingtunnel | Reliably tunnel TCP connections over ICMP packets | https://github.com/esrrhs/pingtunnel |
 | pinky | Lightweight finger | None |
-| pipeline | Run two commands with a pipe between them 
-| pipenv | Manage project dependencies in isolated environments | None |
 | pipe-progress | Show progress of piped data transfer 
 | pipe_progress | No description available | None |
+| pipeline | Run two commands with a pipe between them 
+| pipenv | Manage project dependencies in isolated environments | None |
 | piperw | Create a pipe (an anonymous one) & execute a program 
 | pipesz | Examine pipe and FIFO buffer sizes | None |
 | pipetty | To pipe from a pseudoterminal | None |
@@ -1632,17 +1631,17 @@
 | proot | User-space implementation of chroot, bind mount, and binfmt_misc | https://proot-me.github.io/care |
 | protocurl | cURL for Protobuf | https://github.com/qaware/protocurl |
 | proxify | HTTP/HTTPS proxy for traffic capture | None |
+| proxy-ns | Run programs in a network namespace where all traffic go through proxy | None |
 | proxychains | Through proxy servers | None |
 | proxychains-daemon | Redirect any TCP connection through a proxy or proxy chain | None |
-| proxy-ns | Run programs in a network namespace where all traffic go through proxy | None |
 | prtstat | Of a process | None |
 | ps | Report a snapshot of the current processes. | https://gitlab.com/procps-ng/procps |
+| ps_mem | No description available | None |
 | pscan | Security checker for C source code | None |
 | pscap | To see capabilities | None |
 | psendfd | Use ptrace to manipulate and redirect file descriptors of a running process | None |
 | pseudocron | sleep(1) using a cron expression | None |
 | pslog | Logs path of a process | None |
-| ps_mem | No description available | None |
 | pspax | Information about running processes | None |
 | pspy | Monitor linux processes without root permissions | None |
 | pstree | Display a tree of processes | https://gitlab.com/psmisc/psmisc |
@@ -1665,6 +1664,7 @@
 | pyarmor | Obfuscate, Bind & expire Python Scripts | None |
 | pyp | Piper: A Modern Python Alternative to awk, sed and | None |
 | python | The Python programming language | https://www.python.org/ |
+| python-config | Options for python C/C++ extensions | None |
 | python2.7 | Legacy Python 2.7 interpreter | None |
 | python3 | Interactive, object-oriented programming | None |
 | python3.10 | No description available | None |
@@ -1677,7 +1677,6 @@
 | python3.7 | No description available | None |
 | python3.8 | No description available | None |
 | python3.9 | No description available | None |
-| python-config | Options for python C/C++ extensions | None |
 | qbittorrent | An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar | https://www.qbittorrent.org |
 | qbittorrent-nox | Line Bittorrent client written in C++ | None |
 | qemu-aarch64 | User Emulator (static version) | None |
@@ -1800,10 +1799,10 @@
 | relf | a program that shows you the sections of an ELF file and can also guess what the unknown sections contain | None |
 | relic | API of QDBM | None |
 | remaining | Subtract words from a search wordlist using a base wordlist, ideal for combinator attacks | None |
-| removehost | Extract queries without protocol and host | None |
-| removepro | Extract URLs without protocols | None |
 | remove-shell | From the list of valid login | None |
 | remove_shell | From the list of valid login | None |
+| removehost | Extract queries without protocol and host | None |
+| removepro | Extract URLs without protocols | None |
 | rename | Rename files | None |
 | renice | Alter priority of running processes | https://github.com/util-linux/util-linux |
 | reptyr | Running program to a new terminal | None |
@@ -1871,25 +1870,25 @@
 | ruby | An object-oriented language for quick and easy programming | https://www.ruby-lang.org/en/ |
 | ruff | Extremely fast Python linter and formatter | None |
 | rules_optimize | No description available | None |
+| run-init | Executes the specified program as the initial process in a new system environment 
+| run-parts | Or programs in a directory | None |
+| run_init | Init script in the proper SELinux context | None |
+| run_parts | Or programs in a directory | https://packages.qa.debian.org/d/debianutils.html |
 | runblock | Write execline commands in the execline language 
 | runcon | With specified security context | None |
 | runcron | simple, safe, container-friendly cron alternative | None |
-| run-init | Executes the specified program as the initial process in a new system environment 
-| run_init | Init script in the proper SELinux context | None |
 | runiq | An efficient way to filter duplicate lines from input (Rust uniq) | None |
 | runlevel | And current SysV runlevel | None |
 | runme | Execute commands inside/from runbooks, docs, and READMEs | https://github.com/stateful/runme |
-| run-parts | Or programs in a directory | None |
-| run_parts | Or programs in a directory | https://packages.qa.debian.org/d/debianutils.html |
 | runprog | Safely run program by unshare/ptrace/pre-forked containers | None |
 | runsv | Monitors a service and optionally an appendant | http://smarden.org/runit/ |
 | runsvdir | Start and monitor services from a directory | None |
 | runuser | Command with substitute user and group ID | None |
 | ruplacer | Find and replace text in source files | https://github.com/your-tools/ruplacer |
 | rush | A cross-platform command-line tool for executing jobs in parallel | None |
+| rust-parallel | Run commands in parallel (parallel | https://github.com/aaronriekenberg/rust-parallel |
 | rustc | The Rust compiler | https://www.rust-lang.org/ |
 | rustcat | Rustcat(rcat), A modern port listener and reverse shell | None |
-| rust-parallel | Run commands in parallel (parallel | https://github.com/aaronriekenberg/rust-parallel |
 | rustscan | Fast port scanner written in Rust | None |
 | rview | A programmer's text editor | None |
 | rvim | A programmer's text editor | None |
@@ -1938,7 +1937,6 @@
 | s6-envuidgid | Set the UID, GID, and GIDLIST environment variables before executing a program | None |
 | s6-expr | Evaluates an expression and writes the result to stdout | None |
 | s6-false | Returns 1 | None |
-| s6-fdholderd | A server that holds file descriptors as part of the s6-fdholder-daemon system | None |
 | s6-fdholder-daemon | Store/Retrieve file descriptors for clients via a Unix domain socket | None |
 | s6-fdholder-delete | Delete a file descriptor stored with a given ID using an s6-fdholderd daemon | None |
 | s6-fdholder-getdump | Retrieve the entire state, including stored file descriptors, ID, and expiration dates of an s6-fdholderd daemon | None |
@@ -1947,14 +1945,15 @@
 | s6-fdholder-setdump | Dump a set of file descriptors with IDs and expiration dates into an s6-fdholderd daemon | None |
 | s6-fdholder-store | Connect to an s6-fdholderd daemon and store an open file descriptor with the daemon | None |
 | s6-fdholder-transferdump | Connect to one s6-fdholderd daemon to another and transfer the contents | None |
+| s6-fdholderd | A server that holds file descriptors as part of the s6-fdholder-daemon system | None |
 | s6-fghack | Detect bugs in programs by monitoring unexpected file descriptor writes and supervise daemons with improper descriptor handling | None |
 | s6-format-filter | Processes lines according to its arguments, and prints the result | None |
 | s6-freeramdisk | Frees the memory occupied by a RAM disk | None |
 | s6-ftrig-listen | Subscribe to multiple s6-fifodir instances, spawn a program, and wait for specific events to occur on the fifodirs | None |
 | s6-ftrig-listen1 | Subscribe to a single s6-fifodir, wait for events, and ensure the listener is active before the process sends notifications | None |
 | s6-ftrig-notify | Send a series of events as a message to all listeners in a specified s6-fifodir | None |
-| s6-ftrigrd | Manage a set of subscriptions to s6-fifodir | None |
 | s6-ftrig-wait | Subscribe to an s6-fifodir and wait for a specified pattern of events to occur on it | None |
+| s6-ftrigrd | Manage a set of subscriptions to s6-fifodir | None |
 | s6-getservbyname | CLI to the getservbyname() function, converting a service name and protocol into a port number | None |
 | s6-grep | Matches its input against a pattern | None |
 | s6-head | Prints the first lines of its input files | None |
@@ -1971,8 +1970,8 @@
 | s6-ipcclient | UCSPI client tool for Unix domain sockets | None |
 | s6-ipcserver | UCSPI server tool for Unix domain sockets | None |
 | s6-ipcserver-access | Access Control Tool for Unix domain sockets | None |
-| s6-ipcserverd | The Serving part of the s6-ipcserver | None |
 | s6-ipcserver-socketbinder | Binds a Unix domain socket, then executes a program | None |
+| s6-ipcserverd | The Serving part of the s6-ipcserver | None |
 | s6-linkname | Gives the content of a symbolic link or resolves a path | None |
 | s6-linux-init | A program that is meant to run as pid 1 as a stage 1 init | None |
 | s6-linux-init-echo | Writes its arguments to stdout | None |
@@ -2052,8 +2051,8 @@
 | s6-tcpclient | UCSPI client tool for INET domain sockets | None |
 | s6-tcpserver | UCSPI tool for TCP connections, i.e. a super-server | None |
 | s6-tcpserver-access | TCP access control tool | None |
-| s6-tcpserverd | The serving part of the s6-tcpserver | None |
 | s6-tcpserver-socketbinder | Binds an INET domain socket to an IPv4/IPv6 address and port, then executes a program | None |
+| s6-tcpserverd | The serving part of the s6-tcpserver | None |
 | s6-tlsc | Establishes a TLS/SSL client connection over an existing TCP connection, then execs into an application | None |
 | s6-tlsc-io | Client-side program in s6-networking that performs cryptography for s6-tlsc | None |
 | s6-tlsclient | UCSPI client tool for TLS/SSL connections over INET domain sockets | None |
@@ -2126,6 +2125,8 @@
 | sg | To a new group | None |
 | sgpt | AI-powered shell assistant using ChatGPT | None |
 | sh | GNU Bourne-Again Shell, the de facto standard shell on Linux | None |
+| sh-is-ash | The ASH Shell 
+| sh_is_ash | No description available | None |
 | sha1 | Calculate shasum for a file | None |
 | sha1sum | Compute and check SHA1 message digest | https://www.gnu.org/software/coreutils/ |
 | sha224sum | Check SHA224 message digest | None |
@@ -2142,8 +2143,6 @@
 | sherlock | Across social networks | None |
 | shfmt | A shell parser, formatter, and interpreter | None |
 | shift | Shifts positional parameters left | None |
-| sh-is-ash | The ASH Shell 
-| sh_is_ash | No description available | None |
 | shortscan | An IIS short filename enumeration tool | None |
 | shortutil | An IIS short filename enumeration tool | None |
 | shot-scraper | Automated website screenshot tool | None |
@@ -2164,11 +2163,11 @@
 | size | Sizes and total size of binary files | None |
 | sj | Git/GitHub helper | None |
 | sk | Fast fuzzy finder written in Rust | None |
+| sk-tmux | Command-line fuzzy finder written in Rust | None |
 | skadnsd | A daemon that asynchronously resolves queries from stdin & sends answers to the client | None |
 | skim | Fuzzy find items in lists for selection | None |
 | skim-tmux | Command-line fuzzy finder written in Rust | None |
 | skopeo | Command line utility used to interact with local and | None |
-| sk-tmux | Command-line fuzzy finder written in Rust | None |
 | skupper | Virtual Application Network, enabling rich hybrid cloud communication | https://github.com/skupperproject/skupper |
 | skupper-controller | Virtual Application Network, enabling rich hybrid cloud communication | None |
 | slabtop | Slab cache information in real time | None |
@@ -2222,21 +2221,21 @@
 | ssh | OpenSSH remote login client | None |
 | ssh-add | Add private key identities to the OpenSSH authentication agent | None |
 | ssh-agent | OpenSSH authentication agent | None |
-| sshamble | Unexpected Exposures in SSH | https://sshamble.com
 | ssh-copy-id | Use locally available keys to authorize logins on a remote machine | None |
+| ssh-key-sync | Sync GitHub SSH keys onto servers authorized_keys files | https://github.com/shoenig/ssh-key-sync |
+| ssh-keygen | OpenSSH authentication key utility | None |
+| ssh-keyscan | Gather SSH public keys from servers | None |
+| ssh-keysign | Sign SSH authentication requests with a private key | None |
+| ssh-pkcs11-helper | Use PKCS#11 tokens for SSH authentication | None |
+| ssh-sk-helper | OpenSSH helper for FIDO authenticator support 
+| sshamble | Unexpected Exposures in SSH | https://sshamble.com
 | sshd | OpenSSH daemon | None |
 | sshd-session | OpenSSH Privilege Separation 
 | sshesame | SSH honeypot, a fake SSH server that lets anyone in and logs their activity | None |
-| ssh-keygen | OpenSSH authentication key utility | None |
 | sshkeys | Get all ssh public keys of a ssh server | https://github.com/Eun/sshkeys |
-| ssh-keyscan | Gather SSH public keys from servers | None |
-| ssh-keysign | Sign SSH authentication requests with a private key | None |
-| ssh-key-sync | Sync GitHub SSH keys onto servers authorized_keys files | https://github.com/shoenig/ssh-key-sync |
 | sshpass | Password provider | None |
 | sshpiper | Reverse proxy for SSH | https://github.com/tg123/sshpiper |
-| ssh-pkcs11-helper | Use PKCS#11 tokens for SSH authentication | None |
 | sshs | Terminal user interface for SSH | https://github.com/quantumsheep/sshs |
-| ssh-sk-helper | OpenSSH helper for FIDO authenticator support 
 | sshx | Fast, collaborative live terminal sharing over the web | https://sshx.io
 | sshx-server | Fast, collaborative live terminal sharing over the web | None |
 | ssl-client | SSL/TLS client 
@@ -2283,10 +2282,10 @@
 | subxtract | Extract TLD (Top-Level-Domains), Root Domains & More using public-suffix List | https://github.com/pkgforge-security/subxtract |
 | sudachi | Nintendo Switch emulator forked from yuzu | None |
 | sudo | Execute commands with elevated privileges | None |
-| sudoedit | Safely edit files with elevated privileges | None |
 | sudo_logsrvd | sudo event and I/O log server | None |
-| sudoreplay | Replay previous sudo command executions | None |
 | sudo_sendlog | Send sudo I/O log to log server | None |
+| sudoedit | Safely edit files with elevated privileges | None |
+| sudoreplay | Replay previous sudo command executions | None |
 | sugarfree | Analyze and Reduce the entropy of a provided PE file | None |
 | sulogin | Single-user login | https://github.com/util-linux/util-linux |
 | sum | Checksum and count the blocks in a file | https://www.gnu.org/software/coreutils/ |
@@ -2301,12 +2300,12 @@
 | svg-hush | Sanitizes SVGs of arbitrary code | https://github.com/cloudflare/svg-hush |
 | svlogd | Logging daemon | None |
 | svn | Apache Subversion version control client | None |
+| svn-lite | Minimalist svn client to checkout/update Subversion repositories | None |
 | svn2git | Svn to git | None |
 | svnadmin | Subversion repository administration tool | None |
 | svnbench | Subversion benchmarking tool | None |
 | svndumpfilter | Filter a subversion repository 'dumpfile' | None |
 | svnfsfs | Subversion FSFS repository manipulation tool | None |
-| svn-lite | Minimalist svn client to checkout/update Subversion repositories | None |
 | svnlook | Subversion repository examination tool | None |
 | svnmucc | Multiple URL Command Client for Subversion | None |
 | svnrdump | Subversion remote repository dumper and loader | None |
@@ -2322,16 +2321,16 @@
 | symlinks | Maintenance utility | None |
 | symtree | Display libraries that satisfy undefined symbols, as a tree 
 | sync | Backup and synchronization service | https://www.gnu.org/software/coreutils/ |
-| syncat | Syntax aware cat utility | https://github.com/foxfriends/syncat |
 | sync-color-schemes | Sync color schemes between wezterm sessions | None |
+| syncat | Syntax aware cat utility | https://github.com/foxfriends/syncat |
 | syncthing | FOSS Continuous File Synchronisation | None |
 | synfigstudio | Professional vector animation program | None |
 | sysctl | Parameters at runtime | None |
 | sysinfo-collector | collect ram/cpu usage from OS and show it in pretty graphs | None |
 | syslogd | System logging utility | None |
-| systemctl-tui | Simple TUI for interacting with systemd services and their logs | https://github.com/rgwood/systemctl-tui |
 | system-info-collector | collect ram/cpu usage from OS and show it in pretty graphs | https://github.com/qarmin/system-info-collector |
 | system_info_collector | collect ram/cpu usage from OS and show it in pretty graphs | https://github.com/qarmin/system-info-collector |
+| systemctl-tui | Simple TUI for interacting with systemd services and their logs | https://github.com/rgwood/systemctl-tui |
 | t1dotlessj | Dotless-j PostScript Type 1 font | None |
 | t1lint | PostScript Type 1 font for correctness | None |
 | t1rawafm | AFM metrics from a PostScript Type 1 | None |
@@ -2342,13 +2341,13 @@
 | taierspeed-cli | Speedtest cli for Tel Speed Test | None |
 | tail | Output the last part of files | https://www.gnu.org/software/coreutils/ |
 | tailscale | WireGuard-based mesh VPN | None |
-| tailscaled | Daemon for the Tailscale CLI | None |
 | tailscale-multi | Combined Client & Daemon in a Single Binary (Limited Features) | None |
+| tailscaled | Daemon for the Tailscale CLI | None |
 | tailspin | A log file highlighter and a drop-in replacement for tail -f | https://github.com/bensadeh/tailspin |
 | taplo | A TOML toolkit written in Rust | https://taplo.tamasfe.dev
 | tar | Utility used to store, backup, and transport files | https://www.gnu.org/software/tar/ |
-| tar2sqfs | SquashFS image from a tar archive | None |
 | tar-split | tar Assembly and Disassembly utility | https://github.com/vbatts/tar-split |
+| tar2sqfs | SquashFS image from a tar archive | None |
 | tasker | Cron Expression parser with task runner and daemon that supports crontab like task list file | None |
 | taskset | Set or retrieve a process's CPU affinity | https://github.com/util-linux/util-linux |
 | tc | Show / manipulate traffic control settings | https://git.kernel.org/pub/scm/network/iproute2/iproute2.git |
@@ -2443,22 +2442,23 @@
 | tuiarchiver | TUI archive manager | None |
 | tun2socks | Create a network interface which passes all traffic through proxy | https://github.com/xjasonlyu/tun2socks |
 | tunctl | Create and manage persistent TUN/TAP | http://user-mode-linux.sourceforge.net/UserModeLinux-HOWTO.html) |
-| tune2fs | Adjust tunable file system parameters on ext2/ext3/ext4 | http://e2fsprogs.sourceforge.net |
 | tune.exfat | Filesystem parameters on an exFAT | None |
+| tune2fs | Adjust tunable file system parameters on ext2/ext3/ext4 | http://e2fsprogs.sourceforge.net |
 | turbo-attack | Generate random traffic with spoofed MAC, IP, and sequence numbers to a target IP and port | https://github.com/mytechnotalent/turbo-attack |
 | turbo-scanner | A high-speed port scanner with service detection using 1000 goroutines | https://github.com/mytechnotalent/turbo-scanner |
 | tusd | TUS Resumable Upload Protocol Server | https://github.com/tus/tusd |
 | tut | TUI for Mastodon with vim inspired keys | None |
 | twine | Do uploads on pypi. | None |
 | twingate | Zero trust remote access client for resource and networks | None |
-| twingated | Daemon for Twingate | None |
 | twingate-notifier | Monitor & Notify for Twingate Client | None |
+| twingated | Daemon for Twingate | None |
 | twitch-dl | CLI tool for downloading videos from Twitch | None |
 | twolame | MPEG Audio Layer 2 (MP2) encoder | None |
 | txeh | CLI utility for /etc/hosts management | https://github.com/txn2/txeh |
 | typst | Modern typesetting system and compiler | None |
 | tz | 🌐 A time zone helper | https://github.com/oz/tz |
 | tzupdate | Update timezone information based on geoip | https://github.com/cdown/tzupdate |
+| u-root | Tool to create a one-binary root file system (initramfs) containing a busybox-like set of tools & More | https://github.com/u-root/u-root |
 | ubiattach | No description available | None |
 | ubidetach | No description available | None |
 | ubimkvol | No description available | None |
@@ -2522,16 +2522,15 @@
 | unzip | For extracting and viewing files in .zip archives | http://infozip.sourceforge.net/UnZip.html |
 | unzstd | Unzstd, zstdcatCompress or | None |
 | update-alternatives | Links determining default | None |
-| updatedb | File name database | None |
 | update-desktop-database | Database of MIME types | None |
+| updatedb | File name database | None |
 | uptime | Tell how long the system has been running. | https://gitlab.com/procps-ng/procps |
 | upx | Expand executable files | None |
+| url-parser | Simple command-line URL parser | https://github.com/thegeeklab/url-parser |
 | urless | De-clutter a list of URLs | None |
 | urlfinder | Passively gather URLs without active scanning | https://github.com/projectdiscovery/urlfinder |
 | urlhunter | Recon on URLs that are exposed via shortener services such as bit.ly, goo.gl etc | https://github.com/utkusen/urlhunter |
-| url-parser | Simple command-line URL parser | https://github.com/thegeeklab/url-parser |
 | uro | Declutter url lists for crawling/pentesting | None |
-| u-root | Tool to create a one-binary root file system (initramfs) containing a busybox-like set of tools & More | https://github.com/u-root/u-root |
 | urx | Extract URLs from OSINT Archives for Security Insights | None |
 | usbhid-dump | HID device report descriptors and | None |
 | useradd | New user or update default new user | None |
@@ -2605,9 +2604,6 @@
 | warp-scan | Anti Censorship Utility using Cloudflare Warp+Psiphon | None |
 | warp-svc | Cloudflare WARP Service Manager/Daemon | None |
 | warp-taskbar | Cloudflare WARP Taskbar Applet | None |
-| wasm2c | Convert WebAssembly to portable C code | None |
-| wasm2wat | Disassemble WebAssembly binary to text | None |
-| wasm2wat-fuzz | The WebAssembly Binary Toolkit | None |
 | wasm-as | Assemble WebAssembly in text format | None |
 | wasm-ctor-eval | At compile time | None |
 | wasm-decompile | Decompile a wasm binary into readable C-like syntax 
@@ -2615,7 +2611,6 @@
 | wasm-emscripten-finalize | Take a wasm binary produced by llvm+lld and performs emscripten-specific passes over it | None |
 | wasm-fuzz-lattices | For reflexivity, transitivity, | None |
 | wasm-fuzz-types | Construction, canonicalization, and | None |
-| wasmi-cli | Efficient and Lightweight WebAssembly interpreter with a focus on constrained and embedded systems | None |
 | wasm-interp | Decode and run a WebAssembly binary file using a stack-based interpreter 
 | wasm-merge | Files into one. | None |
 | wasm-metadce | Performs dead code elimination (DCE) on a | None |
@@ -2625,14 +2620,18 @@
 | wasm-shell | A shell that can load and interpret WebAssembly code | None |
 | wasm-stats | Output stats for a WASM module | None |
 | wasm-strip | Strip custom sections from WebAssembly files | None |
-| wasmtime | Standalone WebAssembly runtime | None |
 | wasm-tools | CLI for low-level manipulation of WebAssembly modules | None |
 | wasm-validate | Validate a file in the WebAssembly binary format 
+| wasm2c | Convert WebAssembly to portable C code | None |
+| wasm2wat | Disassemble WebAssembly binary to text | None |
+| wasm2wat-fuzz | The WebAssembly Binary Toolkit | None |
+| wasmi-cli | Efficient and Lightweight WebAssembly interpreter with a focus on constrained and embedded systems | None |
+| wasmtime | Standalone WebAssembly runtime | None |
 | wast2json | Convert a file in the wasm spec test format to a JSON file and associated wasm binary files 
+| wat-desugar | Parse .wat text form and print 'canonical' flat format 
 | wat2wasm | Assemble WebAssembly text to binary | None |
 | watch | Watches for changes in a directory tree and reruns a command in an acme win or just on the terminal. | https://github.com/eaburns/Watch |
 | watchdog | Watchdog daemon | http://sourceforge.net/projects/watchdog |
-| wat-desugar | Parse .wat text form and print 'canonical' flat format 
 | wavpack | Encode audio files to wavpack | None |
 | waybackfetch | Tool for fetching all the available waybackmachine snapshot urls | https://github.com/KathanP19/waybackfetch |
 | waybackrobots | Enumerate old versions of robots.txt paths using Wayback Machine for content discovery | None |
@@ -2644,8 +2643,8 @@
 | wego | Terminal weather forecast with ASCII art | None |
 | wezterm-mux-server | Multiplex Server for Wezterm | None |
 | wgcf | Unofficial CLI for Cloudflare Warp | None |
-| wgcfcat | Like netcat, but over Cloudflare WARP | None |
 | wgcf-cli | Command-line tool for Cloudflare-WARP API | None |
+| wgcfcat | Like netcat, but over Cloudflare WARP | None |
 | wget | Network utility to retrieve files from the web | https://www.gnu.org/software/wget/wget.html |
 | wget2 | Next-generation wget with HTTP/2 support | None |
 | wharfie | Pull/Unpack a container image to the local filesystem | https://github.com/rancher/wharfie |
@@ -2768,7 +2767,6 @@
 | yuvcorrect | Color correction for YUV streams | None |
 | yuvcorrect_tune | No description available | None |
 | yuvdeinterlace | Deinterlace YUV streams | None |
-| yuvdenoise | Motion-Compensating-YUV4MPEG2-frame-denoiser | None |
 | yuvfps | A different frame rate | None |
 | yuvinactive | Part of the video to a defined state | None |
 | yuvkineco | Pulldown movie | None |
