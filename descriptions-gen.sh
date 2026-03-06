@@ -132,7 +132,7 @@ for app in $appnames; do
 done
 wait
 
-sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |\|^| .*pkgforge.* | .* | .* |$ " | grep "^| " | sed -i 's/\[.*\]//g; s/   / /g; s/  / /g' > tmp.txt
+sort -u descriptions.md | grep -v -- "|  |$\| ------- \| appname | description | site |\|^| .*pkgforge.* | .* | .* |$ " | grep "^| " | sed 's/\[.*\]//g; s/   / /g; s/  / /g' > tmp.txt
 wait
 
 ARGS=$(awk '{print $2}' ./tmp.txt | xargs)
