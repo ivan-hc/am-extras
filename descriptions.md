@@ -1667,16 +1667,16 @@
 | python-config | Options for python C/C++ extensions | None |
 | python2.7 | Legacy Python 2.7 interpreter | None |
 | python3 | Interactive, object-oriented programming | None |
-| python3.10 | No description available | None |
-| python3.11 | No description available | None |
-| python3.12 | No description available | None |
+| python3.10 | Interactive, object-oriented programming | None |
+| python3.11 | Interactive, object-oriented programming | None |
+| python3.12 | Interactive, object-oriented programming | None |
 | python3.13 | Interactive, object-oriented programming | None |
 | python3.14 | Interactive, object-oriented programming | None |
-| python3.5 | No description available | None |
-| python3.6 | No description available | None |
-| python3.7 | No description available | None |
-| python3.8 | No description available | None |
-| python3.9 | No description available | None |
+| python3.5 | Interactive, object-oriented programming | None |
+| python3.6 | Interactive, object-oriented programming | None |
+| python3.7 | Interactive, object-oriented programming | None |
+| python3.8 | Interactive, object-oriented programming | None |
+| python3.9 | Interactive, object-oriented programming | None |
 | qbittorrent | An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar | https://www.qbittorrent.org |
 | qbittorrent-nox | Line Bittorrent client written in C++ | None |
 | qemu-aarch64 | User Emulator (static version) | None |
