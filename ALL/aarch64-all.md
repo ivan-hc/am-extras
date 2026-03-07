@@ -3243,7 +3243,6 @@
 ◆ sync : Write all buffered blocks to disk [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sync-color-schemes : Sync color schemes between wezterm sessions [wezterm]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ syncat : Syntax aware cat utility. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ syncthing : FOSS Continuous File Synchronisation. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sysctl : Configure kernel parameters at runtime [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sysctl : Configure kernel parameters at runtime [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sysctl : Configure kernel parameters at runtime [procps]. To install it use the --soarpkg flag or the .soarpkg extension.
