@@ -22,7 +22,7 @@ if [ -n "$source_list" ] && echo "$pkg_and_dl" | grep -qi "appimage$"; then
 			[ -z "$description" ] && description="No description available"
 			site="$ref"
 			download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*download.*/$app/.*$arch.*")
-			version=$(echo "$download" | grep "$app" | grep -oP '(?<=_)[0-9.]+-[0-9]+(?=-x86_64\.AppImage)')
+			version=$(echo "$download" | grep "$app" | grep -oP 'v?\d+\.\d+\.\d+')
 			if echo "| $appname | $description | $site | $download | $version |" | grep -qi "^| .* | .* | http.* | http.*download.* | .* |$"; then
 				echo "| $appname | $description | $site | $download | $version |" >> "$arch".md
 			fi
