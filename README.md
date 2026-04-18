@@ -1,4 +1,7 @@
 # AM-extras
+
+<div align="center">
+
 ***Extensions for "AM", the package manager for AppImages and portable apps for GNU/Linux***
 
 <p align="center">
@@ -6,6 +9,9 @@
 </p>
 
 This repository is used to extend the available AM/AppMan software portfolio by adding third-party sources to the AM database.
+
+</div>
+
 
 ***To know more about AM, visit https://github.com/ivan-hc/AM***
 
