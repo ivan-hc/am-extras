@@ -4,16 +4,16 @@
 
 # Helper function to export database info and update flags
 set_db() {
-    name=$1
-    repo=$2
-    info=$3
-    readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/$name/${ARCH}.md"
+    am_extras_db_name=$1
+    am_extras_db_repo=$2
+    am_extras_db_info=$3
+    am_extras_db_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/$am_extras_db_name/${ARCH}.md"
 
-    eval "${name}_repo=\"$repo\""
-    eval "${name}_readme=\"$readme\""
-    eval "${name}_info=\"$info\""
+    eval "${am_extras_db_name}_repo=\"$am_extras_db_repo\""
+    eval "${am_extras_db_name}_readme=\"$am_extras_db_readme\""
+    eval "${am_extras_db_name}_info=\"$am_extras_db_info\""
 
-    [ -n "$readme" ] && third_party_flags="$third_party_flags --$name"
+    [ -n "$am_extras_db_readme" ] && third_party_flags="$third_party_flags --$am_extras_db_name"
 }
 
 ################################################################################
