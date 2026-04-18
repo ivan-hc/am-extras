@@ -55,10 +55,10 @@ jobs:
                   printf "\n" >> ALL/"$arch".md
 
                   # List for AM
-                  printf "# %b\n" "$db" >> ALL/"$arch"-all.md
+                  printf "# %b\n" "$db" >> ALL/"$arch"-all
                   cat "$db"/"$arch".md | grep -v -- "---\|^| appname" | grep "^| .* | .* | http.* | http.* | .* |$" 2>/dev/null | awk -F'|' '{print $2, $3}' | sed 's/^/◆/g; s/   / : /g; s/ $//g' \
-                  | sed "s/$/. To install it use the --$db flag or the .$db extension./g" | sort >> ALL/"$arch"-all.md
-                  printf "\n" >> ALL/"$arch"-all.md
+                  | sed "s/$/. To install it use the --$db flag or the .$db extension./g" | sort >> ALL/"$arch"-all
+                  printf "\n" >> ALL/"$arch"-all
 
                 fi
               done
