@@ -25,7 +25,7 @@ jobs:
         run: |
           DATABASES=$(ls -d */ | tr '/' ' ' | xargs)
           for db in $DATABASES; do
-             if ! grep -i -A 1 "^# $db$" ./am-extras | tail -1 | grep -q "#export "; then
+             if ! cat ./am-extras | grep -q "#.*set_db $db " ./am-extras; then
                if [ -f "$db"/lister.sh ]; then
                  cd "$db" || exit 1
                  echo "◆ Updating \"$db\" lists"
