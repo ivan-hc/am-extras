@@ -1,40 +1,30 @@
 #!/bin/sh
 
-# This file is intended to list variables related to third-party databases managed by "AM"/AppMan
+# This file lists variables for third-party databases managed by "AM"/AppMan
+
+# Helper function to export database info and update flags
+set_db() {
+    name=$1
+    repo=$2
+    info=$3
+    readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/$name/${ARCH}.md"
+
+    eval "${name}_repo=\"$repo\""
+    eval "${name}_readme=\"$readme\""
+    eval "${name}_info=\"$info\""
+
+    [ -n "$readme" ] && third_party_flags="$third_party_flags --$name"
+}
 
 ################################################################################
 #	Databases using the generic "AM-SAMPLE-Archive" template (default)
 ################################################################################
 
-# BUSYBOX
-export busybox_repo="https://busybox.net"
-export busybox_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/busybox/${ARCH}.md"
-export busybox_info="This database provides the complete set of official BusyBox tools."
-[ -n "$busybox_readme" ] && third_party_flags="$third_party_flags --busybox"
-
-# COREUTILSH
-#export coreutilsh_repo="https://github.com/Samueru-sama/coreutils-sh"
-#export coreutilsh_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/coreutilsh/${ARCH}.md"
-#export coreutilsh_info="This database provides coreutils wrote using pure sh (not bash)."
-#[ -n "$coreutilsh_readme" ] && third_party_flags="$third_party_flags --coreutilsh"
-
-# GTK3
-export gtk3_repo="https://github.com/ivan-hc/GNOME3-appimages"
-export gtk3_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/gtk3/${ARCH}.md"
-export gtk3_info="This database creates and distributes all GTK3 versions of GNOME apps in AppImage format. Visit https://github.com/ivan-hc/GNOME3-appimages to learn more."
-[ -n "$gtk3_readme" ] && third_party_flags="$third_party_flags --gtk3"
-
-# ONEBIN
-#export onebin_repo="https://github.com/nikvdp/1bin"
-#export onebin_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/onebin/${ARCH}.md"
-#export onebin_info="A wide range of pre-compiled binaries wrote in Rust."
-#[ -n "$onebin_readme" ] && third_party_flags="$third_party_flags --onebin"
-
-# PYTHON
-export python_repo="https://python-appimage.readthedocs.io"
-export python_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/python/${ARCH}.md"
-export python_info="This database creates and distributes all Python versions in AppImage format, ensuring they can be installed side-by-side and without conflict. Visit https://github.com/niess/python-appimage to learn more."
-[ -n "$python_readme" ] && third_party_flags="$third_party_flags --python"
+set_db busybox "https://busybox.net" "This database provides the complete set of official BusyBox tools."
+#set_db coreutilsh "https://github.com/Samueru-sama/coreutils-sh" "This database provides coreutils wrote using pure sh (not bash)."
+set_db gtk3 "https://github.com/ivan-hc/GNOME3-appimages" "This database creates and distributes all GTK3 versions of GNOME apps in AppImage format. Visit https://github.com/ivan-hc/GNOME3-appimages to learn more."
+#set_db onebin "https://github.com/nikvdp/1bin" "A wide range of pre-compiled binaries wrote in Rust."
+set_db python "https://python-appimage.readthedocs.io" "This database creates and distributes all Python versions in AppImage format, ensuring they can be installed side-by-side and without conflict. Visit https://github.com/niess/python-appimage to learn more."
 
 ################################################################################
 #	Databases using their own template
@@ -42,21 +32,8 @@ export python_info="This database creates and distributes all Python versions in
 
 if [ -n "$MODULES_PATH" ] && [ -f "$MODULES_PATH/install.am" ]; then
 
-	# APPBUNDLE
-	if grep -q "AM-SAMPLE-AppBundle" "$MODULES_PATH/install.am"; then
-		export appbundle_repo="https://github.com/xplshn/AppBundleHUB"
-		export appbundle_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/appbundle/${ARCH}.md"
-		export appbundle_info="This database provides AppBundles, similar to Appimages but with greater portability and compatibility across multiple systems. They are built using PELF, see https://github.com/xplshn/pelf for more information."
-		[ -n "$appbundle_readme" ] && third_party_flags="$third_party_flags --appbundle"
-	fi
+    grep -q "AM-SAMPLE-AppBundle" "$MODULES_PATH/install.am" && set_db appbundle "https://github.com/xplshn/AppBundleHUB" "This database provides AppBundles, similar to Appimages but more portable. Built using PELF: https://github.com/xplshn/pelf."
 
-	# SOARPKG
-	if grep -q "AM-SAMPLE-soarpkg" "$MODULES_PATH/install.am"; then
-		export soarpkg_repo="https://github.com/pkgforge/soarpkgs"
-		export soarpkg_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/soarpkg/${ARCH}.md"
-		export soarpkg_info="This is the largest collection of static binary packages, created for the SOAR package manager and maintained by the Package Forge organization and its affiliates. Visit https://github.com/pkgforge to learn more."
-		[ -n "$soarpkg_readme" ] && third_party_flags="$third_party_flags --soarpkg"
-		export soarpkg_missing_file_msg="\nIt appears that the selected file is not available.\n\nThis happens due to pkgforge's mirror Issue.\nLearn more: https://docs.pkgforge.dev/repositories/bincache/cache\n\nAlternatively, install \"soar\" or \"dbin\" and use those.\n\n"
-	fi
+    grep -q "AM-SAMPLE-soarpkg" "$MODULES_PATH/install.am" && set_db soarpkg "https://github.com/pkgforge/soarpkgs" "Largest collection of static binary packages for the SOAR package manager. Visit https://github.com/pkgforge to learn more."
 
 fi
