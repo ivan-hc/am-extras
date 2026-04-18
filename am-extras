@@ -21,9 +21,9 @@ set_db() {
 ################################################################################
 
 set_db busybox "https://busybox.net" "This database provides the complete set of official BusyBox tools."
-#set_db coreutilsh "https://github.com/Samueru-sama/coreutils-sh" "This database provides coreutils wrote using pure sh (not bash)."
+set_db coreutilsh "https://github.com/Samueru-sama/coreutils-sh" "This database provides coreutils wrote using pure sh (not bash)."
 set_db gtk3 "https://github.com/ivan-hc/GNOME3-appimages" "This database creates and distributes all GTK3 versions of GNOME apps in AppImage format. Visit https://github.com/ivan-hc/GNOME3-appimages to learn more."
-#set_db onebin "https://github.com/nikvdp/1bin" "A wide range of pre-compiled binaries wrote in Rust."
+set_db onebin "https://github.com/nikvdp/1bin" "A wide range of pre-compiled binaries wrote in Rust."
 set_db python "https://python-appimage.readthedocs.io" "This database creates and distributes all Python versions in AppImage format, ensuring they can be installed side-by-side and without conflict. Visit https://github.com/niess/python-appimage to learn more."
 
 ################################################################################
