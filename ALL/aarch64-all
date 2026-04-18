@@ -1,23 +1,4 @@
 # coreutilsh
-◆ arch : Output a string repeatedly until killed. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ basename : Strip directory and suffix from filenames. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ dirname : Strip last component from file name. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ echo : Line of text. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ false : Do nothing, unsuccessfully. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ hostname : Show or set system host name. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ locale : Show or set system host name. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ logname : Print user's login name. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ nproc : Print the number of processing units available. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ printenv : Print all or part of environment. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ printf : Print data. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ pwd : Print name of current/working directory. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ test : Check file types and compare values. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ touch : Change file timestamps. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ true : Do nothing, successfully. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ uname : Print system information. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ which : A utility to show the full path of commands. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ whoami : Print effective user name. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ yes : Output a string repeatedly until killed. To install it use the --coreutilsh flag or the .coreutilsh extension.
 
 # python
 ◆ python3.10 : Interactive high-level object-oriented language [AppImage, build cp310-cp310-manylinux2014]. To install it use the --python flag or the .python extension.

@@ -428,25 +428,6 @@
 ◆ zcip : Manage a ZeroConf IPv4 link-local address. To install it use the --busybox flag or the .busybox extension.
 
 # coreutilsh
-◆ arch : No description available. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ basename : Strip directory and suffix from filenames. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ dirname : Strip last component from file name. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ echo : Line of text. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ false : Do nothing, unsuccessfully. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ hostname : Show or set system host name. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ locale : Show or set system host name. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ logname : Print user's login name. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ nproc : Print the number of processing units available. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ printenv : Print all or part of environment. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ printf : Print data. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ pwd : Print name of current/working directory. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ test : Check file types and compare values. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ touch : Change file timestamps. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ true : Do nothing, successfully. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ uname : Print system information. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ which : A utility to show the full path of commands. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ whoami : Print effective user name. To install it use the --coreutilsh flag or the .coreutilsh extension.
-◆ yes : Output a string repeatedly until killed. To install it use the --coreutilsh flag or the .coreutilsh extension.
 
 # gtk3
 ◆ baobab : A graphical directory tree analyzer. To install it use the --gtk3 flag or the .gtk3 extension.
@@ -484,7 +465,7 @@
 ◆ git : The fast distributed version control system. To install it use the --onebin flag or the .onebin extension.
 ◆ go : Core compiler tools for the Go programming language. To install it use the --onebin flag or the .onebin extension.
 ◆ gtimeout : No description available. To install it use the --onebin flag or the .onebin extension.
-◆ http : Http. To install it use the --onebin flag or the .onebin extension.
+◆ http : . To install it use the --onebin flag or the .onebin extension.
 ◆ hyperbeam : Shared Browser App. To install it use the --onebin flag or the .onebin extension.
 ◆ java : Java application. To install it use the --onebin flag or the .onebin extension.
 ◆ jc : Converts the output of popular command-line tools and file-types to JSON. To install it use the --onebin flag or the .onebin extension.
@@ -498,10 +479,10 @@
 ◆ nc : Arbitrary TCP and UDP connections and listens.. To install it use the --onebin flag or the .onebin extension.
 ◆ ncdu : Disk usage analyzer with an ncurses interface. To install it use the --onebin flag or the .onebin extension.
 ◆ nginx : Lightweight HTTP server and IMAP/POP3 proxy server. To install it use the --onebin flag or the .onebin extension.
-◆ node : Server-side. To install it use the --onebin flag or the .onebin extension.
+◆ node : . To install it use the --onebin flag or the .onebin extension.
 ◆ npm : JavaScript package manager. To install it use the --onebin flag or the .onebin extension.
 ◆ npx : Execute Node.js packages without global installation. To install it use the --onebin flag or the .onebin extension.
-◆ nvim : Edit. To install it use the --onebin flag or the .onebin extension.
+◆ nvim : . To install it use the --onebin flag or the .onebin extension.
 ◆ parallel : A shell tool for executing jobs in parallel. To install it use the --onebin flag or the .onebin extension.
 ◆ pdm : No description available. To install it use the --onebin flag or the .onebin extension.
 ◆ pee : Tee standard input to pipes. To install it use the --onebin flag or the .onebin extension.
@@ -515,7 +496,7 @@
 ◆ postgres : PostgreSQL database server. To install it use the --onebin flag or the .onebin extension.
 ◆ prisma : No description available. To install it use the --onebin flag or the .onebin extension.
 ◆ progress : Shows running coreutils basic commands and displays stats. To install it use the --onebin flag or the .onebin extension.
-◆ psql : Terminal. To install it use the --onebin flag or the .onebin extension.
+◆ psql : . To install it use the --onebin flag or the .onebin extension.
 ◆ pv : A terminal-based tool for monitoring the progress of data through a pipeline. To install it use the --onebin flag or the .onebin extension.
 ◆ python : The Python programming language. To install it use the --onebin flag or the .onebin extension.
 ◆ rclone : Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage. To install it use the --onebin flag or the .onebin extension.
@@ -530,8 +511,8 @@
 ◆ socat : Multipurpose relay. To install it use the --onebin flag or the .onebin extension.
 ◆ sponge : A powerful and easy-to-use Go development framework that enables you to effortlessly build high-performance, highly available backend service systems through a 'low-code' approach.. To install it use the --onebin flag or the .onebin extension.
 ◆ sqlite3 : A C library that implements an SQL database engine. To install it use the --onebin flag or the .onebin extension.
-◆ ssh : OpenSSH. To install it use the --onebin flag or the .onebin extension.
-◆ sshd : OpenSSH. To install it use the --onebin flag or the .onebin extension.
+◆ ssh : OpenSSH remote login client. To install it use the --onebin flag or the .onebin extension.
+◆ sshd : OpenSSH daemon. To install it use the --onebin flag or the .onebin extension.
 ◆ tldr : Command line client for tldr, a collection of simplified man pages.. To install it use the --onebin flag or the .onebin extension.
 ◆ tree : A directory listing program displaying a depth indented list of files. To install it use the --onebin flag or the .onebin extension.
 ◆ ts : Timestamp input. To install it use the --onebin flag or the .onebin extension.
