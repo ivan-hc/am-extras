@@ -18,7 +18,7 @@ for arch in $architectures; do
 	_sources
 	for app in $appnames; do
 		appname=$( echo "$app" | tr '_' '-')
-		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*/$app$")
+		download=$(echo "$pkg_and_dl" | tr ' ' '\n' | grep -i "^https.*/$app$" | head -1)
 		if [ -f ../descriptions.md ] && grep -q "| $app |" ../descriptions.md; then
 			description=$(grep "^| $app |" ../descriptions.md | awk -F'|' '{print $3}' | sed 's/^ //g; s/ $//g; s/  / /g')
 			[ -z "$description" ] && description="No description available"
