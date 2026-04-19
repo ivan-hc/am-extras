@@ -4,16 +4,16 @@
 
 # Helper function to export database info and update flags
 set_db() {
-    am_extras_db_name=$1
-    am_extras_db_repo=$2
-    am_extras_db_info=$3
-    am_extras_db_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/$am_extras_db_name/${ARCH}.md"
+	am_extras_db_name=$1
+	am_extras_db_repo=$2
+	am_extras_db_info=$3
+	am_extras_db_readme="https://raw.githubusercontent.com/ivan-hc/am-extras/main/$am_extras_db_name/${ARCH}.md"
 
-    eval "${am_extras_db_name}_repo=\"$am_extras_db_repo\""
-    eval "${am_extras_db_name}_readme=\"$am_extras_db_readme\""
-    eval "${am_extras_db_name}_info=\"$am_extras_db_info\""
+	eval "${am_extras_db_name}_repo=\"$am_extras_db_repo\""
+	eval "${am_extras_db_name}_readme=\"$am_extras_db_readme\""
+	eval "${am_extras_db_name}_info=\"$am_extras_db_info\""
 
-    [ -n "$am_extras_db_readme" ] && third_party_flags="$third_party_flags --$am_extras_db_name"
+	[ -n "$am_extras_db_readme" ] && third_party_flags="$third_party_flags --$am_extras_db_name"
 }
 
 ################################################################################
@@ -32,8 +32,8 @@ set_db python "https://python-appimage.readthedocs.io" "This database creates an
 
 if [ -n "$MODULES_PATH" ] && [ -f "$MODULES_PATH/install.am" ]; then
 
-    grep -q "AM-SAMPLE-AppBundle" "$MODULES_PATH/install.am" && set_db appbundle "https://github.com/xplshn/AppBundleHUB" "This database provides AppBundles, similar to Appimages but more portable. Built using PELF: https://github.com/xplshn/pelf."
+	grep -q "AM-SAMPLE-AppBundle" "$MODULES_PATH/install.am" && set_db appbundle "https://github.com/xplshn/AppBundleHUB" "This database provides AppBundles, similar to Appimages but more portable. Built using PELF: https://github.com/xplshn/pelf."
 
-    grep -q "AM-SAMPLE-soarpkg" "$MODULES_PATH/install.am" && set_db soarpkg "https://github.com/pkgforge/soarpkgs" "Largest collection of static binary packages for the SOAR package manager. Visit https://github.com/pkgforge to learn more."
+	grep -q "AM-SAMPLE-soarpkg" "$MODULES_PATH/install.am" && set_db soarpkg "https://github.com/pkgforge/soarpkgs" "Largest collection of static binary packages for the SOAR package manager. Visit https://github.com/pkgforge to learn more."
 
 fi
