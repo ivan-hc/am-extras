@@ -612,7 +612,6 @@
 # soarpkg
 ◆ 2to3 : Python2 to Python3 converter [python3]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ 40four : A tech enumeration toolkit focused on 404 Not found pages. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ 7z : Command line archiver utility. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ acpid : Listen to ACPI events and spawn specific helpers on event arrival [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ acpid : Listen to ACPI events and spawn specific helpers on event arrival [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ act : Run your GitHub Actions locally. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -677,8 +676,6 @@
 ◆ apptainer : Standalone Linux Container Alternative to docker/podman that runs anywhere with 0 Dependency. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ apx : Package manager with support for multiple sources. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ aqtinstall : Qt CLI Installer on multi-platforms. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ar : A utility for creating, modifying and extracting from archives [bintools]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ar : A utility for creating, modifying and extracting from archives [binutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ arc : Tiny package manager for Linux. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ arch : Print machine hardware name (same as uname -m) [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ arch : Print machine hardware name (same as uname -m) [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -745,20 +742,6 @@
 ◆ base32 : Base32 encode/decode data and print to standard output [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ base32 : Encode or decode data using Base32 encoding [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ base32 : Encode or decode data using Base32 encoding [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ base64 : Base64 encode/decode data and print to standard output [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ base64 : Base64 encode/decode data and print to standard output [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ base64 : Base64 encode/decode data and print to standard output [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ base64 : Base64 encode/decode data and print to standard output [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ base64 : Encode or decode data using Base64 encoding [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ base64 : Encode or decode data using Base64 encoding [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ basename : Strip directory and suffix from filenames [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ basename : Strip directory and suffix from filenames [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ basename : Strip directory and suffix from filenames [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ basename : Strip directory and suffix from filenames [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ basename : Strip directory path and .SUFFIX from FILE [bsdutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ basename : Strip directory path and .SUFFIX from FILE [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ basename : Strip directory path and .SUFFIX from FILE [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ basename : Strip directory path and .SUFFIX from FILE [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ basenc : Encode/decode data and print to standard output [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ basenc : Encode/decode data and print to standard output [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ basenc : Encode/decode data and print to standard output [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -849,8 +832,6 @@
 ◆ byacc : Berkeley YACC. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ bzcat : Uncompress to stdout [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ bzcat : Uncompress to stdout [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ bzip2 : Compress FILE(s) with bzip2 algorithm [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ bzip2 : Compress FILE(s) with bzip2 algorithm [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ bzip3 : Efficient statistical file compressor and spiritual successor to bzip2 [bzip3]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ c2w : Container to WASM converter. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ c2w-net : Container to WASM converter. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -876,14 +857,6 @@
 ◆ cariddi : Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ case : Compare a value against a series of regular expressions & execute a program [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ case : Compare a value against a series of regular expressions & execute a program [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cat : Concatenate FILE(s) and print them to stdout [bsdutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cat : Concatenate FILE(s) and print them to stdout [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cat : Concatenate FILE(s) and print them to stdout [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cat : Concatenate FILE(s) and print them to stdout [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cat : Concatenate files and print on the standard output [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cat : Concatenate files and print on the standard output [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cat : Concatenate files and print on the standard output [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cat : Concatenate files and print on the standard output [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ catp : Print the output of a running process. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ catv : the harmful features of cat. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cc1 : Standalone C Compiler [xcc]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -939,21 +912,7 @@
 ◆ chgrp : Change the group membership of each FILE to GROUP [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ chisel : A fast TCP/UDP tunnel transported over HTTP, secured via SSH. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ chmem : Set a particular size or range of memory online or offline [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chmod : Change file owner and group [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chmod : Change file owner and group [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chmod : Change file owner and group [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chmod : Change the permissions of a file or directory [bsdutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chmod : Change the permissions of a file or directory [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chmod : Change the permissions of a file or directory [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chmod : Change the permissions of a file or directory [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ choom : Display and adjust OOM-killer score [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chown : Change file owner and group [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chown : Change file owner and group [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chown : Change file owner and group [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chown : Change the owner and/or group of each FILE to OWNER and/or GROUP [bsdutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chown : Change the owner and/or group of each FILE to OWNER and/or GROUP [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chown : Change the owner and/or group of each FILE to OWNER and/or GROUP [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chown : Change the owner and/or group of each FILE to OWNER and/or GROUP [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ chpasswd : Read user:password from stdin and update /etc/passwd [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ chpasswd : Read user:password from stdin and update /etc/passwd [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ chpasswd : Update passwords in batch mode [shadow]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -961,13 +920,6 @@
 ◆ chpst : Change the process state and run PROG [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ chromedb : Read Chromium data (namely, cookies and local storage) straight from disk. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ chronic : Run a command quietly unless it fails [moreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chroot : Run PROG with root directory set to NEWROOT [bsdutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chroot : Run PROG with root directory set to NEWROOT [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chroot : Run PROG with root directory set to NEWROOT [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chroot : Run PROG with root directory set to NEWROOT [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chroot : Run command or interactive shell with special root directory [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chroot : Run command or interactive shell with special root directory [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ chroot : Run command or interactive shell with special root directory [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ chrt : Manipulate real-time attributes of a process [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ chrt : Manipulate real-time attributes of a process [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ chrt : Show or change the real-time scheduling attributes of a process [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -996,8 +948,6 @@
 ◆ cksum : Display file checksums and block counts [outils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cleanpath : Extract unique paths from URL list [lit-bb-hack-tools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cleanup-rules : Strips rules from STDIN that are not compatible with a specified platform [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ clear : Clear screen [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ clear : Clear screen [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ clearlinux : Portable Ephemeral ClearLinux Docker Image (DockerC). To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cleed : Feed reader for the command line. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cli53 : CLI tool for the Amazon Route 53 DNS service. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1034,8 +984,6 @@
 ◆ colcrt : Filter nroff output for CRT previewing [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ colrm : Filter out the specified columns [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ colrm : Remove columns from a file [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ column : Columnate lists [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ column : Format input into multiple columns [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ comb : Combine the lines from two files in every combination. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ combinator : A stand-alone implementation of the Combinator Attack [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ combinator3 : Combinator that accepts three input files & produces three combined  lists [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1064,13 +1012,6 @@
 ◆ countryfetch : Neofetch like tool for obtaining information about your Country. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cowsay : Cowsay reborn, written in Go. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cowthink : Cowsay reborn, written in Go. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cp : Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY [bsdutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cp : Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cp : Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cp : Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cp : Copy files and directories [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cp : Copy files and directories [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cp : Copy files and directories [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cpio : Extract or list files from a cpio archive, or create a cpio archive [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cpio : Extract or list files from a cpio archive, or create a cpio archive [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cpp : Standalone C Preprocessor [xcc]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1119,15 +1060,6 @@
 ◆ cttyhack : Option to allow a program to access the controlling terminal [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cttyhack : Option to allow a program to access the controlling terminal [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cup : Easiest way to check for container image updates. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ curl : A command line tool for transferring files with URL syntax. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cut : Print selected fields from each input FILE to standard output [bsdutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cut : Print selected fields from each input FILE to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cut : Print selected fields from each input FILE to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cut : Print selected fields from each input FILE to standard output [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cut : Remove sections from each line of files [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cut : Remove sections from each line of files [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cut : Remove sections from each line of files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ cut : Remove sections from each line of files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cut-cdn : Removing CDN IPs from the list of IP addresses. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cutb : Cut specific prefixes or suffixes from wordlist entries for use in Combinator attacks [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cutlines : Cut & Paste Lines (from. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1181,12 +1113,6 @@
 ◆ dc : Tiny RPN calculator [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dcb : Show/Manipulate DCB (Data Center Bridging) settings [iproute2]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dconv : Convert DATE/TIMEs between calendrical systems (alias=dateconv) [dateutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dd : Convert and Copy a file [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dd : Convert and Copy a file [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dd : Convert and Copy a file [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dd : Copy a file with converting and formatting [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dd : Copy a file with converting and formatting [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dd : Copy a file with converting and formatting [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ddgr : DuckDuckGo from the terminal. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ddiff : Compute duration from DATE/TIME (the reference date/time) to the other (alias=datediff) [dateutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ddns-go : Simple and easy to use DDNS. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1230,9 +1156,6 @@
 ◆ dhcprelay : Relay DHCP requests between clients and server [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dhcprelay : Relay DHCP requests between clients and server [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dial : dials a network endpoint, ported from Torgo. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ diff : Compare files line by line and output the differences between them [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ diff : Compare files line by line and output the differences between them [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ diff : Compare files line by line and output the differences between them [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ diff3 : Compare files line by line and output the differences between them [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ diffoci : Diff for Docker and OCI container images. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ diffutils : Drop-in replacement of diffutils in Rust. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1243,13 +1166,6 @@
 ◆ dircolors : Color setup for ls [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dircolors : Color setup for ls [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ direnv : Per-directory shell configuration tool. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dirname : Strip last component from file name [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dirname : Strip last component from file name [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dirname : Strip last component from file name [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dirname : Strip last component from file name [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dirname : Strip non-directory suffix from FILENAME [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dirname : Strip non-directory suffix from FILENAME [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dirname : Strip non-directory suffix from FILENAME [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ discord-canary : All-in-one cross-platform voice and text chat for gamers (Canary). To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ discord-ptb : All-in-one cross-platform voice and text chat for gamers (Public Test Beta). To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dish : Monitor Services & Send Alerts to Webhooks/Telegram etc. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1337,12 +1253,6 @@
 ◆ dslog : Send lines from standard input to the system log [dmon]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dsort : Sort contents of FILE chronologically (alias=datesort) [dateutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dtest : Like test(1) but for dates (alias=datetest) [dateutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ du : Estimate file space usage [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ du : Estimate file space usage [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ du : Estimate file space usage [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ du : Summarize disk space used for each FILE and/or directory [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ du : Summarize disk space used for each FILE and/or directory [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ du : Summarize disk space used for each FILE and/or directory [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dufs : File server that supports static serving, uploading, searching, etc. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dumbpipe : Unix pipes between devices. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dummyhttp : Super simple HTTP server that replies a fixed body with a fixed response code. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1396,13 +1306,6 @@
 ◆ eapath : Extract unique URLs without queries [lit-bb-hack-tools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ earh : Extract unique root hostnames [lit-bb-hack-tools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ecapture : Capture SSL/TLS text content without a CA certificate using eBPF. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ echo : Display a line of text [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ echo : Display a line of text [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ echo : Display a line of text [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ echo : Display a line of text [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ echo : Print the specified ARGs to stdout [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ echo : Print the specified ARGs to stdout [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ echo : Print the specified ARGs to stdout [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ecoji : Encodes (and decodes) data as emojis. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ed : A line-oriented text editor [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ed : A line-oriented text editor [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1593,7 +1496,6 @@
 ◆ fgrep : Searches for fixed strings (literal text), ignoring regular expressions [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ fico : Extract icons from app packages, executables, images, resource files & more. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ filan : Prints information about files/file descriptors meant for debugging socat [soact]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ file : Determine the type of a file from its contents. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ filecap : See file-based capabilities [libcap-ng]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ filefrag : Report on file fragmentation [e2fsprogs]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ filefrag : Report on file fragmentation [e2fsprogs]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1627,13 +1529,6 @@
 ◆ fmt : Simple optimal text formatter [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ fmt : Simple optimal text formatter [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ fmt : Simple text formatter [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ fold : Wrap each input line to fit in specified width [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ fold : Wrap each input line to fit in specified width [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ fold : Wrap each input line to fit in specified width [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ fold : Wrap each input line to fit in specified width [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ fold : Wrap input lines in each FILE (standard input by default), writing to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ fold : Wrap input lines in each FILE (standard input by default), writing to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ fold : Wrap input lines in each FILE (standard input by default), writing to standard output [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ forbacktickx : Run a program and uses its output as loop elements to run another program [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ forbacktickx : Run a program and uses its output as loop elements to run another program [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ foreground : Execute a sequence of commands [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1710,7 +1605,6 @@
 ◆ gate : Split Wordlists into equal sections for workload distribution [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gateau : A simple wrapper to import cookies from browsers for curl, wget and httpie. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gau : Get All URLs (GAU), A Tool to Fetch known URLs from Many Sources. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ gawk : A powerful text-processing tool for pattern scanning and performing actions on matched lines [alias=awk]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gcc : GNU Compiler Collection. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gcli : Portable Github. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gcore : Generate core files for running processes [gdb]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1826,11 +1720,6 @@
 ◆ gptme : AI assistant in your terminal. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ graftcp : Redirect a given program's TCP traffic to SOCKS5 or HTTP proxy without using the LD_PRELOAD trick. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ graftcp-local : Redirect a given program's TCP traffic to SOCKS5 or HTTP proxy without using the LD_PRELOAD trick. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ grep : Search for PATTERN in each FILE or standard input [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ grep : Search for PATTERN in each FILE or standard input [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ grep : Search for PATTERN in each FILE or standard input [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ grep : Search one or more input files for lines containing a match to a specified pattern. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ grep : Search one or more input files for lines containing a match to a specified pattern. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gresource : GResource tool [glib]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ grex : A command-line tool for generating regular expressions from user-provided input strings. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gronx : Cron Expression parser with task runner and daemon that supports crontab like task list file. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1901,13 +1790,6 @@
 ◆ hdparm : Utility to set and view hardware parameters of hard disk drives [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ hdparm : Utility to set and view hardware parameters of hard disk drives [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ heacoll : Collect unique HTTP headers [lit-bb-hack-tools]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ head : Output the first part of files [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ head : Output the first part of files [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ head : Output the first part of files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ head : Output the first part of files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ head : Print first N lines of each FILE to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ head : Print first N lines of each FILE to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ head : Print first N lines of each FILE to standard output [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ headless-terminal : Headless Terminal (ht) - wrap any binary with a terminal interface for easy programmatic access. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ headtail : head and tail simultaneously. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ hearth : Linux server monitoring via SSH. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1992,13 +1874,6 @@
 ◆ i386 : Change reported architecture to i386 [alias=setarch i386] [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ iamb : A Matrix client for Vim addicts. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ icmp6 : Exploit potential flaws in the processing of ICMPv6 Error messages [ipv6toolkit]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ id : Print information about USER or the current user [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ id : Print information about USER or the current user [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ id : Print information about USER or the current user [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ id : Print real and effective user and group IDs [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ id : Print real and effective user and group IDs [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ id : Print real and effective user and group IDs [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ id : Print real and effective user and group IDs [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ if : Perform conditional execution [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ if : Perform conditional execution [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ifconfig : Configure a network interface [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2139,17 +2014,6 @@
 ◆ keep-sorted : Language-agnostic Formatter that sorts lines between two markers in a larger file. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ keepalived : Health Checking for Linux Virtual Server & High-Availability. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ keyspace : Calculate keyspace in a hashcat-aware manner [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ kill : Chimera Linux userland Tools. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ kill : Send a signal (default: TERM) to given PIDs [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ kill : Send a signal (default: TERM) to given PIDs [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ kill : Send a signal (default: TERM) to given PIDs [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ kill : Send a signal (default: TERM) to given PIDs [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ kill : Send a signal (default: TERM) to given PIDs [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ kill : Send a signal to a process [procps]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ kill : Send a signal to a process [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ killall : Kill processes by name, e.g. killall -HUP named [psmisc]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ killall : Send a signal (default: TERM) to given processes [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ killall : Send a signal (default: TERM) to given processes [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ killall5 : Send a signal (default: TERM) to all processes outside current session [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ killall5 : Send a signal (default: TERM) to all processes outside current session [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ killport : A command-line tool to easily kill processes running on a specified port. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2193,9 +2057,6 @@
 ◆ lddtree : Display ELF dependencies as a tree [pax-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ lddtree : Read the ELF dependency tree. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ len : Filter words by length, outputting only those within a specified range [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ less : A fast file pager/viewer allowing both forward and backward navigation [less]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ less : View a file or list of files [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ less : View a file or list of files [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ lessecho : Echoe arguments with metacharacters preceded by an escape character (backslash by default) [less]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ lesskey : Customize key bindings for less [less]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ libdeflate-gzip : Heavily optimized CLI for DEFLATE/zlib/gzip compression and decompression. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2225,13 +2086,6 @@
 ◆ listmonk : High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ litefs : FUSE-based file system for replicating SQLite databases across a cluster of machines. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ litestream : Standalone Disaster Recovery Tool for SQLite. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ln : Create a link LINK or DIRECTORY/TARGET to the specified TARGET(s) [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ln : Create a link LINK or DIRECTORY/TARGET to the specified TARGET(s) [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ln : Create a link LINK or DIRECTORY/TARGET to the specified TARGET(s) [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ln : Make links between files [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ln : Make links between files [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ln : Make links between files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ln : Make links between files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ lnav : Log file navigator. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ lndir : Create a shadow directory of symbolic links to another directory [outils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ lnstat : Unified linux network interface/route statistics [iproute2]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2280,13 +2134,6 @@
 ◆ lpq : List print jobs in the queue [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ lpr : Submit a print job to the printer [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ lpr : Submit a print job to the printer [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ls : Chimera Linux userland Tools. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ls : List directory contents [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ls : List directory contents [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ls : List directory contents [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ls : List directory contents [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ls : List directory contents [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ ls : List directory contents [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ lsattr : List ext2/ext3/ext4 file attributes [e2fsprogs]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ lsattr : List ext2/ext3/ext4 file attributes [e2fsprogs]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ lsattr : List file attributes on an ext2 fs [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2366,7 +2213,6 @@
 ◆ massdns : A high-performance DNS stub resolver for bulk lookups and reconnaissance. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ matterbridge : Multi-protocols (IRC/XMPP/Mattermost/Slack/Matrix/etc) bridge. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mattrib : Change MSDOS file attribute flags [mtools]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mawk : Fast Interpreter for the AWK Programming Language. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mc : Unix like utilities for object store. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mcat : Dump raw disk image [mtools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mcd : Change MSDOS directory [mtools]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2377,11 +2223,6 @@
 ◆ mcopy : Copy MSDOS files to/from Unix [mtools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ md5 : Calculate a message digest (checksum) for a file [outils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ md5 : Print or check MD5 checksums [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ md5sum : Compute and check MD5 message digest [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ md5sum : Compute and check MD5 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ md5sum : Compute and check MD5 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ md5sum : Print or check MD5 checksums [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ md5sum : Print or check MD5 checksums [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mdel : Delete an MSDOS file [mtools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mdeltree : Recursively delete an MSDOS directory and its contents [mtools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mdev : A minimal device manager for Linux [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2432,12 +2273,6 @@
 ◆ mitmproxy : SSL/TLS-capable man-in-the-middle proxy for HTTP and Websockets. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mk_cmds : Convert a table of command names and help messages into a C source file [e2fsprogs]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mkbundle : CLI for building certificate pool bundles [cfssl]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mkdir : Create DIRECTORY [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mkdir : Create DIRECTORY [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mkdir : Create DIRECTORY [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mkdir : Make directories [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mkdir : Make directories [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mkdir : Make directories [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mkdosfs : Make a FAT32 filesystem [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mkdosfs : Make a FAT32 filesystem [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mkdwarfs : Create highly compressed read-only file systems [dwarfs]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2509,17 +2344,10 @@
 ◆ modprobe : Add or remove kernel modules [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ modprobe : Add or remove kernel modules [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ monolith : ⬛️ CLI tool for saving complete web pages as a single HTML file. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ more : A file perusal filter for CRT viewing [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ more : Cross-platform Rust rewrite of the GNU coreutils. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ more : View FILE or standard input one screenful at a time [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ more : View FILE or standard input one screenful at a time [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ morph : Generate insertion rules for frequent character chains by position from a provided dictionary [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ morrigan : Busybox like Penetration Tool Set. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mosh-client : Mobile shell that supports roaming and intelligent local echo. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mosh-server : Mobile shell that supports roaming and intelligent local echo. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mount : Mount a filesystem [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mount : Mount a filesystem [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mount : Mount a filesystem [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mount.exfat : Mount an exFAT file system (alias=mount.exfat-fuse). To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mount.exfat-fuse : Mount an exFAT file system (alias=mount.exfat). To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mount.fuse : Configuration and mount options for FUSE file systems [fuse]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2572,12 +2400,6 @@
 ◆ multisubstitute : Perform several substitutions at once in its argv & execute a program [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mup : Micro μ file Uploader. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mux : Mux streams of input events [interception-tools]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mv : Move (rename) files [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mv : Move (rename) files [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mv : Move (rename) files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mv : Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mv : Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mv : Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mxtar : Wrapper for using GNU tar directly from a floppy disk [mtools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mzip : Change protection mode and eject disk on Zip/Jaz drive [mtools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ na6 : Assess attack vectors based on ICMPv6 Neighbor Advertisement messages [ipv6toolkit]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2894,14 +2716,6 @@
 ◆ printenv : Print all or part of environment [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ printenv : Print all or part of environment [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ printenv : Print all or part of environment [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ printf : Format and print ARGUMENT(s) according to FORMAT [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ printf : Format and print ARGUMENT(s) according to FORMAT [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ printf : Format and print ARGUMENT(s) according to FORMAT [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ printf : Format and print data [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ printf : Format and print data [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ printf : Format and print data [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ printf : Format and print data [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ printf : the POSIX printf command. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ prlimit : Show or change the resource limits of a process [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ procan : Prints information about process parameters to stdout meant for debugging socat [soact]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ proot : User-space implementation of chroot, bind mount, and binfmt_misc. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3093,21 +2907,9 @@
 ◆ readelf : Displays information from any ELF format object file [bintools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ readelf : Displays information from any ELF format object file [binutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ reader : A minimal command line reader offering better readability of web pages on the CLI. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ readlink : Display the value of a symlink [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ readlink : Display the value of a symlink [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ readlink : Print resolved symbolic links or canonical file names [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ readlink : Print resolved symbolic links or canonical file names [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ readlink : Print resolved symbolic links or canonical file names [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ readlink : Print resolved symbolic links or canonical file names [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ readprofile : Display kernel profiling information [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ readprofile : Read kernel profiling information [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ readprofile : Read kernel profiling information [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ realpath : Print the resolved path [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ realpath : Print the resolved path [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ realpath : Print the resolved path [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ realpath : Return the absolute pathnames of given argument [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ realpath : Return the absolute pathnames of given argument [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ realpath : Return the absolute pathnames of given argument [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ reboot : Reboots the system [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ reboot : Reboots the system [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rebuildctl : Independent verification system of binary packages. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3155,10 +2957,6 @@
 ◆ resto : Send pretty HTTP & API requests with TUI. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ resume : Resume a suspended job [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ resume : Resume a suspended job [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rev : Reverse lines characterwise [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rev : Reverse lines of input [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rev : Reverse lines of input [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rev : Reverse lines of input [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ reverse-ssh-client : SSH based reverse shell. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ reverse-ssh-server : SSH based reverse shell. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ reviewdog : Automated code review tool integrated with any code analysis tools regardless of programming language. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3176,14 +2974,6 @@
 ◆ rli : Compares a single file against another file(s) and removes all duplicates [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rli2 : Compares a single file against another file(s) and removes all duplicates, Enhanced version [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rlwrap : Wrapper to allow the editing of keyboard commands. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rm : Remove (unlink) the FILE(s) [bsdutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rm : Remove (unlink) the FILE(s) [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rm : Remove (unlink) the FILE(s) [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rm : Remove (unlink) the FILE(s) [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rm : Remove files or directories [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rm : Remove files or directories [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rm : Remove files or directories [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rm : Remove files or directories [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rmdir : Remove empty directories [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rmdir : Remove empty directories [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rmdir : Remove empty directories [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3469,10 +3259,6 @@
 ◆ sdiff : Chimera Linux userland Tools. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sdns : A high-performance, recursive DNS resolver server with DNSSEC support. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ secretmemfd : Create a secret memory file descriptor, duplicate it to a given file descriptor & execute a command [emanutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sed : SEd (stream editor) is a Unix utility that parses and transforms text. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sed : Stream editor for filtering and transforming text [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sed : Stream editor for filtering and transforming text [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sed : Stream editor for filtering and transforming text [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ seedrng : Seed the random number generator [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ seedrng : Seed the random number generator [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ seekablepipe : Turns the reading end of a pipe into a seekable file descriptor, using a temporary file [s6-portable-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3523,36 +3309,19 @@
 ◆ sftp-server : OpenSSH SFTP server subsystem [openssh]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sg : Execute command as different group ID [shadow]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sgpt : Postgres CLI with autocompletion and syntax highlighting. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sh : GNU Bourne-Again Shell, the de facto standard shell on Linux. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sh : The ASH Shell [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sh-is-ash : The ASH Shell [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sh-is-ash : The ASH Shell [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sha1 : Calculate shasum for a file [outils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha1sum : Compute and check SHA1 message digest [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha1sum : Compute and check SHA1 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha1sum : Compute and check SHA1 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha1sum : Print or check SHA1 checksums [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha1sum : Print or check SHA1 checksums [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sha224sum : Compute and check SHA224 message digest [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sha224sum : Compute and check SHA224 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sha224sum : Compute and check SHA224 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sha256 : Calculate sha256sum for a file [outils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha256sum : Compute and check SHA256 message digest [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha256sum : Compute and check SHA256 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha256sum : Compute and check SHA256 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha256sum : Print or check SHA256 checksums [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha256sum : Print or check SHA256 checksums [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sha384sum : Compute and check SHA384 message digest [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sha384sum : Compute and check SHA384 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sha384sum : Compute and check SHA384 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sha3sum : Compute SHA-3 checksums for files [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sha3sum : Compute SHA-3 checksums for files [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sha512 : Calculate sha512sum for a file [outils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha512sum : Compute and check SHA512 message digest [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha512sum : Compute and check SHA512 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha512sum : Compute and check SHA512 message digest [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha512sum : Print or check SHA512 checksums [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sha512sum : Print or check SHA512 checksums [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ shar : Create a shell archive [sharutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ shcopy : Copy text to clipboard from anywhere using ANSI OSC 52 sequence. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ shell2http : HTTP-server to execute shell commands. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3603,13 +3372,6 @@
 ◆ slattach : Attach a network interface to a serial line. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ slattach : Attach network interface(s) to serial line(s) [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ slattach : Attach network interface(s) to serial line(s) [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sleep : Delay for a specified amount of time [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sleep : Delay for a specified amount of time [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sleep : Delay for a specified amount of time [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sleep : Delay for a specified amount of time [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sleep : Pause for a time [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sleep : Pause for a time [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sleep : Pause for a time [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sling : Extract data from a source storage/database and Load it in a target storage/database. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ slirp4netns : User-mode networking for unprivileged network namespaces. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sliver-client : FOSS c2 Adversary Emulation Framework. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3625,13 +3387,6 @@
 ◆ softlimit : Set soft resource limits, then run PROG [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ softlimit : Set soft resource limits, then run PROG [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sops : Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sort : Sort lines of text [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sort : Sort lines of text [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sort : Sort lines of text [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sort : Sort lines of text files [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sort : Sort lines of text files [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sort : Sort lines of text files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sort : Sort lines of text files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sourcemapper : Extract JavaScript source trees from Sourcemap files. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ spc : Tool for building static, standalone PHP runtime with popular extensions. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ spectest-interp : Read a Spectest JSON file, and run its tests in the interpreter [binaryen+wabt]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3727,16 +3482,9 @@
 ◆ step-cli : Zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ stowaway-admin : Multi-hop proxy tool for security researchers and pentesters. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ stowaway-agent : Multi-hop proxy tool for security researchers and pentesters. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ strace : A Diagnostic, Debugging and Instructional Userspace utility for Linux. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ strace-log-merge : A Diagnostic, Debugging and Instructional Userspace utility for Linux. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ stree : List the directory trees of an AWS S3 Bucket. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ stress-ng : Stress test a computer system in various selectable ways. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ strings : Display printable strings in a binary file [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ strings : Display printable strings in a binary file [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ strings : Lists printable strings from files [bintools]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ strings : Lists printable strings from files [binutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ strip : Discards symbols [bintools]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ strip : Discards symbols [binutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ strip-ansi-escapes : Filter ANSI [wezterm]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ strip-bsn : Strip all \\0 bytes from stdin [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ strip-bsr : Strips all \\r bytes from stdin [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3805,12 +3553,6 @@
 ◆ svok : Checks if a service is running under 'svscan' supervision [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ svok : Checks if a service is running under 'svscan' supervision [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ swaplabel : Display or change the label or UUID of a swap area [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ swapoff : Disable devices and files for paging and swapping [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ swapoff : Stop swapping on DEVICE [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ swapoff : Stop swapping on DEVICE [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ swapon : Enable devices and files for paging and swapping [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ swapon : Start swapping on DEVICE [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ swapon : Start swapping on DEVICE [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ switch-root : Free initramfs and switch to another root fs [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ switch-root : Free initramfs and switch to another root fs [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ switch_root : Free initramfs and switch to another root fs [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3850,21 +3592,11 @@
 ◆ tac : Concatenate and print files in reverse [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tahm : Test HTTP methods and collect responses [lit-bb-hack-tools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ taierspeed-cli : Speedtest cli for Tel Speed Test. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tail : Chimera Linux userland Tools. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tail : Output the last part of files [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tail : Output the last part of files [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tail : Output the last part of files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tail : Output the last part of files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tail : Print last N lines of each FILE to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tail : Print last N lines of each FILE to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tailscale : CLI Client for Tailscale, a mesh VPN built on WireGuard. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tailscale-multi : Combined Client & Daemon in a Single Binary (Limited Features). To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tailscaled : Daemon for the Tailscale CLI. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tailspin : A log file highlighter and a drop-in replacement for tail -f. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ taplo : A TOML toolkit written in Rust. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tar : Create, extract, or list files from a tar file [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tar : Create, extract, or list files from a tar file [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tar : Utility for archiving and extracting files [tar]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tar-split : tar Assembly and Disassembly utility. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tar2sqfs : Create a SquashFS image from a tar archive [squashfs-tools-ng]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tasker : Cron Expression parser with task runner and daemon that supports crontab like task list file. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3879,12 +3611,6 @@
 ◆ tcpsvd : Create TCP socket, bind to IP:PORT and listen for incoming connection [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tcpsvd : Create TCP socket, bind to IP:PORT and listen for incoming connection [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tdl : A Telegram downloader/tools written in Golang. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tee : Copy standard input to each FILE, and also to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tee : Copy standard input to each FILE, and also to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tee : Copy standard input to each FILE, and also to standard output [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tee : Read from standard input and write to standard output and files [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tee : Read from standard input and write to standard output and files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tee : Read from standard input and write to standard output and files [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ teip : Tool to bypass a partial range of standard input to any command. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ telnet : Chimera Linux userland Tools. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ telnet : Connect to telnet server [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3893,13 +3619,6 @@
 ◆ telnetd : Handle incoming telnet connections [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ terashuf : Shuffle multi-terabyte text files using limited memory. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ termshark : A terminal user-interface for tshark, inspired by Wireshark. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ test : Check file types and compare values [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ test : Check file types and compare values [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ test : Check file types and compare values [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ test : Check file types and compare values [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ test : Check file types, compare values etc [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ test : Check file types, compare values etc [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ test : the POSIX test command with some extensions for compatibility with extended shells and their scripts. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ test1 : Check file types, compare values etc '[' [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ test1 : Check file types, compare values etc '[' [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ test2 : Check file types, compare values etc '[[' [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -3949,24 +3668,8 @@
 ◆ tok : Extract/Filter substrings from input based on length, alphanumeric rules, and delimiters. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tokei : A blazingly fast CLOC(Count Lines Of Code) program. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ toml2json : Convert TOML to JSON. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ top : Display Linux processes [procps]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ top : Provide a view of process activity in real time [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ top : Provide a view of process activity in real time [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ topmorph : Generate mutation rules by extracting frequent substrings from a dictionary within a specified range and width [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ touch : Change file timestamps [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ touch : Change file timestamps [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ touch : Change file timestamps [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ touch : Change file timestamps [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ touch : Update the last-modified date on the given FILE[s] [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ touch : Update the last-modified date on the given FILE[s] [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ touch : Update the last-modified date on the given FILE[s] [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tpws : Transparent proxy [zapret]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tr : Translate or Delete characters [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tr : Translate or Delete characters [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tr : Translate or Delete characters [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tr : Translate, squeeze, and/or delete characters from standard input, writing to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tr : Translate, squeeze, and/or delete characters from standard input, writing to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tr : Translate, squeeze, and/or delete characters from standard input, writing to standard output [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tracee : Linux Runtime Security and Forensics using eBPF. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tracee-ebpf : Linux Runtime Security and Forensics using eBPF. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tracepath : Trace path to a network host discovering MTU along this path [iputils]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -4019,13 +3722,6 @@
 ◆ tspin : A log file highlighter and a drop-in replacement for tail -f. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ttfb : Measure the TTFB (time to first byte) of HTTP/DNS/TCP/TLS Connections. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ttftotype42 : Create PostScript Type 42 wrapper of TrueType font [lcdf-typetools]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tty : Print file name of standard input's terminal [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tty : Print file name of standard input's terminal [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tty : Print file name of standard input's terminal [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tty : Print the file name of the terminal connected to standard input [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tty : Print the file name of the terminal connected to standard input [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tty : Print the file name of the terminal connected to standard input [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ tty : Print the file name of the terminal connected to standard input [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ tty2web : Share your terminal as a web application in bind/reverse mode. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ttyd : Command-line tool for sharing terminal over the web. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ttyimg : Terminal Image Viewer. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -4096,20 +3792,9 @@
 ◆ umask : Unsets the umask (file creation mask) & execute a program [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ umask : Unsets the umask (file creation mask) & execute a program [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ umoci : Create, Manipulate, and Interact with container images. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ umount : Unmount file systems [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ umount : Unmount file systems [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ umount : Unmount filesystems [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uname : Print system information [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uname : Print system information [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uname : Print system information [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uname : Print system information [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uname : Print system information [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uname : Print system information [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uname : Print system information [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ uname26 : Alter the reported kernel version to appear as 2.6.x [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ unch : Hide message with invisible Unicode characters. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ uncomment : Remove comments from code. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uncompress : Decompress .Z (compress) file [gzip]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ uncover : Discover exposed hosts on the internet using multiple search engines. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ undock : Extract contents of a container image in a local folder. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ unew : A tool for adding new lines to files, skipping duplicates. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -4129,13 +3814,6 @@
 ◆ unionfs : Overlay several directories into one single mount point [unionfs-fuse]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ unionfsctl : Utility to control unionfs-fuse over ioctl [unionfs-fuse3]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ unionfsctl : Utility to control unionfs-fuse over ioctl [unionfs-fuse]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uniq : Discard duplicate lines [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uniq : Discard duplicate lines [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uniq : Discard duplicate lines [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uniq : Report or omit repeated lines [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uniq : Report or omit repeated lines [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uniq : Report or omit repeated lines [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uniq : Report or omit repeated lines [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ uniqs : uniq(1) alternative with streaming support. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ uniqtoo : A real-time, single-binary alternative to 'sort. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ unix2dos : Convert FILE in-place from Unix to DOS format [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -4154,27 +3832,13 @@
 ◆ unlzma : Uncompress FILE [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ unpigz : A parallel implementation of gzip for multi-core machines. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ unshar : Unpack a shar archive [sharutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ unshare : Run a program in a new namespace [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ unshare : Run a program in a new namespace [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ unshare : Run a program with some namespaces unshared from the parent [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ unsquashfs : Uncompress, extract and list squashfs filesystems [squashfstools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ unvis : Decode characters previously encoded by vis [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ unvis : Revert a visual representation of data back to original form [outils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ unxz : Decompress files compressed with xz [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ unxz : Decompress files compressed with xz [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ unxz : Decompress files in XZ format [alias=xz --decompress] [xz]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ unzip : Extract files from ZIP archives [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ unzip : Extract files from ZIP archives [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ unzstd : Decompress .zst files [alias=zstd -d] [zstd]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ update-alternatives : Maintain symbolic links determining default commands [dpkg]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ update-desktop-database : Update the MIME-types application database [desktop-file-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ updatedb : Update a file name database. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uptime : Display the time since the last boot [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uptime : Display the time since the last boot [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uptime : Display the time since the last boot [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uptime : Display the time since the last boot [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uptime : Display the time since the last boot [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ uptime : Tell how long the system has been running [procps]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ upx : Extendable, high-performance executable packer for several executable formats. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ url-parser : Simple command-line URL parser. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ urless : De-clutter a list of URLs. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -4319,23 +3983,12 @@
 ◆ wat-desugar : Parse .wat text form and print 'canonical' flat format [wabt]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wat2wasm : Translate from the text format to the Binary Format [binaryen+wabt]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wat2wasm : Translate from the text format to the Binary Format [wabt]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ watch : Execute a program periodically, showing output fullscreen [procps]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ watch : Run a command periodically and displays its output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ watch : Run a command periodically and displays its output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ watchdog : Monitor the system for hangs or failures, restarting it if necessary [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ watchdog : Monitor the system for hangs or failures, restarting it if necessary [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wavpack : Encode audio files to wavpack [wavpack]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ waybackfetch : Tool for fetching all the available waybackmachine snapshot urls. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ waybackrobots : Enumerate old versions of robots.txt paths using Wayback Machine for content discovery. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ waybackurls : Fetch all the URLs that the Wayback Machine knows about for a domain. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wc : Print line, word, and byte counts for each FILE [bsdutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wc : Print line, word, and byte counts for each FILE [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wc : Print line, word, and byte counts for each FILE [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wc : Print line, word, and byte counts for each FILE [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wc : Print newline, word, and byte counts for each file [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wc : Print newline, word, and byte counts for each file [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wc : Print newline, word, and byte counts for each file [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wc : Print newline, word, and byte counts for each file [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wcurl : A simple wrapper around curl to easily download files. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wdctl : Show the status of the hardware watchdog [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ web-cache-vulnerability-scanner : CLI tool for testing for web cache poisoning. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -4344,10 +3997,6 @@
 ◆ wgcf : Unofficial CLI for Cloudflare Warp. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wgcf-cli : Command-line tool for Cloudflare-WARP API. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wgcfcat : Like netcat, but over Cloudflare WARP. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wget : Retrieve files via HTTP or FTP [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wget : Retrieve files via HTTP or FTP [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wget : Tool for retrieving files using HTTP, HTTPS, and FTP. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wget : Tool for retrieving files using HTTP, HTTPS, and FTP. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wget2 : The successor of GNU Wget, a file and recursive website downloader. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wget2 : The successor of GNU Wget, a file and recursive website downloader. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wharfie : Pull/Unpack a container image to the local filesystem. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -4405,11 +4054,6 @@
 ◆ x8 : Hidden parameters discovery suite. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ x86_64 : Change reported architecture to x86_64 [alias=setarch x86_64] [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xan : The CSV magician. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xargs : A toolset for searching and processing files [Rust (uutils)]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xargs : Build and Execute command lines from standard input. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xargs : Chimera Linux userland Tools. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xargs : Run PROG on every item given by standard input [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xargs : Run PROG on every item given by standard input [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xashds : Xash3D FWGS Dedicated Server. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xcc : Entrypoint to xcc [xcc]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xclip : CLI to X selections (clipboard) [xclip]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -4440,12 +4084,6 @@
 ◆ xvfb-run : Run a command in a virtual X server environment. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xxd : Create a hex dump of a file or convert a hex dump back to binary [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xxd : Create a hex dump of a file or convert a hex dump back to binary [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xz : Compress files using the xz format [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xz : Compress files using the xz format [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xz : Compress/Decompress files using XZ format [xz]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xzcat : Decompress XZ files to stdout [alias=xz --decompress --stdout] [xz]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xzcat : Decompress and display xz-compressed files to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xzcat : Decompress and display xz-compressed files to standard output [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xzcmp : Compare XZ compressed files [xz]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xzdec : Small and fast decoder for XZ compressed files [xz]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xzdiff : Diff XZ compressed files [xz]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -4474,13 +4112,6 @@
 ◆ yamllint : Linter for YAML files. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ yataf : yataf extracts secrets and paths from files or urls - its best used against javascript files. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ yaui : Yet Another Unix Injector using ptrace. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ yes : Output a string repeatedly until killed [coreutils-uutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ yes : Output a string repeatedly until killed [coreutils-vlang]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ yes : Output a string repeatedly until killed [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ yes : Output a string repeatedly until killed [coreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ yes : Repeatedly output a line with STRING, or 'y' [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ yes : Repeatedly output a line with STRING, or 'y' [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ yes : Repeatedly output a line with STRING, or 'y' [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ yggdrasil : Experimental end-to-end encrypted self-arranging IPv6 network. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ yggdrasilctl : Experimental end-to-end encrypted self-arranging IPv6 network. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ yip : Tool to apply a cloud-init style yaml file to the system. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -4527,9 +4158,6 @@
 ◆ zapper-stealth : Zaps arguments and environment from the process list (Stealthy) [zapper]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ zapret : Autonomous Deep Packet Inspection (DPI) circumvention Toolkit. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ zblocklist : Tool for limiting and deduplicating a list of IP addresses using a blocklist or allowlist [zmap]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ zcat : Cat compressed file contents without decompressing them to disk [gzip]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ zcat : Uncompress and concatenate files [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ zcat : Uncompress and concatenate files [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ zcc : Generate an output binary out of any set of input source files [z88dk]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ zcip : Manage a ZeroConf IPv4 link-local address [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ zcip : Manage a ZeroConf IPv4 link-local address [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
