@@ -10,7 +10,7 @@ header='| appname | description | site | download | version |
 _sources() {
 	source_list=$(curl -Ls "https://github.com/Samueru-sama/coreutils-sh/tree/main/bin")
 	pkg_and_dl=$(echo "$source_list " | tr '">< ' '\n' | grep -i "^bin/" | sed "s#^#https://raw.githubusercontent.com/Samueru-sama/coreutils-sh/refs/heads/main/#g" | grep -v "\[")
-	appnames=$(echo "$pkg_and_dl"  | sed 's:.*/::' )
+	appnames=$(echo "$pkg_and_dl"  | sed 's:.*/::' | sort -u)
 }
 
 for arch in $architectures; do
