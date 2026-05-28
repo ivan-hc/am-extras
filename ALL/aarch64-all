@@ -1546,10 +1546,6 @@
 ◆ mkdosfs : Make a FAT32 filesystem [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mkdosfs : Make a FAT32 filesystem [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mkdwarfs : Create highly compressed read-only file systems [dwarfs]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mke2fs : Create an ext2/ext3/ext4 file system [e2fsprogs]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mke2fs : Create an ext2/ext3/ext4 file system [e2fsprogs]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mke2fs : Utility to create ext2/ext3/ext4 filesystems [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ mke2fs : Utility to create ext2/ext3/ext4 filesystems [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mkexfatfs : Create an exFAT file system (alias=mkfs.exfat). To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mkfs : Make a Linux filesystem [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mkfs-ext2 : Make an EXT2 filesystem [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2536,7 +2532,6 @@
 ◆ sqfstar : Create a squashfs filesystem from a tar archive [squashfstools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sqlc : Generate type-safe Golang code from SQL. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sqlite : A self-contained, serverless, zero-configuration, transactional SQL database engine. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ sqlite3 : A self-contained, serverless, zero-configuration, transactional SQL database engine. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ squashfuse : Mount a SquashFS archive with FUSE. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ squashfuse_ll : Mount a SquashFS archive with low-level FUSE. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ss : Utility to dump/investigate sockets [iproute2]. To install it use the --soarpkg flag or the .soarpkg extension.
