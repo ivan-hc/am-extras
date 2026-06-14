@@ -2269,6 +2269,7 @@
 ◆ php-minimal-cli : Static PHP CLI with only minimal extensions. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ php-minimal-fpm : Static PHP FastCGI Process Manager with only minimal extensions. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ php-minimal-micro : Static PHP SAPI with only minimal extensions. To install it use the --soarpkg flag or the .soarpkg extension.
+◆ picocrypt : Small, simple, & Secure Encryption Tool. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ picoshare : A minimalist, easy-to-host service for sharing images and other files. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pidfdgetfd : Retrieve a file descriptor from a pidfd, assign it to a target file descriptor & execute a command [emanutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pidof : Determine the Process identifier of a running program [procps]. To install it use the --soarpkg flag or the .soarpkg extension.
