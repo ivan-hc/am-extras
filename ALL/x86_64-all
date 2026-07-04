@@ -2297,7 +2297,6 @@
 ◆ pivot-root : Move the current root file system to PUT_OLD and make NEW_ROOT the new root file system [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pivot_root : Change the root filesystem [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pivot_root : Move the current root file system to PUT_OLD and make NEW_ROOT the new root file system [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ pixelpulse2 : Pixelpulse2 is a user interface for analog systems exploration.. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pixi : Conda Package management made easy. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pixterm : Draw images in your ANSI terminal with true color. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pkgconf : Package compiler and linker metadata Toolkit. To install it use the --soarpkg flag or the .soarpkg extension.
