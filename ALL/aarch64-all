@@ -37,6 +37,10 @@
 ◆ python3.14 : Interactive high-level object-oriented language [AppImage, build cp314-cp314-manylinux_2_28]. To install it use the --python flag or the .python extension.
 ◆ python3.14 : Interactive high-level object-oriented language [AppImage, build cp314-cp314t-manylinux2014]. To install it use the --python flag or the .python extension.
 ◆ python3.14 : Interactive high-level object-oriented language [AppImage, build cp314-cp314t-manylinux_2_28]. To install it use the --python flag or the .python extension.
+◆ python3.15 : Interactive high-level object-oriented language [AppImage, build cp315-cp315-manylinux2014]. To install it use the --python flag or the .python extension.
+◆ python3.15 : Interactive high-level object-oriented language [AppImage, build cp315-cp315-manylinux_2_28]. To install it use the --python flag or the .python extension.
+◆ python3.15 : Interactive high-level object-oriented language [AppImage, build cp315-cp315t-manylinux2014]. To install it use the --python flag or the .python extension.
+◆ python3.15 : Interactive high-level object-oriented language [AppImage, build cp315-cp315t-manylinux_2_28]. To install it use the --python flag or the .python extension.
 ◆ python3.6 : Interactive high-level object-oriented language [AppImage, build cp36-cp36m-manylinux_2_24]. To install it use the --python flag or the .python extension.
 ◆ python3.7 : Interactive high-level object-oriented language [AppImage, build cp37-cp37m-manylinux_2_24]. To install it use the --python flag or the .python extension.
 ◆ python3.8 : Interactive high-level object-oriented language [AppImage, build cp38-cp38-manylinux2014]. To install it use the --python flag or the .python extension.
