@@ -2151,7 +2151,6 @@
 ◆ ni6 : Exploit potential flaws in the processing of ICMPv6 Node Information messages [ipv6toolkit]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ninja : Small build system with a focus on speed. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ nisdomainname : Show/Set the system's NIS domain name. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ nitro : Tiny and Flexible Init system and process Supervisior. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ nitroctl : Tiny and Flexible Init system and process Supervisior. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ nllint : Linter to check newlines at the end of files. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ nmap : Network exploration tool and security/port scanner [nmap]. To install it use the --soarpkg flag or the .soarpkg extension.
