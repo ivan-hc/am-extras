@@ -2138,7 +2138,6 @@
 ◆ rpm : Manipulate RPM packages [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rpm2cpio : Output a cpio archive of the rpm file [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rpm2cpio : Output a cpio archive of the rpm file [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ rqbit : A bittorrent command line client and server. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rs : Reshape a data array [outils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rs6 : Assess attack vectors based on ICMPv6 Router Solicitation messages [ipv6toolkit]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rsacracker : RSA cracker with support for RSA, X509, OPENSSH in PEM and DER formats. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2602,7 +2601,6 @@
 ◆ supercronic : A crontab-compatible job runner, designed specifically to run in containers. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ supernova : Securely Encrypt and/or Obfuscate raw Shellcode. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ supervisord : Supervisor Daemon in Go, A process control system for Unix. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ surf : Tool to filter a list of hosts for viable SSRF candidates. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sv : Control services monitored by runsv supervisor [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sv : Control services monitored by runsv supervisor [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ svc : Controls services: start, stop, or send signals to daemons [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
