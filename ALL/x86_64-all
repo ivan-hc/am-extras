@@ -1760,6 +1760,7 @@
 ◆ kmod : Manage Linux Kernel modules [kmod]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ knot : Record everything in the simplest way possible. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ knoxssme : Test URLs using Knoxss.me API [lit-bb-hack-tools]. To install it use the --soarpkg flag or the .soarpkg extension.
+◆ kopia : Fast and secure open-source backup/restore tool. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ ksubdomain : Subdomain enumeration tool, asynchronous dns packets, use pcap to scan 1600,000 subdomains in 1 second. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ kubemetrics : Extract paths from Kubernetes metrics endpoints [lit-bb-hack-tools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ kubo : Official Inter Platnetary File System (IPFS) CLI. To install it use the --soarpkg flag or the .soarpkg extension.
