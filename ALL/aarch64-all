@@ -986,7 +986,6 @@
 ◆ github-subdomains : Find subdomains on GitHub. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gitlab-cli : Official Gitlab CLI. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gitlab-subdomains : Find subdomains on Gitlab. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ gitty : Download GitHub File & Directory. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ glib-compile-resources : GLib resource compiler [glib]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ glib-compile-schemas : GSettings schema compiler [glib]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ glider : Forward proxy with multiple protocols support & dns/dhcp server with like dnsmasq. To install it use the --soarpkg flag or the .soarpkg extension.
