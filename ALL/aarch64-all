@@ -260,8 +260,6 @@
 ◆ cal : Display a calendar [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cal : Display a calendar, or some part of it [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cal : an implementation of the POSIX cal command, as described in the OpenBSD manpage, that strives to have the same alignment as Busybox's and has (or tries to have) the Toybox's cal option to highlight specified days. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ calendar : Chimera Linux userland Tools. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ calendar : Reminder service [outils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ cap2hccapx : Generate .hccapx files from .cap/.pcap to crack WPA/WPA2 Authentications [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ capsh : Capability Shell Wrapper [libcap]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ captest : Demonstrate capabilities [libcap-ng]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -1020,7 +1018,6 @@
 ◆ gotty : Share your terminal as a web application. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gowitness : A commandline web screenshot and information gathering tool. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gpasswd : Administer /etc/group and /etc/gshadow files [shadow]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ gptme : AI assistant in your terminal. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ graftcp : Redirect a given program's TCP traffic to SOCKS5 or HTTP proxy without using the LD_PRELOAD trick. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ graftcp-local : Redirect a given program's TCP traffic to SOCKS5 or HTTP proxy without using the LD_PRELOAD trick. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ gresource : GResource tool [glib]. To install it use the --soarpkg flag or the .soarpkg extension.
