@@ -2541,7 +2541,6 @@
 ◆ rekor-cli : Software Supply Chain Transparency Log. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ rekor-server : Software Supply Chain Transparency Log. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ relf : a program that shows you the sections of an ELF file and can also guess what the unknown sections contain. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ relic : A tool for adding Digital Signatures to operating system packages for Linux and Windows. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ remaining : Subtract words from a search wordlist using a base wordlist, ideal for combinator attacks [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ remove-shell : Remove SHELLs from /etc/shells [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ remove-shell : Remove SHELLs from /etc/shells [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
