@@ -3384,8 +3384,6 @@
 ◆ vimtutor : The VIM Tutor for learning VIM [vim]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ vipe : Edit pipe [moreutils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ vipw : Edit the password or shadow-password file [shadow]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ vis : Display non-printable characters in a visual format [chimerautils]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ vis : Display non-printable characters in a visual format [outils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ visudo : Edit the sudoers file [sudo-rs]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ visudo : Edit the sudoers file [sudo]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ vlock : Lock a virtual terminal [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
