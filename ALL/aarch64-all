@@ -1134,8 +1134,6 @@
 ◆ huniq : Filter out duplicates on the command line. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ hurl : CLI to run HTTP requests defined in simple plain text format. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ hurlfmt : CLI to run HTTP requests defined in simple plain text format. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ hush : A minimal, lightweight shell for Unix-like systems [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ hush : A minimal, lightweight shell for Unix-like systems [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ hwatch : A modern alternative to the watch command. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ hwclock : Query and set hardware clock (RTC) [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ hwclock : Query and set hardware clock (RTC) [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
@@ -2044,7 +2042,6 @@
 ◆ rdsquashfs : Examine/Uncompress SquashFS filesystems [squashfs-tools-ng]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ readahead : Pre-read files into page cache [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ readahead : Pre-read files into page cache [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ reader : A minimal command line reader offering better readability of web pages on the CLI. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ readprofile : Display kernel profiling information [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ readprofile : Read kernel profiling information [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ readprofile : Read kernel profiling information [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
