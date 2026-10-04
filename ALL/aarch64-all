@@ -1276,7 +1276,6 @@
 ◆ jumbo6 : Exploit potential flaws in the processing of IPv6 Jumbo payloads [ipv6toolkit]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ jwt-hack : A tool for hacking/security testing to JWT. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ jyt : A tridirectional converter between Json, Yaml, and Toml. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ katana : Crawling and spidering framework. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ kbd-mode : Report or set the keyboard mode [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ kbd-mode : Report or set the keyboard mode [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ kcptun-client : Stable & Secure Tunnel based on KCP with N:M multiplexing and FEC. To install it use the --soarpkg flag or the .soarpkg extension.
