@@ -979,7 +979,6 @@
 ◆ discord-canary : All-in-one cross-platform voice and text chat for gamers (Canary). To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ discord-ptb : All-in-one cross-platform voice and text chat for gamers (Public Test Beta). To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dish : Monitor Services & Send Alerts to Webhooks/Telegram etc. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ dive : A tool for exploring each layer in a Docker image. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dlevel : Filter list of subdomains by level. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dlog : Send lines from standard input to a log file [dmon]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ dmesg : Print or control the kernel messaging buffer [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
