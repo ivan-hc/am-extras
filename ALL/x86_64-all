@@ -2911,8 +2911,6 @@
 ◆ shellz : Utility for tracking/controlling shells and tunnels. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ sherlock : Hunt down social media accounts by username. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ shfmt : A shell parser, formatter, and interpreter. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ shift : Shift the positional parameters of an execline script [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ shift : Shift the positional parameters of an execline script [execline]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ shortscan : An IIS short filename enumeration tool. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ shortutil : An IIS short filename enumeration tool. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ shot-scraper : Command-line utility for taking automated screenshots of websites. To install it use the --soarpkg flag or the .soarpkg extension.
