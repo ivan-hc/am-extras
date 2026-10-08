@@ -3495,7 +3495,6 @@
 ◆ wlancap2wpasec : Upload multiple (gzip compressed) pcapng, pcap and cap files to https://wpa-sec.stanev.org [hcxtools]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wormhole-rs : Rust implementation of Magic Wormhole, with new features and enhancements. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wpjson-parser : Extract URLs from the WordPress wp-json route and identify authentication-less routes. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ wrangler : Command-line interface for all things Cloudflare Workers. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wrappe : Packer for creating self-contained single-binary applications from executables and directories. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ write : Chimera Linux userland Tools. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ write : Send a message to another user [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
