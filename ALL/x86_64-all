@@ -2384,6 +2384,7 @@
 ◆ pyp : Easily run Python at the shell. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ python-config : The Python Config Parser [python3]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ python3 : A high-level dynamically-typed programming language (LIMITED FEATURES). To install it use the --soarpkg flag or the .soarpkg extension.
+◆ qbittorrent-enhanced : Enhanced version of qBittorrent with extra features. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ qbittorrent-nox : Static Single binary for Qbittorent. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ qemu-aarch64 : Simulate a 64-bit Arm machine [qemu-user]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ qemu-aarch64 : Simulate a 64-bit Arm machine [qemu]. To install it use the --soarpkg flag or the .soarpkg extension.
