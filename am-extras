@@ -20,6 +20,7 @@ set_db() {
 #	Databases using the generic "AM-SAMPLE-Archive" template (default)
 ################################################################################
 
+set_db amutils "https://github.com/ivan-hc/am-utils" "This suite was created to provide the AM package manager with a set of temporary dependencies that can be used as a fallback for the correct functioning of AM if the user does not have the necessary commands installed on the host system."
 set_db busybox "https://busybox.net" "This database provides the complete set of official BusyBox tools."
 set_db coreutilsh "https://github.com/Samueru-sama/coreutils-sh" "This database provides coreutils wrote using pure sh (not bash)."
 set_db python "https://python-appimage.readthedocs.io" "This database creates and distributes all Python versions in AppImage format, ensuring they can be installed side-by-side and without conflict. Visit https://github.com/niess/python-appimage to learn more."
