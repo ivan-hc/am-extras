@@ -1,3 +1,183 @@
+# amutils
+◆ 7z : Archiver with a high compression ratio.. To install it use the --amutils flag or the .amutils extension.
+◆ addr2line : Or symbol+offset into file names and.. To install it use the --amutils flag or the .amutils extension.
+◆ ar : Create, modify, and extract from .deb archives.. To install it use the --amutils flag or the .amutils extension.
+◆ arch : Hardware name (same as uname -m).. To install it use the --amutils flag or the .amutils extension.
+◆ as : GNU assembler... To install it use the --amutils flag or the .amutils extension.
+◆ b2sum : Check BLAKE2 message digest.. To install it use the --amutils flag or the .amutils extension.
+◆ base32 : Base32 encode/decode data and print to standard.. To install it use the --amutils flag or the .amutils extension.
+◆ base64 : Base64 encode/decode data and print to standard.. To install it use the --amutils flag or the .amutils extension.
+◆ basename : Strip directory and suffix from filenames.. To install it use the --amutils flag or the .amutils extension.
+◆ basenc : Encode and decode with multiple base encodings... To install it use the --amutils flag or the .amutils extension.
+◆ bzip2 : A high-quality data compression program.. To install it use the --amutils flag or the .amutils extension.
+◆ c++filt : And Java symbols.. To install it use the --amutils flag or the .amutils extension.
+◆ cat : Concatenate files and print on the standard output.. To install it use the --amutils flag or the .amutils extension.
+◆ chcon : Security context.. To install it use the --amutils flag or the .amutils extension.
+◆ chgrp : Change group ownership.. To install it use the --amutils flag or the .amutils extension.
+◆ chmod : Change file mode bits.. To install it use the --amutils flag or the .amutils extension.
+◆ chown : Change file owner and group.. To install it use the --amutils flag or the .amutils extension.
+◆ chroot : Run command or interactive shell with special root.. To install it use the --amutils flag or the .amutils extension.
+◆ cksum : Compute and verify file checksums.. To install it use the --amutils flag or the .amutils extension.
+◆ clear : Clear the terminal screen.. To install it use the --amutils flag or the .amutils extension.
+◆ col : Line feeds from input.. To install it use the --amutils flag or the .amutils extension.
+◆ colcrt : Output for CRT previewing.. To install it use the --amutils flag or the .amutils extension.
+◆ colrm : From a file.. To install it use the --amutils flag or the .amutils extension.
+◆ column : Columnate lists.. To install it use the --amutils flag or the .amutils extension.
+◆ comm : Compare two sorted files line by line.. To install it use the --amutils flag or the .amutils extension.
+◆ cp : Copy files and directories.. To install it use the --amutils flag or the .amutils extension.
+◆ csplit : File into sections determined by context.. To install it use the --amutils flag or the .amutils extension.
+◆ curl : Command line tool and library for transferring data with URLs.. To install it use the --amutils flag or the .amutils extension.
+◆ cut : From each line of files.. To install it use the --amutils flag or the .amutils extension.
+◆ date : A header-only library which builds upon <chrono>.. To install it use the --amutils flag or the .amutils extension.
+◆ dd : Convert and copy a file.. To install it use the --amutils flag or the .amutils extension.
+◆ df : Report file system space usage.. To install it use the --amutils flag or the .amutils extension.
+◆ diff : Compare files line by line.. To install it use the --amutils flag or the .amutils extension.
+◆ dir : List directory contents.. To install it use the --amutils flag or the .amutils extension.
+◆ dircolors : For ls.. To install it use the --amutils flag or the .amutils extension.
+◆ dirname : Strip last component from file name.. To install it use the --amutils flag or the .amutils extension.
+◆ du : Estimate file space usage.. To install it use the --amutils flag or the .amutils extension.
+◆ echo : Display a line of text.. To install it use the --amutils flag or the .amutils extension.
+◆ elfedit : Header and program property of ELF files.. To install it use the --amutils flag or the .amutils extension.
+◆ env : Run a program in a modified environment.. To install it use the --amutils flag or the .amutils extension.
+◆ expand : Convert tabs to spaces.. To install it use the --amutils flag or the .amutils extension.
+◆ expr : Evaluate expressions.. To install it use the --amutils flag or the .amutils extension.
+◆ factor : A general purpose, dynamically typed, stack-based programming language... To install it use the --amutils flag or the .amutils extension.
+◆ false : Do nothing, unsuccessfully.. To install it use the --amutils flag or the .amutils extension.
+◆ file : Determine the type of a file from its contents.. To install it use the --amutils flag or the .amutils extension.
+◆ find : Files in a directory hierarchy.. To install it use the --amutils flag or the .amutils extension.
+◆ fmt : Text formatter.. To install it use the --amutils flag or the .amutils extension.
+◆ fold : Wrap each input line to fit in specified width.. To install it use the --amutils flag or the .amutils extension.
+◆ gawk : GNU version of awk.. To install it use the --amutils flag or the .amutils extension.
+◆ gp-archive : Archive profiling experiment data.. To install it use the --amutils flag or the .amutils extension.
+◆ gp-collect-app : Collect application performance profiling data.. To install it use the --amutils flag or the .amutils extension.
+◆ gp-display-html : Generate HTML reports from profiling data.. To install it use the --amutils flag or the .amutils extension.
+◆ gp-display-src : Display source code annotated with profiling data.. To install it use the --amutils flag or the .amutils extension.
+◆ gp-display-text : Display profiling data in plain text format.. To install it use the --amutils flag or the .amutils extension.
+◆ gprof : Graph profile data.. To install it use the --amutils flag or the .amutils extension.
+◆ gprofng : Generation GNU application profiling tool.. To install it use the --amutils flag or the .amutils extension.
+◆ gprofng-archive : Experiment data.. To install it use the --amutils flag or the .amutils extension.
+◆ gprofng-collect-app : Data for the target.. To install it use the --amutils flag or the .amutils extension.
+◆ gprofng-display-html : HTML based directory structure.. To install it use the --amutils flag or the .amutils extension.
+◆ gprofng-display-src : Code and optionally.. To install it use the --amutils flag or the .amutils extension.
+◆ gprofng-display-text : Performance data in plain text.. To install it use the --amutils flag or the .amutils extension.
+◆ gprofng-gmon : Display or convert GNU gmon profiling data.. To install it use the --amutils flag or the .amutils extension.
+◆ grep : A string search utility.. To install it use the --amutils flag or the .amutils extension.
+◆ groups : Print the groups a user is in.. To install it use the --amutils flag or the .amutils extension.
+◆ hd : Small hex dumper utility (with optional HexII output).. To install it use the --amutils flag or the .amutils extension.
+◆ head : Output the first part of files.. To install it use the --amutils flag or the .amutils extension.
+◆ hexdump : Display file contents in hexadecimal format.. To install it use the --amutils flag or the .amutils extension.
+◆ hostid : Print the numeric identifier for the current host.. To install it use the --amutils flag or the .amutils extension.
+◆ id : Print real and effective user and group IDs.. To install it use the --amutils flag or the .amutils extension.
+◆ install : Copy files and set attributes.. To install it use the --amutils flag or the .amutils extension.
+◆ join : Of two files on a common field.. To install it use the --amutils flag or the .amutils extension.
+◆ kill : Terminate a process.. To install it use the --amutils flag or the .amutils extension.
+◆ killall : Kill processes by name.. To install it use the --amutils flag or the .amutils extension.
+◆ ld : Standalone Linker Compiler.. To install it use the --amutils flag or the .amutils extension.
+◆ ld.bfd : The GNU linker with BFD libraries.. To install it use the --amutils flag or the .amutils extension.
+◆ less : A terminal based program for viewing text files.. To install it use the --amutils flag or the .amutils extension.
+◆ link : Call the link function to create a link to a file.. To install it use the --amutils flag or the .amutils extension.
+◆ ln : Make links between files.. To install it use the --amutils flag or the .amutils extension.
+◆ logname : Print user's login name.. To install it use the --amutils flag or the .amutils extension.
+◆ look : Beginning with a given string.. To install it use the --amutils flag or the .amutils extension.
+◆ ls : List directory contents.. To install it use the --amutils flag or the .amutils extension.
+◆ mawk : And text processing language.. To install it use the --amutils flag or the .amutils extension.
+◆ md5sum : Compute and check MD5 message digest.. To install it use the --amutils flag or the .amutils extension.
+◆ mkdir : Make directories.. To install it use the --amutils flag or the .amutils extension.
+◆ mkfifo : Make FIFOs (named pipes).. To install it use the --amutils flag or the .amutils extension.
+◆ mknod : Make block or character special files.. To install it use the --amutils flag or the .amutils extension.
+◆ mktemp : Create a temporary file or directory.. To install it use the --amutils flag or the .amutils extension.
+◆ more : Display the contents of a file in a terminal.. To install it use the --amutils flag or the .amutils extension.
+◆ mount : Mount a filesystem.. To install it use the --amutils flag or the .amutils extension.
+◆ mv : Move (rename) files.. To install it use the --amutils flag or the .amutils extension.
+◆ nice : Run a program with modified scheduling priority.. To install it use the --amutils flag or the .amutils extension.
+◆ nl : Number lines of files.. To install it use the --amutils flag or the .amutils extension.
+◆ nm : From object files.. To install it use the --amutils flag or the .amutils extension.
+◆ nohup : Run a command immune to hangups, with output to a.. To install it use the --amutils flag or the .amutils extension.
+◆ notify-send : A program to send desktop notifications.. To install it use the --amutils flag or the .amutils extension.
+◆ nproc : Print the number of processing units available.. To install it use the --amutils flag or the .amutils extension.
+◆ numfmt : From/to human-readable strings.. To install it use the --amutils flag or the .amutils extension.
+◆ objcopy : Translate object files.. To install it use the --amutils flag or the .amutils extension.
+◆ objdump : From object files.. To install it use the --amutils flag or the .amutils extension.
+◆ od : Dump files in octal and other formats.. To install it use the --amutils flag or the .amutils extension.
+◆ paste : Merge lines of files.. To install it use the --amutils flag or the .amutils extension.
+◆ pathchk : File names are valid or portable.. To install it use the --amutils flag or the .amutils extension.
+◆ pinky : Lightweight finger.. To install it use the --amutils flag or the .amutils extension.
+◆ pr : Files for printing.. To install it use the --amutils flag or the .amutils extension.
+◆ printenv : Print all or part of environment.. To install it use the --amutils flag or the .amutils extension.
+◆ printf : Format and print data.. To install it use the --amutils flag or the .amutils extension.
+◆ ptx : Permuted index of file contents.. To install it use the --amutils flag or the .amutils extension.
+◆ pwd : Print name of current/working directory.. To install it use the --amutils flag or the .amutils extension.
+◆ ranlib : Index to an archive.. To install it use the --amutils flag or the .amutils extension.
+◆ readelf : About ELF files.. To install it use the --amutils flag or the .amutils extension.
+◆ readlink : Print resolved symbolic links or canonical file.. To install it use the --amutils flag or the .amutils extension.
+◆ realpath : Print the resolved path.. To install it use the --amutils flag or the .amutils extension.
+◆ rev : Reverse lines characterwise.. To install it use the --amutils flag or the .amutils extension.
+◆ rm : Remove files or directories.. To install it use the --amutils flag or the .amutils extension.
+◆ rmdir : Remove empty directories.. To install it use the --amutils flag or the .amutils extension.
+◆ runcon : With specified security context.. To install it use the --amutils flag or the .amutils extension.
+◆ sed : GNU stream editor for filtering and transforming text.. To install it use the --amutils flag or the .amutils extension.
+◆ seq : Print a sequence of numbers.. To install it use the --amutils flag or the .amutils extension.
+◆ sh : GNU Bourne-Again Shell, the de facto standard shell on Linux.. To install it use the --amutils flag or the .amutils extension.
+◆ sha1sum : Compute and check SHA1 message digest.. To install it use the --amutils flag or the .amutils extension.
+◆ sha224sum : Check SHA224 message digest.. To install it use the --amutils flag or the .amutils extension.
+◆ sha256sum : Compute and check SHA256 message digest.. To install it use the --amutils flag or the .amutils extension.
+◆ sha384sum : Check SHA384 message digest.. To install it use the --amutils flag or the .amutils extension.
+◆ sha512sum : Compute and check SHA512 message digest.. To install it use the --amutils flag or the .amutils extension.
+◆ shred : Overwrite a file to hide its contents, and optionally.. To install it use the --amutils flag or the .amutils extension.
+◆ shuf : Generate random permutations.. To install it use the --amutils flag or the .amutils extension.
+◆ size : Sizes and total size of binary files.. To install it use the --amutils flag or the .amutils extension.
+◆ sleep : Delay for a specified amount of time.. To install it use the --amutils flag or the .amutils extension.
+◆ sort : Sort lines of text files.. To install it use the --amutils flag or the .amutils extension.
+◆ split : Divide a file into multiple smaller files.. To install it use the --amutils flag or the .amutils extension.
+◆ stat : Display file or file system status.. To install it use the --amutils flag or the .amutils extension.
+◆ stdbuf : With modified buffering operations for its.. To install it use the --amutils flag or the .amutils extension.
+◆ strace : Trace system calls and signals.. To install it use the --amutils flag or the .amutils extension.
+◆ strings : Strings is another bad static string library, written in C.. To install it use the --amutils flag or the .amutils extension.
+◆ strip : And other data from object files.. To install it use the --amutils flag or the .amutils extension.
+◆ stty : Change and print terminal line settings.. To install it use the --amutils flag or the .amutils extension.
+◆ sum : Checksum and count the blocks in a file.. To install it use the --amutils flag or the .amutils extension.
+◆ swapoff : Enable/disable devices and files for paging and.. To install it use the --amutils flag or the .amutils extension.
+◆ swapon : Enable/disable devices and files for paging and.. To install it use the --amutils flag or the .amutils extension.
+◆ sync : Backup and synchronization service.. To install it use the --amutils flag or the .amutils extension.
+◆ tac : Concatenate and print files in reverse.. To install it use the --amutils flag or the .amutils extension.
+◆ tail : Output the last part of files.. To install it use the --amutils flag or the .amutils extension.
+◆ tar : Utility used to store, backup, and transport files.. To install it use the --amutils flag or the .amutils extension.
+◆ tee : Read from standard input and write to standard output and.. To install it use the --amutils flag or the .amutils extension.
+◆ test : Check file types and compare values.. To install it use the --amutils flag or the .amutils extension.
+◆ timeout : Run a command with a time limit.. To install it use the --amutils flag or the .amutils extension.
+◆ top : Display Linux processes.. To install it use the --amutils flag or the .amutils extension.
+◆ touch : Change file timestamps.. To install it use the --amutils flag or the .amutils extension.
+◆ tput : tput  - initialize a terminal, exercise its capabilities, or query terminfo database.. To install it use the --amutils flag or the .amutils extension.
+◆ tr : Translate or delete characters.. To install it use the --amutils flag or the .amutils extension.
+◆ true : Do nothing, successfully.. To install it use the --amutils flag or the .amutils extension.
+◆ truncate : Shrink or extend the size of a file to the specified.. To install it use the --amutils flag or the .amutils extension.
+◆ tsort : Perform a topological sort.. To install it use the --amutils flag or the .amutils extension.
+◆ tty : Print the file name of the terminal connected to standard.. To install it use the --amutils flag or the .amutils extension.
+◆ ul : Translate underline sequences for terminals.. To install it use the --amutils flag or the .amutils extension.
+◆ umount : Unmount filesystems.. To install it use the --amutils flag or the .amutils extension.
+◆ uname : Print system information.. To install it use the --amutils flag or the .amutils extension.
+◆ uncompress : Zcat - compress and expand data.. To install it use the --amutils flag or the .amutils extension.
+◆ unexpand : Convert spaces to tabs.. To install it use the --amutils flag or the .amutils extension.
+◆ uniq : Report or omit repeated lines.. To install it use the --amutils flag or the .amutils extension.
+◆ unlink : Call the unlink function to remove the specified file.. To install it use the --amutils flag or the .amutils extension.
+◆ unshare : Run program in new namespaces.. To install it use the --amutils flag or the .amutils extension.
+◆ unxz : Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz.. To install it use the --amutils flag or the .amutils extension.
+◆ unzip : For extracting and viewing files in .zip archives.. To install it use the --amutils flag or the .amutils extension.
+◆ uptime : Tell how long the system has been running... To install it use the --amutils flag or the .amutils extension.
+◆ users : Print the user names of users currently logged in to the.. To install it use the --amutils flag or the .amutils extension.
+◆ vdir : List directory contents.. To install it use the --amutils flag or the .amutils extension.
+◆ watch : Watches for changes in a directory tree and reruns a command in an acme win or just on the terminal.. To install it use the --amutils flag or the .amutils extension.
+◆ wc : Print newline, word, and byte counts for each file.. To install it use the --amutils flag or the .amutils extension.
+◆ wget : Network utility to retrieve files from the web.. To install it use the --amutils flag or the .amutils extension.
+◆ who : Show who is logged on.. To install it use the --amutils flag or the .amutils extension.
+◆ whoami : Print effective user name.. To install it use the --amutils flag or the .amutils extension.
+◆ xargs : Build and execute command lines from standard input.. To install it use the --amutils flag or the .amutils extension.
+◆ xz : Library and command line tools for XZ and LZMA compressed files.. To install it use the --amutils flag or the .amutils extension.
+◆ xzcat : Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz.. To install it use the --amutils flag or the .amutils extension.
+◆ yes : Output a string repeatedly until killed.. To install it use the --amutils flag or the .amutils extension.
+◆ zcat : Zcat - compress or expand files.. To install it use the --amutils flag or the .amutils extension.
+◆ zsync : Partial/differential file download client over HTTP.. To install it use the --amutils flag or the .amutils extension.
+
 # appbundle
 ◆ android-tools : Android platform tools. To install it use the --appbundle flag or the .appbundle extension.
 ◆ audacity : A program that lets you manipulate digital audio waveforms. To install it use the --appbundle flag or the .appbundle extension.
