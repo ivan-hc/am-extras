@@ -1,0 +1,178 @@
+◆ 7z : Archiver with a high compression ratio.
+◆ addr2line : Or symbol+offset into file names and.
+◆ ar : Create, modify, and extract from .deb archives.
+◆ arch : Hardware name (same as uname -m).
+◆ as : GNU assembler..
+◆ b2sum : Check BLAKE2 message digest.
+◆ base32 : Base32 encode/decode data and print to standard.
+◆ base64 : Base64 encode/decode data and print to standard.
+◆ basename : Strip directory and suffix from filenames.
+◆ basenc : Encode and decode with multiple base encodings..
+◆ bzip2 : A high-quality data compression program.
+◆ c++filt : And Java symbols.
+◆ cat : Concatenate files and print on the standard output.
+◆ chcon : Security context.
+◆ chgrp : Change group ownership.
+◆ chmod : Change file mode bits.
+◆ chown : Change file owner and group.
+◆ chroot : Run command or interactive shell with special root.
+◆ cksum : Compute and verify file checksums.
+◆ clear : Clear the terminal screen.
+◆ col : Line feeds from input.
+◆ colcrt : Output for CRT previewing.
+◆ colrm : From a file.
+◆ column : Columnate lists.
+◆ comm : Compare two sorted files line by line.
+◆ cp : Copy files and directories.
+◆ csplit : File into sections determined by context.
+◆ curl : Command line tool and library for transferring data with URLs.
+◆ cut : From each line of files.
+◆ date : A header-only library which builds upon <chrono>.
+◆ dd : Convert and copy a file.
+◆ df : Report file system space usage.
+◆ diff : Compare files line by line.
+◆ dir : List directory contents.
+◆ dircolors : For ls.
+◆ dirname : Strip last component from file name.
+◆ du : Estimate file space usage.
+◆ echo : Display a line of text.
+◆ elfedit : Header and program property of ELF files.
+◆ env : Run a program in a modified environment.
+◆ expand : Convert tabs to spaces.
+◆ expr : Evaluate expressions.
+◆ factor : A general purpose, dynamically typed, stack-based programming language..
+◆ false : Do nothing, unsuccessfully.
+◆ file : Determine the type of a file from its contents.
+◆ find : Files in a directory hierarchy.
+◆ fmt : Text formatter.
+◆ fold : Wrap each input line to fit in specified width.
+◆ gawk : GNU version of awk.
+◆ gp-archive : Archive profiling experiment data.
+◆ gp-collect-app : Collect application performance profiling data.
+◆ gp-display-html : Generate HTML reports from profiling data.
+◆ gp-display-src : Display source code annotated with profiling data.
+◆ gp-display-text : Display profiling data in plain text format.
+◆ gprof : Graph profile data.
+◆ gprofng : Generation GNU application profiling tool.
+◆ gprofng-archive : Experiment data.
+◆ gprofng-collect-app : Data for the target.
+◆ gprofng-display-html : HTML based directory structure.
+◆ gprofng-display-src : Code and optionally.
+◆ gprofng-display-text : Performance data in plain text.
+◆ gprofng-gmon : Display or convert GNU gmon profiling data.
+◆ grep : A string search utility.
+◆ groups : Print the groups a user is in.
+◆ hd : Small hex dumper utility (with optional HexII output).
+◆ head : Output the first part of files.
+◆ hexdump : Display file contents in hexadecimal format.
+◆ hostid : Print the numeric identifier for the current host.
+◆ id : Print real and effective user and group IDs.
+◆ install : Copy files and set attributes.
+◆ join : Of two files on a common field.
+◆ kill : Terminate a process.
+◆ killall : Kill processes by name.
+◆ ld : Standalone Linker Compiler.
+◆ ld.bfd : The GNU linker with BFD libraries.
+◆ less : A terminal based program for viewing text files.
+◆ link : Call the link function to create a link to a file.
+◆ ln : Make links between files.
+◆ logname : Print user's login name.
+◆ look : Beginning with a given string.
+◆ ls : List directory contents.
+◆ mawk : And text processing language.
+◆ md5sum : Compute and check MD5 message digest.
+◆ mkdir : Make directories.
+◆ mkfifo : Make FIFOs (named pipes).
+◆ mknod : Make block or character special files.
+◆ mktemp : Create a temporary file or directory.
+◆ more : Display the contents of a file in a terminal.
+◆ mount : Mount a filesystem.
+◆ mv : Move (rename) files.
+◆ nice : Run a program with modified scheduling priority.
+◆ nl : Number lines of files.
+◆ nm : From object files.
+◆ nohup : Run a command immune to hangups, with output to a.
+◆ notify-send : A program to send desktop notifications.
+◆ nproc : Print the number of processing units available.
+◆ numfmt : From/to human-readable strings.
+◆ objcopy : Translate object files.
+◆ objdump : From object files.
+◆ od : Dump files in octal and other formats.
+◆ paste : Merge lines of files.
+◆ pathchk : File names are valid or portable.
+◆ pinky : Lightweight finger.
+◆ pr : Files for printing.
+◆ printenv : Print all or part of environment.
+◆ printf : Format and print data.
+◆ ptx : Permuted index of file contents.
+◆ pwd : Print name of current/working directory.
+◆ ranlib : Index to an archive.
+◆ readelf : About ELF files.
+◆ readlink : Print resolved symbolic links or canonical file.
+◆ realpath : Print the resolved path.
+◆ rev : Reverse lines characterwise.
+◆ rm : Remove files or directories.
+◆ rmdir : Remove empty directories.
+◆ runcon : With specified security context.
+◆ sed : GNU stream editor for filtering and transforming text.
+◆ seq : Print a sequence of numbers.
+◆ sh : GNU Bourne-Again Shell, the de facto standard shell on Linux.
+◆ sha1sum : Compute and check SHA1 message digest.
+◆ sha224sum : Check SHA224 message digest.
+◆ sha256sum : Compute and check SHA256 message digest.
+◆ sha384sum : Check SHA384 message digest.
+◆ sha512sum : Compute and check SHA512 message digest.
+◆ shred : Overwrite a file to hide its contents, and optionally.
+◆ shuf : Generate random permutations.
+◆ size : Sizes and total size of binary files.
+◆ sleep : Delay for a specified amount of time.
+◆ sort : Sort lines of text files.
+◆ split : Divide a file into multiple smaller files.
+◆ stat : Display file or file system status.
+◆ stdbuf : With modified buffering operations for its.
+◆ strace : Trace system calls and signals.
+◆ strings : Strings is another bad static string library, written in C.
+◆ strip : And other data from object files.
+◆ stty : Change and print terminal line settings.
+◆ sum : Checksum and count the blocks in a file.
+◆ swapoff : Enable/disable devices and files for paging and.
+◆ swapon : Enable/disable devices and files for paging and.
+◆ sync : Backup and synchronization service.
+◆ tac : Concatenate and print files in reverse.
+◆ tail : Output the last part of files.
+◆ tar : Utility used to store, backup, and transport files.
+◆ tee : Read from standard input and write to standard output and.
+◆ test : Check file types and compare values.
+◆ timeout : Run a command with a time limit.
+◆ top : Display Linux processes.
+◆ touch : Change file timestamps.
+◆ tput : tput  - initialize a terminal, exercise its capabilities, or query terminfo database.
+◆ tr : Translate or delete characters.
+◆ true : Do nothing, successfully.
+◆ truncate : Shrink or extend the size of a file to the specified.
+◆ tsort : Perform a topological sort.
+◆ tty : Print the file name of the terminal connected to standard.
+◆ ul : Translate underline sequences for terminals.
+◆ umount : Unmount filesystems.
+◆ uname : Print system information.
+◆ uncompress : Zcat - compress and expand data.
+◆ unexpand : Convert spaces to tabs.
+◆ uniq : Report or omit repeated lines.
+◆ unlink : Call the unlink function to remove the specified file.
+◆ unshare : Run program in new namespaces.
+◆ unxz : Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz.
+◆ unzip : For extracting and viewing files in .zip archives.
+◆ uptime : Tell how long the system has been running..
+◆ users : Print the user names of users currently logged in to the.
+◆ vdir : List directory contents.
+◆ watch : Watches for changes in a directory tree and reruns a command in an acme win or just on the terminal.
+◆ wc : Print newline, word, and byte counts for each file.
+◆ wget : Network utility to retrieve files from the web.
+◆ who : Show who is logged on.
+◆ whoami : Print effective user name.
+◆ xargs : Build and execute command lines from standard input.
+◆ xz : Library and command line tools for XZ and LZMA compressed files.
+◆ xzcat : Xzcat, lzma, unlzma, lzcat - Compress or decompress .xz.
+◆ yes : Output a string repeatedly until killed.
+◆ zcat : Zcat - compress or expand files.
+◆ zsync : Partial/differential file download client over HTTP.
