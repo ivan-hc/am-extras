@@ -3979,8 +3979,6 @@
 ◆ wormhole-rs : Rust implementation of Magic Wormhole, with new features and enhancements. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wpjson-parser : Extract URLs from the WordPress wp-json route and identify authentication-less routes. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wrappe : Packer for creating self-contained single-binary applications from executables and directories. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ write : Chimera Linux userland Tools. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ write : Send a message to another user [util-linux]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wrkflw : Validate and execute GitHub Actions workflows locally. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wsl : Whitespace Linter - Forces you to use empty lines. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ wstunnel : Traffic tunnel over Websocket or HTTP2 to bypass firewalls/DPI. To install it use the --soarpkg flag or the .soarpkg extension.
