@@ -2568,7 +2568,6 @@
 ◆ more : Cross-platform Rust rewrite of the GNU coreutils. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ more : View FILE or standard input one screenful at a time [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ more : View FILE or standard input one screenful at a time [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ morph : Generate insertion rules for frequent character chains by position from a provided dictionary [hashcat-utils]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ morrigan : Busybox like Penetration Tool Set. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mosh-client : Mobile shell that supports roaming and intelligent local echo. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ mosh-server : Mobile shell that supports roaming and intelligent local echo. To install it use the --soarpkg flag or the .soarpkg extension.
