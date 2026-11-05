@@ -2899,7 +2899,6 @@
 ◆ pkill : Send a signal to processes based on name and other attributes [procps]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pktstat : A network monitoring tool with bandwidth tracking. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ planor : TUI client for cloud services (AWS, Vultr, Heroku, Render.com, Fleek & More). To install it use the --soarpkg flag or the .soarpkg extension.
-◆ player432hz : Plays music in 432Hz [player432hz]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ plipconfig : Fine tune PLIP device parameters. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pls : A Prettier and Powerful ls(1) for the Pros. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ pmap : Report memory map of a process [busybox]. To install it use the --soarpkg flag or the .soarpkg extension.
