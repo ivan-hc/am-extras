@@ -4468,7 +4468,6 @@
 ◆ xo : Core Utilities of https://github.com/xplshn/Andes. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xplr : Hackable, minimal, fast TUI file explorer. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xq : Command-line XML and HTML beautifier and content extractor. To install it use the --soarpkg flag or the .soarpkg extension.
-◆ xray : The best v2ray-core, with XTLS support. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xray-knife : Swiss army knife tool for xray-core and sing-box. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xrdp : Open source Remote Desktop Protocol (RDP) server [xrdp]. To install it use the --soarpkg flag or the .soarpkg extension.
 ◆ xsel : Command-line program for manipulating the X selection (Clipboard). To install it use the --soarpkg flag or the .soarpkg extension.
